@@ -55,54 +55,56 @@
                              <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                              <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                                 <ContentTemplate>
+                                    
+			       	  		<asp:Label ID="LabelFirstName" runat="server">First Name</asp:Label>
+			       	  		<asp:TextBox runat="server" placeholder="First Name" id="TextFirstName" class="error" />
+			       	  		<asp:Label runat="server" ID="LabelFirstNameError" class="error-text">Please fill in the field above</asp:Label>
 
-			       	  		<label>First Name</label>
-			       	  		<input type="text" name="" placeholder="First Name" id="#" class="error" />
-			       	  		<span class="error-text">Please fill in the field above</span>
-			       	  		<label>Last Name</label>
-			       	  		<input type="text" name="" placeholder="Last Name" id="Text1" />
-			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
+			       	  		<asp:Label ID="LabelLastName" runat="server">Last Name</asp:Label>
+			       	  		<asp:TextBox runat="server" placeholder="Last Name" id="TextLastName" />
+			       	  		<asp:Label runat="server" ID="LabelLastNameError" class="">Please fill in the field above</asp:Label>
+
 			       	  		<label>Email Address</label>
-			       	  		<input type="text" name="" placeholder="Email Address" id="Text2" />
+			       	  		<input type="text" name="" placeholder="Email Address" id="TextEmail" />
 			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
 			       	  		<label>Street</label>
-			       	  		<input type="text" name="" placeholder="Street" id="Text3" />
+			       	  		<input type="text" name="" placeholder="Street" id="TextAddress" />
 			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
 			       	  		<label>City</label>
-			       	  		<input type="text" name="" placeholder="City" id="Text4" />
+			       	  		<input type="text" name="" placeholder="City" id="TextCity" />
 			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
 			       	  		<label>State</label>
-			       	  		<input type="text" name="" placeholder="State" id="Text5" />
+			       	  		<input type="text" name="" placeholder="State" id="TextState" />
 			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
 			       	  		<label>Zip Code</label>
-			       	  		<input type="text" name="" placeholder="Zip Code" id="Text6" />
+			       	  		<input type="text" name="" placeholder="Zip Code" id="TextZip" />
 			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
 			       	  		
 			       	  		
 			       	  		<div class="input-wrap">
 				       	  		<em>Do you bank with Washington Federal?</em>
 				       	  		
-				       	  		<span class="radio-label"><input type="radio" name="" value="Yes" id="Radio1" /> Yes</span>
+				       	  		<span class="radio-label"><input type="radio" name="" value="Yes" id="RadioBankYes" /> Yes</span>
 				       	  		
-				       	  		<span class="radio-label"><input type="radio" name="" value="No" id="Radio2" class="radio" /> No</span>
+				       	  		<span class="radio-label"><input type="radio" name="" value="No" id="RadioBankNo" class="radio" /> No</span>
 				       	  	</div>
 				       	  	
 				       	  	<div class="input-wrap">
 				       	  	
-				       	  		<input type="checkbox" name="" value="Yes" id="Checkbox1" />
+				       	  		<input type="checkbox" name="" value="Yes" id="Checkbox18" />
 				       	  		<em>I am at least 18 years of age or older</em>
 				       	  		
 				       	  	</div>
 				       	  	
 				       	  	<div class="input-wrap">
 				       	  	
-				       	  		<input type="checkbox" name="" value="Yes" id="Checkbox2" />
+				       	  		<input type="checkbox" name="" value="Yes" id="CheckboxTerms" />
 				       	  		<em>I have read and agree to all <a href="#">Terms and conditions.</a></em>
 				       	  		
 				       	  	</div>
 				       	  	  		
-			       	  		
 			       	  		<asp:Button id="EnterButton" Text="Enter" runat="server" OnClick="EnterButton_Click"/>
+                            <div class="errorMessages"><asp:Literal ID="errorMessages" runat="server"></asp:Literal></div>
         			       	  	    </ContentTemplate>
                                 </asp:UpdatePanel>
 

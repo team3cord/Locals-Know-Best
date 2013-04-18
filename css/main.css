@@ -86,7 +86,8 @@ body {
     background-position: 0 0;
     background-color: #ffffff;
 	position: absolute;
-	min-width: 100%;
+	width: 100%;
+	min-width: 1000px;
    
 }
 
@@ -96,11 +97,9 @@ h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
 	padding: 0px;
 	font-family: Arial, Verdana, sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2em;
-	font-weight: 500;
 	color: #008f89;
+	font-size: 1.7em;
+	font-weight: bold;
 	line-height: 1.2em;
 }
 
@@ -141,8 +140,11 @@ p {
 
 p a {
 	font-weight: 600;
-	text-decoration: underline;
 	color: #49b557;
+}
+
+p a:hover {
+	text-decoration: underline;
 }
 
 
@@ -425,7 +427,7 @@ div.header-img {
 	z-index: 2;
 }
 
-div.header-img.index-header {background: url('../img/header-index.png') no-repeat top center;}
+div.header-img.index-header {background: url('../img/header-index.jpg') no-repeat top center;}
 div.header-img.charities-header {background:url('../img/header-charities.png') no-repeat top center;}
 
 div.header-img h1 {
@@ -457,7 +459,7 @@ span.slogan-btn {
 	height: 265px;
 	position: absolute;
 	top: -120px;
-	left: -70px;
+	left: -40px;
 	background-image:url('../img/sprite.png');
 	background-position: 0px -70px;
 	overflow: hidden;
@@ -648,10 +650,21 @@ section.section-border {
 	line-height: 1.2em;
 }
 
+div.card-wrap {
+	display: block;
+	float: right;
+	width: 310px;
+	height: 220px;
+	background-image:url('../img/sprite.png');
+	background-position: -565px -70px;
+	overflow: hidden;
+	
+}
+
 div.ipad-mini-img{
 	position:absolute;
 	height: 300px;
-	width: 220px;
+	width: 205px;
 	left: -75px;
 	top:15px;
 	background-image:url('../img/sprite.png');
@@ -662,7 +675,7 @@ div.ipad-mini-img{
 div.content-wrap {
 	display: block;
 	float: right;
-	width:500px;
+	width:510px;
 }
 
 /* Light Box */

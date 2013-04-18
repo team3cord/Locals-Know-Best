@@ -119,7 +119,8 @@
 	       	
 	       	 <section class="section-border card-wrap">
 	       	 
-	       	 	<img src="img/card.png" alt="" class="right" />
+	       	 	<div class="card-wrap"></div>
+	       	 	<!--<img src="img/card.png" alt="" class="right" />-->
 	       	 
 	       	 	<h3>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</h3>
 	       	 	

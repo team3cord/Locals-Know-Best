@@ -96,10 +96,10 @@ h1,h2,h3,h4,h5,h6 {
 	font-family: Arial, Verdana, sans-serif;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 2em;
-	font-weight: 500;
-	color: #008f89;
+	font-size: 1.7em;
+	font-weight: bold;
 	line-height: 1.2em;
+	color: #008f89;
 }
 
 h3 span {
@@ -313,11 +313,15 @@ div.wrap {
 	width: 100%;
 	min-height: 850px;
 	max-width: 810px;
-	background-image: -webkit-linear-gradient(135deg, #c1d73d, #7abe4a 40%, #29b15a);
-	background-image: -moz-linear-gradient(135deg, #c1d73d, #7abe4a 40%, #29b15a);
-	background-image: -o-linear-gradient(135deg, #c1d73d, #7abe4a 40%, #29b15a);
-	background-image: -ms-linear-gradient(135deg, #c1d73d, #7abe4a 40%, #29b15a);
-	background-image: linear-gradient(135deg, #c1d73d, #7abe4a 40%, #29b15a);
+	/*background-image: -webkit-linear-gradient(135deg, #16b258, #77c044 40%, #bdd631);
+	background-image: -moz-linear-gradient(135deg, #16b258, #77c044 40%, #bdd631);
+	background-image: -o-linear-gradient(135deg, #16b258, #77c044 40%, #bdd631);
+	background-image: -ms-linear-gradient(135deg, #16b258, #77c044 40%, #bdd631);
+	background-image: linear-gradient(135deg, #16b258, #77c044 40%, #bdd631);*/
+	
+	background-image: url('../facebook/bg.jpg');
+	background-repeat: no-repeat;
+	background-color: #1eb143;
 }
 
 div.content-wrap {
@@ -326,6 +330,16 @@ div.content-wrap {
 	width: 740px;
 	min-height: 500px;
 	padding: 35px;
+}
+
+span.promotion-discloser {
+	display: block;
+	float: left;
+	width: 70px;
+	position: absolute;
+	top: 15px;
+	left: -25px;
+	line-height: 1.3em;
 }
 
 h1.main-headline {
@@ -338,7 +352,7 @@ h1.main-headline {
 	letter-spacing: 0px;
 	padding-top: 8px;
 	font-family: 'foundry_form_sans_bookbook';
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 	background-image: url('../facebook/circle-slogan.png');
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -379,9 +393,10 @@ div.white-content {
 section.ipad-mini-wrap {
 	position: relative;
 	display: block;
-	min-height:238px;
+	min-height:235px;
 	border-bottom: 1px dashed #939598;
 	padding-top: 10px;
+	margin-bottom: 10px;
 }
 
 section.ipad-mini-wrap img {
@@ -406,7 +421,6 @@ div.small-paragraph {
 	display: block;
 	float: right;
 	width: 470px;
-	overflow: hidden;
 	position: relative;
 	margin-top: -10px;
 }
@@ -414,8 +428,9 @@ div.small-paragraph {
 div.small-paragraph p{
 	display: block;
 	float:left;
-	width: 360px;
+	width: 320px;
 	padding-top: 0px;
+	padding-left: 60px;
 }
 
 div.small-paragraph a {

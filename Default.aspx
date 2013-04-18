@@ -51,7 +51,11 @@
 			       	  	
 			       	  	<div class="pop-up-content">
 			       	  	
-			       	  	<form method="post" action="">
+			       	  	<form id="entryForm" method="post" action="Default.aspx" runat="server">
+                             <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                             <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                <ContentTemplate>
+
 			       	  		<label>First Name</label>
 			       	  		<input type="text" name="" placeholder="First Name" id="#" class="error" />
 			       	  		<span class="error-text">Please fill in the field above</span>
@@ -96,11 +100,12 @@
 				       	  		<em>I have read and agree to all <a href="#">Terms and conditions.</a></em>
 				       	  		
 				       	  	</div>
-				       	  	
-				       	  			       	  		
+				       	  	  		
 			       	  		
-			       	  		<input type="submit" name="" value="Enter" />
-			       	  	
+			       	  		<asp:Button id="EnterButton" Text="Enter" runat="server" OnClick="EnterButton_Click"/>
+        			       	  	    </ContentTemplate>
+                                </asp:UpdatePanel>
+
 			       	  		</form>
 			       	  		
 			       	  		

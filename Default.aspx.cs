@@ -15,4 +15,9 @@ public partial class _Default : System.Web.UI.Page
         HeaderImage.Attributes["class"] += " index-header";
     }
 
+
+    protected void EnterButton_Click(object sender, EventArgs e)
+    {
+        // Do stuff.
+    }
 }

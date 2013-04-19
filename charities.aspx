@@ -34,8 +34,7 @@
 	       			
 	       			
 	       			<a href="#" class="green-btn left vote-btn" id="vote">Vote Now</a>
-	       			<span class="moneyRaised">$<em><%= GetMoney(1) %></em> +
-                           raised</span>	
+	       			<span class="moneyRaised">$<em><%= GetMoney(Charity.Neighbor) %></em> + raised</span>	
 
 	       			
 	       			<!-- Pop up content -->
@@ -65,7 +64,7 @@
 	       		
 	       		
 	       		
-	       		<!-- neighbor impact -->
+	       		<!-- Opportunity knocks -->
 	       		<div class="charities-wrap">
 	       			
 	       			<a href="#opp-knocks" class="fancybox see-more" >
@@ -78,7 +77,7 @@
 	       			
 	       			
 	       			<a href="#" class="green-btn left vote-btn" id="vote">Vote Now</a>
-	       			<span class="moneyRaised">$<em><%= GetMoney(1) %></em> + raised</span>	
+	       			<span class="moneyRaised">$<em><%= GetMoney(Charity.Opportunity) %></em> + raised</span>	
 
 
 	       			<!-- Pop up content -->
@@ -135,7 +134,7 @@
 	       			       			
 	       			       			
 	       			       			<a href="#" class="green-btn left vote-btn" id="vote">Vote Now</a>
-	       			       			<span class="moneyRaised">$<em><%= GetMoney(2) %></em> + raised</span>	
+	       			       			<span class="moneyRaised">$<em><%= GetMoney(Charity.IYS) %></em> + raised</span>	
 	       			       			
 	       			       			       			       				       			      	
 	       			       			
@@ -191,7 +190,7 @@
 	       			       			
 	       			       			
 	       			       			<a href="#" class="green-btn left vote-btn" id="vote">Vote Now</a>
-	       			       			<span class="moneyRaised">$<em><%= GetMoney(3) %></em> + raised</span>	
+	       			       			<span class="moneyRaised">$<em><%= GetMoney(Charity.JA) %></em> + raised</span>	
 	       		
 	       		
 	       			       			<!-- Pop up content -->
@@ -244,7 +243,7 @@
 	       				       			
 	       				       			
 	       				       			<a href="#" class="green-btn left vote-btn" id="vote">Vote Now</a>
-	       				       			<span class="moneyRaised">$<em><%= GetMoney(4) %></em> + raised</span>	
+	       				       			<span class="moneyRaised">$<em><%= GetMoney(Charity.BGC) %></em> + raised</span>	
 	       				       			
 	       				       			
 	       				       				       			      	
@@ -275,7 +274,7 @@
 	       				       		
 	       				       		
 	       				       		
-	       				       		<!-- neighbor impact -->
+	       				       		<!-- Goodwill -->
 	       				       		<div class="charities-wrap">
 	       				       			
 	       				       			<a href="#goodwill" class="fancybox see-more" >
@@ -288,7 +287,7 @@
 	       				       			
 	       				       			
 	       				       			<a href="#" class="green-btn left vote-btn" id="vote">Vote Now</a>
-	       				       			<span class="moneyRaised">$<em><%= GetMoney(5) %></em> + raised</span>	
+	       				       			<span class="moneyRaised">$<em><%= GetMoney(Charity.Goodwill) %></em> + raised</span>	
 	       			
 	       			
 	       				       			<!-- Pop up content -->

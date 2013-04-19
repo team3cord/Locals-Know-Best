@@ -15,6 +15,16 @@ using System.Data;
 public partial class charities : System.Web.UI.Page
 {
     Dictionary<int, string> CharityMoneyTotals;
+    public enum Charity
+    {
+        Neighbor = 1,
+        Opportunity = 2,
+        IYS = 3,
+        JA = 4,
+        BGC = 5,
+        Goodwill = 6
+    }
+
     protected void Page_Load(object sender, EventArgs e)
     {
         HtmlControl HeaderImage = (HtmlControl)Master.FindControl("HeaderImage");
@@ -24,11 +34,12 @@ public partial class charities : System.Web.UI.Page
         //PopulateCharityData();
     }
 
-    public string GetMoney(int charity_id)
+    public string GetMoney(Charity charity_id)
     {
         LoadCharityMoneyTotals();
-        if(CharityMoneyTotals != null && CharityMoneyTotals.ContainsKey(charity_id) && CharityMoneyTotals[charity_id] != null)
-            return CharityMoneyTotals[charity_id];
+        int id = (int)charity_id;
+        if(CharityMoneyTotals != null && CharityMoneyTotals.ContainsKey(id) && CharityMoneyTotals[id] != null)
+            return CharityMoneyTotals[id];
         else
             return "0";
     }

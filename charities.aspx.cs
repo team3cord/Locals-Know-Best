@@ -61,13 +61,20 @@ public partial class charities : System.Web.UI.Page
         finally
         {
             conn.Close();
-            success = true;
         }
         return success;
     }
 
     protected void ShowError()
     {
+        ContentPlaceHolder main = Master.FindControl("ContentPlaceHolder1") as ContentPlaceHolder;
+        if (main != null)
+        {
+            HtmlGenericControl t = new HtmlGenericControl("DIV");
+            t.InnerHtml = "<div style='padding-top: 100px; padding-bottom: 500px; padding-left: 100px;'><h1>Sorry, there was a problem.</h1><h5>Please try voting again later.</h5></div>";
+            main.Controls.Add(t);
+            main.Controls.Remove(mainForm);
+        }
         return;
     }
 

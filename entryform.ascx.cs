@@ -10,4 +10,18 @@ public partial class entryform : System.Web.UI.UserControl
     {
 
     }
+    protected void SqlDataSource1_Selecting(object sender, SqlDataSourceSelectingEventArgs e)
+    {
+
+    }
+    protected void InsertButton_Click(object sender, EventArgs e)
+    {
+
+
+    }
+    protected void FormView1_ItemInserted(object sender, FormViewInsertedEventArgs e)
+    {
+        ThanksLabel.Visible = true;
+        FormView1.Visible = false;
+    }
 }

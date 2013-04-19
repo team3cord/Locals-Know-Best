@@ -50,7 +50,7 @@
 		       	  
 		       	  	<!-- ENTER Form Popup -->
 			       	  <div id="enter-form" class="pop-up" style="display:none;width:700px;">
-			       	  	<h2>Enter to Win!</h2>
+			       	  	
 			       	  	
 			       	  	<div class="pop-up-content">
 			       	  	
@@ -60,12 +60,7 @@
                                 <ContentTemplate>
                                      <uc1:entryform runat="server" ID="entryform1" />
 
-				       	  	<div class="input-wrap">
 				       	  	
-				       	  		<input type="checkbox" name="" value="Yes" id="Checkbox2" />
-				       	  		<em>I have read and agree to all <a href="#">Terms and conditions.</a></em>
-				       	  		
-				       	  	</div>
 				       	  	  		
 			       	  		
 			       	  		

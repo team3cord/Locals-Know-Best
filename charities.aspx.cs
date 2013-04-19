@@ -12,26 +12,63 @@ using System.Data.SqlClient;
 //using System.Text;
 using System.Data;
 
+using summit;
+
 public partial class charities : System.Web.UI.Page
 {
     Dictionary<int, string> CharityMoneyTotals;
-    public enum Charity
-    {
-        Neighbor = 1,
-        Opportunity = 2,
-        IYS = 3,
-        JA = 4,
-        BGC = 5,
-        Goodwill = 6
-    }
-
     protected void Page_Load(object sender, EventArgs e)
     {
         HtmlControl HeaderImage = (HtmlControl)Master.FindControl("HeaderImage");
         HeaderImage.Attributes["class"] += " charities-header";
+    }
 
-        LoadCharityMoneyTotals();
-        //PopulateCharityData();
+    protected void VoteButton_Click(object sender, EventArgs e)
+    {
+        VoteButton s = sender as VoteButton;
+        if (SaveVote(s.Charity))
+            ShowThanks(s.Charity);
+        else
+            ShowError();
+    }
+
+    protected bool SaveVote(Charity charity_id)
+    {
+        bool success = false;
+        string connectionString = WebConfigurationManager.ConnectionStrings["wfed_dlbConnectionString"].ConnectionString;
+        SqlConnection conn = new SqlConnection(connectionString);
+        SqlCommand cmd = new SqlCommand("INSERT INTO dlb_vote (charity_id, ip_address, facebook_id, updated)" +
+                "VALUES (@charity_id,@ip_address,@facebook_id,@updated)", conn);
+        cmd.Parameters.Add("@charity_id", System.Data.SqlDbType.Int);
+        cmd.Parameters.Add("@ip_address", System.Data.SqlDbType.NVarChar, 16);
+        cmd.Parameters.Add("@facebook_id", System.Data.SqlDbType.BigInt);
+        cmd.Parameters.Add("@updated", System.Data.SqlDbType.DateTime);
+
+        cmd.Parameters["@charity_id"].Value = charity_id;
+        cmd.Parameters["@ip_address"].Value = "";
+        cmd.Parameters["@facebook_id"].Value = 3434;
+        cmd.Parameters["@updated"].Value = DateTime.Now;
+
+        try
+        {
+            conn.Open();
+            cmd.ExecuteNonQuery();
+            success = true;
+        }
+        catch
+        {
+        }
+        finally
+        {
+            conn.Close();
+            success = true;
+        }
+        return success;
+    }
+
+    protected void ShowError()
+    {
+        return;
     }
 
     public string GetMoney(Charity charity_id)
@@ -68,28 +105,16 @@ public partial class charities : System.Web.UI.Page
         }
     }
 
-    protected void PopulateCharityData()
+    public void ShowThanks(Charity charity)
     {
-        string connectionString = WebConfigurationManager.ConnectionStrings["wfed_dlbConnectionString"].ConnectionString;
-        SqlConnection conn = new SqlConnection(connectionString);
-        SqlCommand cmd = new SqlCommand("SELECT charity_id, name, money FROM CharityMoney", conn);
-        try
+        ContentPlaceHolder main = Master.FindControl("ContentPlaceHolder1") as ContentPlaceHolder;
+        if (main != null)
         {
-            conn.Open();
-            SqlDataReader dr = cmd.ExecuteReader();
-            while (dr.Read())
-            {
-                String id = "LabelCharity_" + dr["charity_id"].ToString();
-                Label control = Master.FindControl("ContentPlaceHolder1").FindControl(id) as Label;
-                if(control != null)
-                    control.Text = String.Format("${0:G}", dr["money"]);
-            }
-        }
-        finally
-        {
-            conn.Close();
+            Thanks t = LoadControl("~/Thanks.ascx") as Thanks;
+            t.Charity = charity;
+            main.Controls.Add(t);
+            main.Controls.Remove(mainForm);
         }
     }
-
 
 }

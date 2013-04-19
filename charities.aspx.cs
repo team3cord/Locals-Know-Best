@@ -16,6 +16,7 @@ using summit;
 
 public partial class charities : System.Web.UI.Page
 {
+    const string cookieString = "smiles";
     Dictionary<int, string> CharityMoneyTotals;
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -26,10 +27,22 @@ public partial class charities : System.Web.UI.Page
     protected void VoteButton_Click(object sender, EventArgs e)
     {
         VoteButton s = sender as VoteButton;
-        if (SaveVote(s.Charity))
-            ShowThanks(s.Charity);
+        if (HasNotVoted())
+        {
+            if (SaveVote(s.Charity))
+                ShowThanks(s.Charity);
+            else
+                ShowError();
+        }
         else
-            ShowError();
+        {
+            ShowVotedAlready();
+        }
+    }
+
+    protected bool HasNotVoted()
+    {
+        return (Request.Cookies[cookieString] == null);
     }
 
     protected bool SaveVote(Charity charity_id)
@@ -53,6 +66,10 @@ public partial class charities : System.Web.UI.Page
         {
             conn.Open();
             cmd.ExecuteNonQuery();
+            HttpCookie cookie = new HttpCookie(cookieString);
+            cookie.Expires = DateTime.Now.AddHours(24);
+            cookie.Value = cookie.Expires.ToString();
+            Response.SetCookie(cookie);
             success = true;
         }
         catch
@@ -63,6 +80,21 @@ public partial class charities : System.Web.UI.Page
             conn.Close();
         }
         return success;
+    }
+
+    protected void ShowVotedAlready()
+    {
+        ContentPlaceHolder main = Master.FindControl("ContentPlaceHolder1") as ContentPlaceHolder;
+        if (main != null)
+        {
+            HtmlGenericControl t = new HtmlGenericControl("DIV");
+            t.InnerHtml = "<div style='padding-top: 100px; padding-bottom: 500px; padding-left: 100px;'><h1>Sorry, " +
+                " voting is only allowed once every 24 hours."+
+                "</h1></div>";
+            main.Controls.Add(t);
+            main.Controls.Remove(mainForm);
+        }
+        return;
     }
 
     protected void ShowError()

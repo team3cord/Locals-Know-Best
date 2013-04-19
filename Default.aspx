@@ -1,5 +1,8 @@
 ﻿<%@ Page Title="Washington Federal iPad Mini Giveaway" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
+<%@ Register Src="~/entryform.ascx" TagPrefix="uc1" TagName="entryform" %>
+
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 	       
 	       	<h1 class="main-headline">Announcing the new iPad mini a week until everyone's happy giveaway</h1>
@@ -55,56 +58,17 @@
                              <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                              <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                                 <ContentTemplate>
-                                    
-			       	  		<asp:Label ID="LabelFirstName" runat="server">First Name</asp:Label>
-			       	  		<asp:TextBox runat="server" placeholder="First Name" id="TextFirstName" class="error" />
-			       	  		<asp:Label runat="server" ID="LabelFirstNameError" class="error-text">Please fill in the field above</asp:Label>
+                                     <uc1:entryform runat="server" ID="entryform1" />
 
-			       	  		<asp:Label ID="LabelLastName" runat="server">Last Name</asp:Label>
-			       	  		<asp:TextBox runat="server" placeholder="Last Name" id="TextLastName" />
-			       	  		<asp:Label runat="server" ID="LabelLastNameError" class="">Please fill in the field above</asp:Label>
-
-			       	  		<label>Email Address</label>
-			       	  		<input type="text" name="" placeholder="Email Address" id="TextEmail" />
-			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
-			       	  		<label>Street</label>
-			       	  		<input type="text" name="" placeholder="Street" id="TextAddress" />
-			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
-			       	  		<label>City</label>
-			       	  		<input type="text" name="" placeholder="City" id="TextCity" />
-			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
-			       	  		<label>State</label>
-			       	  		<input type="text" name="" placeholder="State" id="TextState" />
-			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
-			       	  		<label>Zip Code</label>
-			       	  		<input type="text" name="" placeholder="Zip Code" id="TextZip" />
-			       	  		<span class="error-text" style="display:none;">Please fill in the field above</span>
-			       	  		
-			       	  		
-			       	  		<div class="input-wrap">
-				       	  		<em>Do you bank with Washington Federal?</em>
-				       	  		
-				       	  		<span class="radio-label"><input type="radio" name="" value="Yes" id="RadioBankYes" /> Yes</span>
-				       	  		
-				       	  		<span class="radio-label"><input type="radio" name="" value="No" id="RadioBankNo" class="radio" /> No</span>
-				       	  	</div>
-				       	  	
 				       	  	<div class="input-wrap">
 				       	  	
-				       	  		<input type="checkbox" name="" value="Yes" id="Checkbox18" />
-				       	  		<em>I am at least 18 years of age or older</em>
-				       	  		
-				       	  	</div>
-				       	  	
-				       	  	<div class="input-wrap">
-				       	  	
-				       	  		<input type="checkbox" name="" value="Yes" id="CheckboxTerms" />
+				       	  		<input type="checkbox" name="" value="Yes" id="Checkbox2" />
 				       	  		<em>I have read and agree to all <a href="#">Terms and conditions.</a></em>
 				       	  		
 				       	  	</div>
 				       	  	  		
-			       	  		<asp:Button id="EnterButton" Text="Enter" runat="server" OnClick="EnterButton_Click"/>
-                            <div class="errorMessages"><asp:Literal ID="errorMessages" runat="server"></asp:Literal></div>
+			       	  		
+			       	  		
         			       	  	    </ContentTemplate>
                                 </asp:UpdatePanel>
 

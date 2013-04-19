@@ -103,10 +103,24 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 1.2em;
 }
 
+span.bold {
+	font-weight: bold;
+}
+
 h3 span {
 	text-transform: uppercase;
 }
 
+em.question {
+	display: block;
+	float: left;
+	width: 100%;
+	font-size: 1.4em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 1.3em;
+	color: #636466;
+}
 
 a {
 	color: inherit;
@@ -428,7 +442,9 @@ div.header-img {
 }
 
 div.header-img.index-header {background: url('../img/header-index.jpg') no-repeat top center;}
-div.header-img.charities-header {background:url('../img/header-charities.png') no-repeat top center;}
+div.header-img.charities-header {background:url('../img/header-charities.jpg') no-repeat top center;}
+div.header-img.drawing-header {background:url('../img/header-drawing.jpg') no-repeat top center;}
+
 
 div.header-img h1 {
 	display: none;
@@ -719,6 +735,32 @@ div.pop-up-content {
 	display: block;
 	float: left;
 	width: 680px;
+	padding-top: 20px;
+}
+
+div.pop-up-content h3 {
+	padding-bottom: 15px;
+}
+
+div.pop-up-content p {
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+div.p-coloumn-left {
+	display: block;
+	float: left;
+	width: 320px;
+}
+
+div.p-coloumn-left img {
+	padding-bottom: 15px;
+}
+
+div.p-coloumn-right {
+	display: block;
+	float: right;
+	width: 335px;
 }
 
 div.pop-up-content img {
@@ -740,12 +782,38 @@ h1.main-headline {
 	color:#008f89;
 	font-size: 3.8em;
 	line-height:1em;
-	/*letter-spacing: -.03em;
-	*/
-	letter-spacing: 1px;
+	/*letter-spacing: -.03em;*/
 	padding-top: 8px;
 	font-family: 'foundry_form_sans_bookbook';
 	padding-bottom: 20px;
+	width: 100%;
+}
+
+ol {
+	display: block;
+	float: left;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	word-spacing: 1px;
+	color: #636466;
+	margin-top: 0px;
+	padding-left: 20px;
+}
+
+ul.drawinglist {
+	display: block;
+	float: left;
+	font-size: 1.4em;
+	line-height: 1.8em;
+	word-spacing: 1px;
+	color: #636466;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+
+
+span.underline {
+	text-decoration: underline;
 }
 
 span.offering {
@@ -799,8 +867,7 @@ div.charities-tout {
 	display: block;
 	float: left;
 	width: 195px;
-	height: 220px;
-	margin-right:21px;
+	margin-right:30px;
 	margin-bottom: 32px;
 	position: relative;
 	overflow: hidden;
@@ -808,10 +875,10 @@ div.charities-tout {
 
 div.charities-tout h4 {
 	text-align: center;
-	color: #7b8974;
+	color: #636466;
 	font-size: 1.7em;
 	font-weight: 600;
-	margin-bottom: 10px;
+	margin: 10px 0px 20px 0px;
 }
 
 /* Image div hover click */
@@ -820,7 +887,7 @@ a.see-more {
 	display: block;
 	float: left;
 	width: 100%;
-	height:145px;
+	height:130px;
 	overflow: hidden;
 	position: relative;
 }
@@ -831,13 +898,23 @@ div.hover-click {
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 145px;
+	height: 130px;
 	background-image: url('../img/trans.png');
 }
 
 
 a.see-more:hover div.hover-click {
 	display: block;
+}
+
+div.charities-wrap{
+	display: block;
+	float: left;
+	padding-top: 30px;
+}
+
+div.no-top-padding {
+	padding-top: 0px;
 }
 
 div.hover-click span {
@@ -848,30 +925,14 @@ div.hover-click span {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.4em;
-	padding:57px 20px 0px 20px;
+	padding:50px 20px 0px 20px;
 	text-align: center;
 	background-image: url('../img/plus-icon.png');
 	background-repeat: no-repeat;
-	background-position: 18px 70px;
+	background-position: 18px 63px;
 	line-height: 1.3em;
 	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 a.vote-btn {
@@ -1120,6 +1181,9 @@ div.tree-column ul li {
 	cursor: pointer;
 }
 
+em {
+	font-style: normal;
+}
 
 
 

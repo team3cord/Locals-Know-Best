@@ -911,6 +911,8 @@ div.charities-wrap{
 	display: block;
 	float: left;
 	padding-top: 30px;
+	min-width:100%;
+	overflow: visible;
 }
 
 div.no-top-padding {

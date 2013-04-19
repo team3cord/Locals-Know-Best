@@ -45,8 +45,8 @@ public partial class charities : System.Web.UI.Page
         cmd.Parameters.Add("@updated", System.Data.SqlDbType.DateTime);
 
         cmd.Parameters["@charity_id"].Value = charity_id;
-        cmd.Parameters["@ip_address"].Value = "";
-        cmd.Parameters["@facebook_id"].Value = 3434;
+        cmd.Parameters["@ip_address"].Value = Request.UserHostAddress;
+        cmd.Parameters["@facebook_id"].Value = 0;
         cmd.Parameters["@updated"].Value = DateTime.Now;
 
         try

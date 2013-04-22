@@ -17,7 +17,7 @@
 	       		
 	       		<h3 class="main-subhead">$250 million for your communities in Oregon</h3>
 	       		
-	       		<p class="sub-head">Our merger with Washington Federal will bring over $250 million in community development funding during the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone. We are also offering new grants to select Oregon charities of up to $5,000 and we would like you to tell us whom you think deserves our support. Vote for your choice from the list below and we’ll make a $5 donation or grant to that organization. Be sure to let your friends know how they can benefit their favorite charitable organization by voting too. Remember anyone can vote and raise money for their favorite charity. This is part of the Washington Federal giving program in Oregon. Another way we are invested here.</p>
+	       		<p class="sub-head">Our merger with Washington Federal will bring over $250 million in community development funding during the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone. We are also offering new grants to select Oregon charities of up to $5,000, and we would like you to tell us who you think deserves our support. Vote for your choice from the list below, and we’ll make a $5 donation or grant to that organization. Be sure to let your friends know how they can benefit their favorite charitable organization by voting too. Remember, anyone can vote and raise money for their favorite charity. This is part of the Washington Federal giving program in Oregon. Another way we are invested here.</p>
 	       		
 	       		<div class="white-content">
 	       			 

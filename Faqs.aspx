@@ -8,7 +8,7 @@
 	       	
 	       	<p>We’re excited to serve your banking needs.  To show you how much we appreciate your continued business, you are, as a current client, automatically entered in an iPad mini drawing every week till July 15, 2013. It’s just one of the good things to come when you bank at Washington Federal.</p>
 	       	
-	       	<p>Another thing we wanted to tell you about was our Local’s Know Best charitable giving program in Oregon. During this program you are, as a local, encouraged to help us direct our charitable giving. Each month, we will give you a choice of local charities to vote for. Each vote will translate into a $5 donation or grant to that charity. Anyone is allowed to vote, so please be sure to tell all your friends about this program. To check out this program, <a href="charities.aspx">click here.</a></p>
+	       	<p>Another thing we wanted to tell you about was our Locals Know Best charitable giving program in Oregon. During this program you are, as a local, encouraged to help us direct our charitable giving. Each month, we will give you a choice of local charities to vote for. Each vote will translate into a $5 donation or grant to that charity. Anyone is allowed to vote, so please be sure to tell all your friends about this program. To check out this program, <a href="charities.aspx">click here.</a></p>
 	       	
 		        <section class="section-border top-border">
 	
@@ -151,7 +151,7 @@
 					<p><span class="bold">Monday – Thursday</span> <span style="padding-left:5px;">9am-5pm</span></p>
 					<p style="margin-top:-15px;"><span class="bold">Friday</span> <span style="padding-left:5px;">9am-6pm</span></p>
 					
-					<p>As a Washington Federal client, you may now access your account at over 180 convenient locations in eight Western states. For a complete list, please visit us online at <a href="http://washingtonfederal.com">washingtonfederal.com</a></p>
+					<p>As a Washington Federal client, you may now access your account at over 180 convenient locations in eight Western states. For a complete list, please visit us online at <a href="http://washingtonfederal.com">washingtonfederal.com</a>.</p>
 				
 							       	 	       	 
 				</section>	

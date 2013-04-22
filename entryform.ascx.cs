@@ -21,7 +21,10 @@ public partial class entryform : System.Web.UI.UserControl
     }
     protected void FormView1_ItemInserted(object sender, FormViewInsertedEventArgs e)
     {
-        ThanksLabel.Visible = true;
-        FormView1.Visible = false;
+        Response.Redirect("ThanksSubmit.aspx");
+    }
+    protected void RadioButton2_CheckedChanged(object sender, EventArgs e)
+    {
+
     }
 }

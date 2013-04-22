@@ -5,8 +5,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 	       
-	       	<h1 class="main-headline">Announcing the new iPad mini a week until everyone's happy giveaway</h1>
-	       	<span class="offering">To show how much we appreciate your business we’re giving current clients a chance <br />to win a new iPad each week.</span>
+            <h1 class="main-headline">Announcing the new iPad mini a week until everyone’s happy giveaway.</h1>
+	       	
+	       	<span class="offering">To show how much we appreciate your business, we’re automatically entering our current clients in a drawing for a new iPad mini each week. </span>
 	       	
 	        <section class="section-border top-border ipad-mini-section">
 	       	
@@ -16,25 +17,15 @@
 		       	
 		       	<div class="content-wrap">
 		       	
-			       	 <h3>Congratulations! If you’re a current Washington Federal clients you’re already entered to win a new iPad mini.</h3>
+			       	 <h3>Congratulations! If you’re a current Washington Federal client, you’re already entered to win a new iPad mini.</h3>
 			       	 
-			       	 <p>From now until July of 2013 we’re giving away an iPad mini a week to our clients. It’s our way of saying thanks for sticking with us.  We know you have a choice of banks and we’re proud of our nearly 100-year track record of making our customers happy. So sit tight and we’ll be in touch if you win one of the iPad minis. Good luck, we’re rooting for you. Learn more about <a href="#drawing-rules" class="fancybox">drawing rules.</a></p>
+			       	 <p>From now until July 15, 2013, we’re giving away an iPad mini a week to our clients. It’s our way of saying thanks for sticking with us.  We know you have a choice of banks, and we’re proud of our nearly 100-year track record of making our clients happy. So sit tight and we’ll be in touch if you win one of the iPad minis. Good luck, we’re rooting for you.  Learn more about the <a href="Rules.aspx" class="fancybox">drawing rules.</a></p>
 			       	 
-			       	 
-			       	 <div id="drawing-rules" class="pop-up" style="display:none;width:700px;">
-			       	 	<h2>Drawing Rules</h2>
-			       	 	
-			       	 	<div class="pop-up-content">
-			       	 		 <p>
-			       	 		 Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis.</p>
-			       	 		 
-			       	 		<p> Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-			       	 		 </p>
-			       	 	</div>
-			       	 </div>
 			       	 
 
-			       	 <!--  <a href="#" class="green-btn">Drawing Rules</a> -->
+			       	 
+
+			       	 
 		       	 
 		       	</div>
 		       	 
@@ -42,7 +33,7 @@
 		       	 
 			       	 <span class="promotion-discloser">Apple is not a participant in or sponsor of this promotion.</span>
 			       	 
-			       	 <p style="width: 400px;">Not a Washington Federal client? Don’t worry. While we’d love to have you as a client, you can still enter to win. It would just be down right un-neighborly if we didn’t let everybody share
+			       	 <p style="width: 400px;">Not a Washington Federal client? Don’t worry. While we’d love to have you as a client, you can still enter to win. It would just be downright un-neighborly if we didn’t let everybody share
 			       	 the fun.</p>
 			       	 
 			       	  <a href="#enter-form" class="fancybox green-btn">Enter</a>
@@ -77,8 +68,18 @@
 		       	  </div>
 	       	 
 	       	</section>
-	       	
-	       	 <section class="section-border card-wrap">
+	     	    	 <section class="section-border" style="border-bottom: none;">
+	       	 
+		       	 <h3>$250 million for your communities</h3>
+		       	 
+		       	  <p>Our merger with Washington Federal will bring over $250 million in community development funding over the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone.  We are also offering new grants to select Oregon charities of up to $5,000, and we would like you to tell us who you think deserves our support.</p>
+
+		       	  
+		       	 <!-- <a href="#">Click to see a list of participating</a> -->
+		       	  <a href="charities.aspx" class="green-btn">Learn More</a>
+	       	 
+	       	 </section>
+<%--	       	 <section class="section-border card-wrap">
 	       	 
 	       	 	<div class="card-wrap"></div>
 	       	 	<!--<img src="img/card.png" alt="" class="right" />-->
@@ -209,18 +210,7 @@
 	       	
 	       	
 	       	
-	       	 <section class="section-border" style="border-bottom: none;">
-	       	 
-		       	 <h3>$250 Million for your communities.</h3>
-		       	 
-		       	  <p>Our merger with Washington Federal will bring over $250 million in community development funding over the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone. We are also offering new grants to select Oregon charities of up to $5,000 and we would like you to tell us whom you think deserves our support.</p>
-		       	  
-
-		       	  
-		       	 <!-- <a href="#">Click to see a list of participating</a> -->
-		       	  <a href="charities.aspx" class="green-btn">Learn More</a>
-	       	 
-	       	 </section>
+>--%>
 	       	 
 	     	       	 
 </asp:Content>

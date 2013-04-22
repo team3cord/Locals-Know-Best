@@ -64,7 +64,7 @@
 
 
                 <!-- Opportunity knocks -->
-                <div class="charities-wrap">
+                <div class="charities-wrap" style="width: 100%;">
 
                     <a href="#opp-knocks" class="fancybox see-more">
                         <img src="img/charities/central/opp-knocks/opp-knocks-thumb.jpg" alt="" />

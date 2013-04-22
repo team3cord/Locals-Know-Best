@@ -1,7 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="Rules.aspx.cs" Inherits="Rules" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-     	<h1 class="main-headline" style="width:100%;">Contest Rules</h1>
+     	<div class="main-content">
+	       
+	       	<h1 class="main-headline" style="width:100%;">Drawing Rules</h1>
+	       	
+	       	<span class="offering">Washington Federal iPad mini drawing.<br /><em style="font-style:italic; font-size: .8em;">No purchase required to enter or win.</em></span>
 	       	
 
 		        <section class="section-border top-border">
@@ -119,7 +123,7 @@
 		       		<p>Participation in the Drawing constitutes Winner's consent to Sponsor's use of Winner's name, likeness, picture, portrait, voice, opinions, biographical information and state of residence for promotional, publicity or advertising purposes worldwide in any media and on the World Wide Web, in perpetuity, without further payment, consideration, review or consent (where allowable).</p>		       	
 		       	</section>
 		       	
-		       	<section class="section-border">
+		       	<section class="section-border" style="border-bottom: none;">
 		       	
 		       		<h3>Drawing Results</h3>
 		       		
@@ -127,6 +131,6 @@
 		       		Seattle, WA  98101.  Requests must be received within 30 days of the Drawing entry deadline.</p>		       	
 		       	</section>
 		       	
-
+</div>
 </asp:Content>
 

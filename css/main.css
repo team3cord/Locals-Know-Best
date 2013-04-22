@@ -372,7 +372,7 @@ ul.utility-links li a:hover {
 	text-decoration: underline;
 }
 
-ul.utility-links li:first-child a {border: none; padding: 0px 0px 0px 10px;}
+ul.utility-links li:first-child a {border: none; }
 	
 
 
@@ -913,6 +913,7 @@ a.see-more:hover div.hover-click {
 }
 
 div.charities-wrap{
+	min-width: 100%;
 	display: block;
 	float: left;
 	padding-top: 30px;

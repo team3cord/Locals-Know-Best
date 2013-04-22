@@ -10,6 +10,6 @@ public partial class Rules : System.Web.UI.Page
     protected void Page_Load(object sender, EventArgs e)
     {
         HtmlControl HeaderImage = (HtmlControl)Master.FindControl("HeaderImage");
-        HeaderImage.Attributes["class"] += " index-header";
+        HeaderImage.Attributes["class"] += " drawing-header";
     }
 }

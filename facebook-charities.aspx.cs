@@ -21,8 +21,7 @@ public partial class facebook_charities : System.Web.UI.Page
     Dictionary<int, string> CharityMoneyTotals;
     protected void Page_Load(object sender, EventArgs e)
     {
-        HtmlControl HeaderImage = (HtmlControl)Master.FindControl("HeaderImage");
-        HeaderImage.Attributes["class"] += " charities-header";
+
     }
 
     protected void VoteButton_Click(object sender, EventArgs e)

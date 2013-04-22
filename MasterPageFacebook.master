@@ -18,7 +18,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="css/main.css" id="mainCss" runat="server"/>
+    <link rel="stylesheet" href="css/facebook.css"/>
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
 
@@ -60,119 +60,8 @@
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-       <header class="main-header">
-       
-       <div class="center-wrap">
-       
-	       	<a href="http://www.washingtonfederal.com/home.aspx" class="logo"><h1>Washington Ferderal<span> Invested Here</span></h1></a>
-	       	
-	       	<div class="utility-wrap">
-	       	
-	       	<!--<a class="sign-in green-btn">Sign In</a>-->
-	       	
-		       	<ul class="utility-links">
-		       	<!--<li><a href="#">En Espanol</a></li>-->
-		       		<li><a href="http://www.washingtonfederal.com/home.aspx">Home</a></li>
-		       		<li><a href="http://www.washingtonfederal.com/Find-A-Location.aspx">Find a Location</a></li>
-		       		<li><a href="http://www.washingtonfederal.com/About-Us.aspx">About Us</a></li>
-		       	</ul>
-		       	
-		    <!--<input type="search" name="" value="" />-->
-		       	
-		     </div>
-		     
-		     <nav class="main-nav">
-		     	<ul>
-		     		<li><a href="http://www.wafd.com/Home-Loans.aspx">Home Loans</a></li>
-		     		<li><a href="http://www.wafd.com/Personal-Banking.aspx">Personal Banking</a></li>
-		     		<li><a href="http://www.wafd.com/Business-Banking.aspx">Commercial Banking</a></li>
-		     	</ul>
-		     </nav>
-       	
-       	</div>
-       	
-       </header>
-
-    <div runat="server" class="header-img" id="HeaderImage"> <!--  index-header is the default class -->
-        <h1 runat="server" id="HeaderH1">We treat our current clients like they’re new clients.</h1>
-    </div>
-
-    <!-- Start Wrap -->
-
-    <div id="wrap">
-
-        <aside class="side-bar">
-	       	<span class="slogan-btn">Thats just common sense</span>
-		        <nav class="side-nav">
-		       	<ul>
-		       		<li><a href="https://washingtonfederal.com/south-valley/Welcome-South-Valley.aspx">Welcome <br />South Valley Clients</a></li>
-		       		<li><a href="Default.aspx">Client Appreciation Programs</a></li>
-		       		<li><a href="charities.aspx">Charities</a></li>
-		       		<li><a href="Nominate.aspx">Nominate Your Charity</a></li>
-		       		<li><a href="Faqs.aspx"> Merger FAQs</a></li>
-		       		<li><a href="https://washingtonfederal.com/About-Us.aspx">Our Bank</a></li>
-		       		<li><a href="https://washingtonfederal.com/About-Us/Contact-Us.aspx">Contact Us</a></li>
-		       	</ul>
-		       </nav>	
-
-        </aside>
-
-        <div class="main-content">
-
-
-
-
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-
-
-
-
-
-        </div>
-        		<footer class="main-footer">
-       		
-       			<nav class="footer-nav">
-	       			<ul>
-	       				<li><a href="http://www.wafd.com/About-Us/Careers.aspx">Careers</a></li>
-	       				<li><a href="http://www.wafd.com/Wholesale-Lending.aspx">Wholesale Lending</a></li>
-	       				<li><a href="http://www.wafd.com/About-Us/Investor-Relations.aspx">Investor Relations</a></li>
-	       				<li><a href="http://www.wafd.com/Commercial-Real-Estate.aspx">Commercial Real Estate</a></li>
-	       				<li><a href="http://www.wafd.com/About-Us/Contact-Us.aspx">Contact Us</a></li>
-	       			</ul>
-	       		</nav>
-       		
-       			<ul class="footer-socail">
-       				<li><a href="https://www.facebook.com/WashingtonFederal.InvestedHere" class="footer-icons facebook">Facebook</a></li>
-       				<li><a href="https://twitter.com/WaFed" class="footer-icons twitter">Twitter</a></li>
-       				<li><a href="http://blog.washingtonfederal.com/" class="footer-icons rss">Rss</a></li>
-       				<li class="lrg-icons"><a href="http://www.washingtonfederal.com/About-Us.aspx#" class="lender-icon">Equal Lender</a></li>
-       				<li class="lrg-icons"><a href="http://www.washingtonfederal.com/About-Us.aspx#" class="fdic-icon">Member FDIC</a></li>
-       			</ul>
-       			
-       			<span class="copyright">© 2013, Washington Federal, All Rights Reserved. NMLSR Company #410394 </span>
-       			
-       			<ul class="footer-utility-links">
-       				<li><a href="http://www.washingtonfederal.com/Utility-Pages/Terms-of-Use.aspx">Terms of use</a></li>
-       				<li><a href="http://www.washingtonfederal.com/Utility-Pages/Privacy-Security.aspx">Privacy & Security</a></li>
-       				<li><a href="http://www.washingtonfederal.com/REO/Public/default.aspx">REO</a></li>
-       			</ul>
-       		
-       		</footer>
-
-
-    </div>
-
-    <!-- End Wrap -->
-    <div class="bottom-bg left-body-bg"></div>
-    <div class="bottom-bg right-body-bg"></div>
-    <div class="full-bottom-bg"></div>
-
-
-
-
-
-
 
 
 

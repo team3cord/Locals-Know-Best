@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Washington Federal Charities" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="facebook-charities.aspx.cs" Inherits="facebook_charities" %>
+﻿<%@ Page Title="Washington Federal Charities" Language="C#" MasterPageFile="~/MasterPageFacebook.master" AutoEventWireup="true" CodeFile="facebook-charities.aspx.cs" Inherits="facebook_charities" %>
 
 <%@ Register TagPrefix="summit" namespace="summit"%>
 <%@ Register Src="~/entryform.ascx" TagPrefix="uc1" TagName="entryform" %>
@@ -6,6 +6,11 @@
 
     <form id="mainForm" runat="server">
 
+       
+       
+       <div class="wrap">
+	       	<div class="content-wrap">
+	       	
 	       		<h1 class="main-headline">Vote to choose which <br />
 	       		community organizations <br />
 	       		we support this month.</h1>
@@ -300,8 +305,11 @@
 	    <!-- END Third C. -->   			 	
 	          			 	
 	       			 
-
-
+	       			       		
+	       		</div>
+	       		
+	        </div>
+	        
         </section>
 
 

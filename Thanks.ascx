@@ -14,11 +14,15 @@
             <div class="fb-like" data-href="<%= GetCharityUrl() %>" data-send="false" data-width="450" data-show-faces="false"></div>
         </div>
 
-        <img src="img/fpo-thanks.jpg" alt="" class="thanks-img" />
+        <img src="<%= GetCharityImage() %>" alt="" class="thanks-img" />
 
        <h3>Thank you for your vote</h3>
 			       	 
-			       	 <p>Thanks to your vote, Washington Federal will donate $5 to this charity. Remember, anyone can vote, so make sure you hit the Like button and get all your friends to vote too. This is part of the Washington Federal giving program in Oregon. Another way we are invested here.</p> <p>And don't forget to enter to win<a href="#enter-form" class="fancybox"> a FREE iPad mini.</a></p>
+			       	 <p>Thanks to your vote, Washington Federal will donate $5 to this charity.
+                             Remember, anyone can vote, so make sure you hit the Like button and
+                             get all your friends to vote too. This is part of the Washington Federal
+                             giving program in Oregon. Another way we are invested here.</p>
+         <p>And don't forget to enter to win<a href="Default.aspx"> a FREE iPad mini.</a></p>
 
 
 		       	  	<!-- ENTER Form Popup -->
@@ -27,7 +31,7 @@
 			       	  	
 			       	  	<div class="pop-up-content">
 			       	  	
-			       	  	<form id="entryForm2" method="post" action="Thanks.aspx" runat="server">
+			       	  	<form id="entryForm2" method="post" action="charities.aspx" runat="server">
                              <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                              <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                                 <ContentTemplate>

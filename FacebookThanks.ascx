@@ -20,7 +20,7 @@
 	       		
 	       				<div class="thanks-content-wrap">
 	       				
-	       				<img src="facebook/charities/medford/bngc/bngc-lrg.png" alt="" height="" />
+	       				<img src="<%= GetCharityImage() %>" alt="" height="" />
 	       				
 	       				<div>
 		       				<h3>Thank you for voting for<br />

@@ -60,4 +60,19 @@ public partial class FacebookThanks : System.Web.UI.UserControl
         }
 
     }
+
+    public string GetCharityImage()
+    {
+        switch ((int)_charity)
+        {
+            case 1: return "img/charities/central/neighbor-impact/neighbor-impact-thumb.jpg";
+            case 2: return "img/charities/central/opp-knocks/opp-knocks-thumb.jpg";
+            case 3: return "img/charities/kalamth/iys/iys-thumb.jpg";
+            case 4: return "img/charities/kalamth/jr-achievement/jr-achievement-thumb.jpg";
+            case 5: return "img/charities/medford/bngc/bngc-thumb.jpg";
+            case 6: return "img/charities/medford/goodwill/goodwill-thumb.jpg";
+            default: return "img/charities/kalamth/iys/iys-thumb.jpg";
+        }
+    }
 }
+

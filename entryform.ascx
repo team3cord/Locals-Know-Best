@@ -1,9 +1,4 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="entryform.ascx.cs" Inherits="entryform" %>
-<style type="text/css">
-    .auto-style1 {
-        text-align: center;
-    }
-</style>
 
 <p>
 <asp:FormView ID="FormView1" runat="server" DataKeyNames="id" DataSourceID="SqlDataSource1" EnableModelValidation="True" DefaultMode="Insert" OnItemCreated="InsertButton_Click" OnItemInserted="FormView1_ItemInserted">
@@ -104,18 +99,17 @@
         <div class="input-wrap">           
                       
          <%--<input type="checkbox" name="" value="Yes" id="Checkbox1"  />--%> 
-            <asp:RadioButton ID="RadioButton3" runat="server" />
-            &nbsp;<em>I am at least 18 years of age or older.</em></span>
-       </div>    
+            <asp:CheckBox ID="CheckBox1" runat="server" />
+            <em>&nbsp;am at least 18 years of age or older.</em></span>&nbsp;</div>    
 		<div class="input-wrap">  
 		<%--<input type="checkbox" name="" value="Yes" id="Checkbox2" />--%>
-		    <asp:RadioButton ID="RadioButton4" runat="server" />
+		    <asp:CheckBox ID="CheckBox2" runat="server" />
             &nbsp;<em>I have read and agree to all Terms and Conditions.</em> 	 	
 		    <br />
 		</div>
        
 
-        <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Submit" CssClass="green-btn" Font-Size="Large" OnClick="InsertButton_Click" />
+        <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Submit" CssClass="angryButton" Font-Size="Large" OnClick="InsertButton_Click" />
         
     </InsertItemTemplate>
 </asp:FormView>

@@ -809,10 +809,10 @@ span.error-text {
 
 
 
-input[type="submit"]{
+input[type="submit"], .angryButton {
 	display: block;
 	float: right;
-	margin-right: px;
+	margin-right: -12px;
 	width: auto;
 	color: #fff;
 	background-image:url('../img/submit-bg.png');
@@ -822,6 +822,7 @@ input[type="submit"]{
 	border: none;
 	text-indent: -99999px;
 	overflow: hidden;
+	background-color: #FF00FF;
 	width: 55px;
 	height: 25px;
 	
@@ -859,6 +860,17 @@ div.input-wrap input[type="checkbox"] {
 	margin: -3px 10px 0px 0px;
 	width: 15px;
 	height: 15px;
+}
+
+div.facebook-like-wrap {
+	display: block;
+	float: left;
+	width: 100%;
+	padding:5px;
+	background-color: #ccc;
+	font-size: 1.3em;
+	color:#000;
+	margin-bottom: 15px;
 }
 
 

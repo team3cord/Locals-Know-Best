@@ -262,6 +262,7 @@ textarea {
 	margin-top: -10px;
 }
 
+
 .green-btn:before{
 	content: "";
 	display: block;
@@ -1088,7 +1089,7 @@ span.error-text {
 
 
 
-input[type="submit"]{
+input[type="submit"], .angryButton {
 	display: block;
 	float: right;
 	margin-right: -12px;

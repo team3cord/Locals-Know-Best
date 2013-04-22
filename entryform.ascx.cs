@@ -59,4 +59,8 @@ public partial class entryform : System.Web.UI.UserControl
     {
 
     }
+    protected void RadioButton3_CheckedChanged(object sender, EventArgs e)
+    {
+
+    }
 }

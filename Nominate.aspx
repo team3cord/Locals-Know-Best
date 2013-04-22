@@ -120,7 +120,7 @@
 	       	<h3>Applying for contributions or grants for your charity</h3>
 	       	
 	       	<p>We appreciate your interest in Oregon community development funding. To nominate your charity or a charity you are passionate about, please send us an email with the particulars of your specific charity. We are interested in both the nature and mission of your charity and how a grant or donation would be used to benefit your charity.</p>
-	       	<a href="mailto:mattc@summitprojects.com?subject=nominate" class="green-btn right vote-btn" style="margin-top:-10px;">Email Now</a>
+	       	<a href="mailto:nominate.charity@wafd.com?subject=nominate" class="green-btn right vote-btn" style="margin-top:-10px;">Email Now</a>
 	       	
 	       	
 		        <section class="section-border top-border" style="border-bottom: none; margin-top: 15px;">
@@ -137,7 +137,7 @@
 								<li><span class="bold">Employee Involvement:</span> Washington Federal also considers grants to charitable organizations supported by our employees who serve as volunteers or board members.</li>
 							</ul>
 				       	 	     
-				       	<a href="mailto:mattc@summitprojects.com?subject=contributions" class="green-btn right vote-btn">Email Now</a>
+				       	<a href="mailto:nominate.charity@wafd.com?subject=contributions" class="green-btn right vote-btn">Email Now</a>
 				       	  	 
 		       	</section>
 		       	

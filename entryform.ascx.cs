@@ -29,7 +29,7 @@ public partial class entryform : System.Web.UI.UserControl
         string now = DateTime.Now.ToString();
 
         msg.Subject = "Contest Entry";
-        msg.To.Add("daniel@summitprojects.com");
+        msg.To.Add("ipad.entry@wafd.com");
         msg.From = new MailAddress("dabrosch@gmail.com");
 
         var s = new StringBuilder();

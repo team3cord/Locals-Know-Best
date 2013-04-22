@@ -135,7 +135,7 @@
 								<li><span class="bold">Financial Literacy:</span> Washington Federal supports efforts to expand financial literacy among youth and adults and encourages each of our branches to host Save at School programs with local middle and elementary schools, where students learn the “habit” of thrift by making small deposits during on-site “Bank Days” once or twice a month.  Washington Federal matches each initial $5 opening deposit to a Save at School account dollar-for-dollar.  Email <a href="#" class="green-link">ask@wafd.com</a> to inquire about launching a school savings program in your area.</li>
 								
 								<li><span class="bold">Employee Involvement:</span> Washington Federal also considers grants to charitable organizations supported by our employees who serve as volunteers or board members.</li>
-							</ul>>
+							</ul>
 				       	 	     
 				       	<a href="mailto:mattc@summitprojects.com?subject=contributions" class="green-btn right vote-btn">Email Now</a>
 				       	  	 

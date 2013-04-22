@@ -97,17 +97,17 @@
                         <br />
             <em>Do you bank with Washington Federal?</em>
 
-                       <span  CssClass="radio-label"><asp:RadioButton ID="RadioButton1" runat="server" Checked='<%# Bind("banks_with") %>' /> Yes</span><span  CssClass="radio-label"><asp:RadioButton ID="RadioButton2" runat="server" OnCheckedChanged="RadioButton2_CheckedChanged" /> No</span>
+                       <span  class="radio-label"><asp:RadioButton ID="RadioButton1" runat="server" Checked='<%# Bind("banks_with") %>' /> Yes</span><span  class="radio-label"><asp:RadioButton ID="RadioButton2" runat="server" OnCheckedChanged="RadioButton2_CheckedChanged" /> No</span>
                        
                         
         </div>
-        <div CssClass="input-wrap">           
+        <div class="input-wrap">           
                       
          <%--<input type="checkbox" name="" value="Yes" id="Checkbox1"  />--%> 
             <asp:RadioButton ID="RadioButton3" runat="server" />
             &nbsp;<em>I am at least 18 years of age or older.</em></span>
        </div>    
-		<div CssClass="input-wrap">  
+		<div class="input-wrap">  
 		<%--<input type="checkbox" name="" value="Yes" id="Checkbox2" />--%>
 		    <asp:RadioButton ID="RadioButton4" runat="server" />
             &nbsp;<em>I have read and agree to all Terms and Conditions.</em> 	 	

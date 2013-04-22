@@ -52,4 +52,13 @@ public partial class Thanks : System.Web.UI.UserControl
         return name;
     }
 
+    public string GetCharityUrl()
+    {
+        switch ((int)_charity)
+        {
+            case 1: return "https://www.facebook.com/WashingtonFederal.InvestedHere";
+            default: return "https://www.facebook.com/WashingtonFederal.InvestedHere";
+        }
+    }
+
 }

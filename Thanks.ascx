@@ -10,7 +10,9 @@
 
     <div style="margin-top: -15px;">
 
-        <div class="facebook-like-wrap">Here is facebook like</div>
+        <div class="facebook-like-wrap">
+            <div class="fb-like" data-href="<%= GetCharityUrl() %>" data-send="false" data-width="450" data-show-faces="false"></div>
+        </div>
 
         <img src="img/fpo-thanks.jpg" alt="" class="thanks-img" />
 

@@ -149,7 +149,7 @@ public partial class facebook_charities : System.Web.UI.Page
         ContentPlaceHolder main = Master.FindControl("ContentPlaceHolder1") as ContentPlaceHolder;
         if (main != null)
         {
-            Thanks t = LoadControl("~/Thanks.ascx") as Thanks;
+            FacebookThanks t = LoadControl("~/FacebookThanks.ascx") as FacebookThanks;
             t.Charity = charity;
             main.Controls.Add(t);
             main.Controls.Remove(mainForm);

@@ -100,7 +100,7 @@
                       
          <%--<input type="checkbox" name="" value="Yes" id="Checkbox1"  />--%> 
             <asp:CheckBox ID="CheckBox1" runat="server" />
-            <em>&nbsp;am at least 18 years of age or older.</em></span>&nbsp;</div>    
+            <em>&nbsp;I am at least 18 years of age or older.</em>&nbsp;</div>    
 		<div class="input-wrap">  
 		<%--<input type="checkbox" name="" value="Yes" id="Checkbox2" />--%>
 		    <asp:CheckBox ID="CheckBox2" runat="server" />

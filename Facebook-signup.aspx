@@ -28,7 +28,7 @@
 		       				<span class="i1"> clients. It’s our way of saying thanks for sticking with us.  We know you have a </span>
 		       				<span class="i2">choice of banks, and we’re proud of our nearly 100-year track record of making</span>
 		       				<span class="i3">our clients happy. So sit tight and we’ll be in touch if you win one of the iPad</span>
-		       				<span class="i4">minis. Good luck, we’re rooting for you.  Learn more about the <a href="Rules.aspx" _target="_blank">drawing rules</a>.</span></p>
+		       				<span class="i4">minis. Good luck, we’re rooting for you.  Learn more about the <a href="http://www.washingtonfederal.com/wfed/Rules.aspx" _target="_blank">drawing rules</a>.</span></p>
 	       				</div>
 	       				  
 	       				<div class="small-paragraph">

@@ -48,7 +48,7 @@
                             <img src="img/charities/central/neighbor-impact/neighbor-impact-lrg.png" alt="" />
 
 
-                            <p>From 1985 to date, NeighborImpact is has been recognized by the Oregon Housing and Community Services Department (OHCS) as a community action agency serving the Central Oregon Region of Crook, Deschutes and Jefferson counties. It is the region's lead agency for homeless services, child care resources, emergency food programs, home ownership, housing rehabilitation, Head Start, and self-help programs for the working poor. NeighborImpact employs roughly 200 staff and serves over 55,000 persons annually. </p>
+                            <p>From 1985 to date, Neighbor Impact is has been recognized by the Oregon Housing and Community Services Department (OHCS) as a community action agency serving the Central Oregon Region of Crook, Deschutes and Jefferson counties. It is the region's lead agency for homeless services, child care resources, emergency food programs, home ownership, housing rehabilitation, Head Start, and self-help programs for the working poor. NeighborImpact employs roughly 200 staff and serves over 55,000 persons annually. </p>
 		       					 
 		       					 <p>For over 25 years, our community action programs have focused on building successful families by helping them with their basic needs, affordable housing, home ownership and training to increase life skills, work skills and financial literacy.</p>
 		       					 

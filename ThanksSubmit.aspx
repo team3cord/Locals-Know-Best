@@ -14,7 +14,7 @@
 	       		       	
 	       		       	<div class="content-wrap">
     			       	 
-	       			       	 <p>We appreciate your interest in Washington Federal and will notify you if you are a winner. Good luck, we’re rooting for you. The iPad mini drawing is just one of the ways we show our clients we appreciate their business. If you’d like to bank where your business is valued please click below.</p>
+	       			       	 <p>We appreciate your interest in Washington Federal and will notify you if you are a winner. Good luck, we’re rooting for you. The iPad mini drawing is just one of the ways we show our clients we appreciate their business. If you’d like to bank where your business is valued, please click below.</p>
 	       			       	  	
                                   <span class="promotion-discloser">Apple is not a participant in or sponsor of this promotion.</span>
 	       			       	 

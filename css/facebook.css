@@ -641,7 +641,7 @@ div.thanks-content-wrap img {
 div.thanks-content-wrap div {
 	display: block;
 	float:right;
-	width: 370px;
+	width: 495px;
 }
 
 div.facebook-like-share {
@@ -649,7 +649,6 @@ div.facebook-like-share {
 	float: left;
 	width: 500px;
 	height: 30px;
-	background-color: #ccc;
 }
 
 

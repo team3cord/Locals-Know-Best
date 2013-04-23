@@ -336,13 +336,10 @@ div.wrap {
 	background-repeat: no-repeat;
 	background-color: #1eb143;
 }
-
 div.content-wrap {
-    display: block;
-    width: 740px;
-    margin: 0 auto;
-    min-height: 500px;
-    /*padding: 35px;*/
+	display:block;
+	max-width: 740px;
+	margin: 0 auto;
 }
 
 span.promotion-discloser {
@@ -401,6 +398,7 @@ div.white-content {
 	min-height: 100px;
 	background-color: #fff;
 	padding:20px;
+	margin-bottom:50px;
 }
 
 section.ipad-mini-wrap {

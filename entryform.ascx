@@ -6,34 +6,41 @@
         <h2>Enter to Win!</h2>
         	<div class="pop-up-content">
         <br />
-        <label>Name:</label>
         
-        <asp:TextBox ID="first_name" runat="server" Text='<%# Bind("first_name") %>' Width="680px" />
+        <div style="display: block; float:left;">
+            <label>Name:</label>
+        <asp:TextBox ID="first_name" runat="server" Text='<%# Bind("first_name") %>' />
         <asp:RequiredFieldValidator ID="RequiredFieldValidator" runat="server" ErrorMessage="This is a required Field." ControlToValidate="first_name"></asp:RequiredFieldValidator>
-        <br />
+        </div><br />
+        <div style="display: block; float:left;">
         <label>Last Name:</label>   
-        <asp:TextBox ID="last_name" runat="server" Text='<%# Bind("last_name") %>' Width="680px" />
+        <asp:TextBox ID="last_name" runat="server" Text='<%# Bind("last_name") %>' />
          <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="This is a required Field." ControlToValidate="last_name"></asp:RequiredFieldValidator>
-        <br />
+        </div><br />
+        <div style="display: block; float:left;">
         <label>Email Address: </label>
-        <asp:TextBox ID="email" runat="server" Text='<%# Bind("email") %>' Width="680px" />
+        <asp:TextBox ID="email" runat="server" Text='<%# Bind("email") %>' />
          <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="This is a required Field." ControlToValidate="email"></asp:RequiredFieldValidator>
-        <br />
+        </div><br />
+        <div style="display: block; float:left;">
         <label>Address:</label>
-        <asp:TextBox ID="address" runat="server" Text='<%# Bind("address") %>' Width="680px" />
+        <asp:TextBox ID="address" runat="server" Text='<%# Bind("address") %>'  />
          <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="This is a required Field." ControlToValidate="address"></asp:RequiredFieldValidator>
-        <br />
+        </div><br />
+        <div style="display: block; float:left;">
         <label>City:</label>
-        <asp:TextBox ID="city" runat="server" Text='<%# Bind("city") %>' Width="680px" />
+        <asp:TextBox ID="city" runat="server" Text='<%# Bind("city") %>' />
          <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="This is a required Field." ControlToValidate="city"></asp:RequiredFieldValidator>
-        <br />
+        </div><br />
+        <div style="display: block; float:left;">
         <label>Zip Code</label>
-        <asp:TextBox ID="zip" runat="server" Text='<%# Bind("zip") %>' Width="680px" />
+        <asp:TextBox ID="zip" runat="server" Text='<%# Bind("zip") %>' />
         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="zip" ErrorMessage="This is a required Field."></asp:RequiredFieldValidator>
+       </div> <br />
         <br />
-        <br />
+        <div style="display: block; float:left;">
         <label>State:</label>
-        <asp:DropDownList ID="state" runat="server" Text='<%# Bind("state") %>' Font-Size="Large" >
+        <asp:DropDownList ID="state" runat="server" Text='<%# Bind("state") %>' Font-Size="Medium" >
             	<asp:ListItem Value="AL">Alabama</asp:ListItem>
 	            <asp:ListItem Value="AK">Alaska</asp:ListItem>
 	            <asp:ListItem Value="AZ">Arizona</asp:ListItem>
@@ -86,7 +93,7 @@
 	            <asp:ListItem Value="WI">Wisconsin</asp:ListItem>
 	            <asp:ListItem Value="WY">Wyoming</asp:ListItem>
         </asp:DropDownList>
-
+        </div>
         <div class="input-wrap" style="margin-top:20px;">
 
                         <br />
@@ -103,7 +110,7 @@
             <em>&nbsp;I am at least 18 years of age or older.</em>&nbsp;</div>    
 		<div class="input-wrap">  
 		<%--<input type="checkbox" name="" value="Yes" id="Checkbox2" />--%>
-		    <asp:CheckBox ID="CheckBox2" runat="server" />
+		    <asp:CheckBox ID="CheckBox2" runat="server" CausesValidation="False" />
             &nbsp;<em>I have read and agree to all Terms and Conditions.</em> 	 	
 		    <br />
 		</div>

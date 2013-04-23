@@ -50,11 +50,11 @@
 						
 						<img src="img/charities/central/neighbor-impact/neighbor-impact-lrg.png" alt="" />		       				
 	       			 	
-	       			 	<p>From 1985 to date, NeighborImpact is has been recognized by the Oregon Housing and Community Services Department (OHCS) as a community action agency serving the Central Oregon Region of Crook, Deschutes and Jefferson counties. It is the region's lead agency for homeless services, child care resources, emergency food programs, home ownership, housing rehabilitation, Head Start, and self-help programs for the working poor. NeighborImpact employs roughly 200 staff and serves over 55,000 persons annually. </p>
+	       			 	<p>From 1985 to date, Neighbor Impact is has been recognized by the Oregon Housing and Community Services Department (OHCS) as a community action agency serving the Central Oregon Region of Crook, Deschutes and Jefferson counties. It is the region's lead agency for homeless services, child care resources, emergency food programs, home ownership, housing rehabilitation, Head Start, and self-help programs for the working poor. Neighbor Impact employs roughly 200 staff and serves over 55,000 persons annually. </p>
 	       			 					 
 	       			 	<p>For over 25 years, our community action programs have focused on building successful families by helping them with their basic needs, affordable housing, home ownership and training to increase life skills, work skills and financial literacy.</p>
 	       			 					 
-	       			 	<h3>How we will use a Local’s Know Best community grant from Washington Federal</h3>
+	       			 	<h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 	       			 					 
 	       			 	<p>Funds from the “Locals Know Best” fundraising effort will be used to support our Emergency Services programs, including the Food Bank, Family shelter and Transitional housing programs.</p>
 	       			 				       			 				 
@@ -91,9 +91,9 @@
 	       				       				
 	       		<p>What is Opportunity Knocks? Opportunity Knocks is the one business advisory organization that provides small business owners in Central Oregon with the tools to think strategically, solve problems and achieve goals. Member businesses have their own advisory team of experienced small business owners and managers that bring real-life experiences to their situation.</p>
 	       			 		       			 					
-	       		<p>Members are divided into teams of twelve that meet monthly for three hours to discuss critical business issues. Each team member provides an update on their business including how they implemented action steps provided from the previous meeting. Through these peer-to-peer advisory teams, trusted and lasting relationships are formed that provide each member encouragement, inspiration and direction for their business. Opportunity Knocks also provides learning opportunities including education seminars.</p>
+	       		<p>Members are divided into teams of twelve that meet monthly for three hours to discuss critical business issues. Each team member provides an update on their business, including how they implemented action steps provided from the previous meeting. Through these peer-to-peer advisory teams, trusted and lasting relationships are formed that provide each member encouragement, inspiration and direction for their business. Opportunity Knocks also provides learning opportunities including education seminars.</p>
 	       			 		       			 					
-	       		<h3>How we will use a Local’s Know Best community grant</h3>
+	       		<h3>How we will use a Locals Know Best community grant</h3>
 	       			 		       			 					
 	       		<p>We intend to expand our membership base and create at least three new peer-to-peer teams (including a non-profit and food services focused team) this year. These funds will also allow us to create three annual membership scholarships that can be awarded to deserving small business owners who cannot afford the yearly dues.</p>	       					 
 	       			 		       			 				 
@@ -139,15 +139,15 @@
 						<img src="facebook/charities/kalamth/iys/iys-lrg.png" alt="" />		       				
 	       			 	
 	       			 	<p>
-	       			 	Integral Youth Services (IYS) is a private, faith-based, non-profit 501(c)(3) social service agency providing services to homeless, at-risk and runaway youth in Klamath County since 1988. IYS provides life-changing services to more than 2183 Klamath County youth annually. </p>
+	       			 	Integral Youth Services (IYS) is a private, faith-based, non-profit 501(c)(3) social service agency providing services to homeless, at-risk and runaway youth in Klamath County since 1988. IYS provides life-changing services to more than 2,100 Klamath County youth annually. </p>
 	       			 	 
-	       			 	 <p>Our mission is “To offer HOPE to youth, providing for their needs and mentoring toward positive choices and healthy relationships”.  We believe in serving youth with compassion and encouragement.  We believe in providing opportunities, structure and accountability, which leads to a sense of responsibility.  Our philosophies enable us to nurture the youth we serve, releasing their full potential.</p>
+	       			 	 <p>Our mission is “To offer HOPE to youth, providing for their needs and mentoring toward positive choices and healthy relationships.”  We believe in serving youth with compassion and encouragement.  We believe in providing opportunities, structure and accountability, which leads to a sense of responsibility.  Our philosophies enable us to nurture the youth we serve, releasing their full potential.</p>
 	       			 	
 	       			 	 <p>IYS programs focus on intervention, emergency shelter, youth housing, advocacy, education, life skills and employment training.  </p>
 	       			 	
-	       			 	 <p>At our emergency shelter Exodus House, youth in crisis, with nowhere to go find safe shelter and support. Youth in transition, without stable housing find refuge and safe housing through our Transitional Living Program (TLP).  Current/former foster care youth learn to live independently through the Independent Living Program (ILP).  Youth living in poverty and/or dealing with homelessness are ensured equal access to education through the Homeless Education Liaison Program (HELP). Youth struggling socially or academically in school find the one-on-one support they need in our Accredited Alternative School.  At the IYS Youth Center kids get a healthy meal and a safe place to be after school.  IYS’ Free Summer Lunch Program provides nutritious lunches to hungry kids each summer.</p>
+	       			 	 <p>At our emergency shelter Exodus House, youth in crisis with nowhere to go find safe shelter and support. Youth in transition, without stable housing find refuge and safe housing through our Transitional Living Program (TLP).  Current/former foster care youth learn to live independently through the Independent Living Program (ILP).  Youth living in poverty and/or dealing with homelessness are ensured equal access to education through the Homeless Education Liaison Program (HELP). Youth struggling socially or academically in school find the one-on-one support they need in our Accredited Alternative School.  At the IYS Youth Center kids get a healthy meal and a safe place to be after school.  IYS’ Free Summer Lunch Program provides nutritious lunches to hungry kids each summer.</p>
 	       			 	
-	       			 	<h3 style="padding-bottom: 15px;">How we will use a Local’s Know Best community grant from Washington Federal</h3>
+	       			 	<h3 style="padding-bottom: 15px;">How we will use a Locals Know Best community grant from Washington Federal</h3>
 	       			 	
 	       			 	 <p>The funds raised by community votes during the Locals Know Best fundraising event in May, will be used solely to support Integral Youth Services (IYS) programs and services, specifically our Youth Center.  Located in the Mills Addition in Klamath Falls, the Youth Center is situated diagonally across from Mills Elementary School.  Providing a safe, supervised place to be after school, an average of 60-70 youth comes through its doors each day.</p>
 	       			 	
@@ -194,7 +194,7 @@
 	    			 
 	    			 <p>Junior Achievement of Klamath County, a District of Junior Achievement of Oregon and SW Washington, has been a positive influence in this community since 1998. In the 2012-13 school year, we will serve approximately 2,000 K-12 students in 70 classrooms throughout Klamath County. An estimated 50 volunteers from business and industry will give an average of 10 hours each in an effort to reach these students.</p>
 	    			 
-	    			 <h3>How we will use a Local’s Know Best community grant from Washington Federal</h3>
+	    			 <h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 	    			 
 	    			 <p>Funds raised through the Washington Federal “Locals Know Best” program will help to purchase JA program curriculum kits that are used by volunteer teachers. All JA in-class programs are packaged in a kit that contains the tools and materials needed by a volunteer to teach a JA class. $100 covers the cost to purchase one kit. To reach the $5000 goal will equate to kits for 50 classes! You are helping students develop the competence, confidence and character needed to compete in today’s global economy.</p>  
 	    			 
@@ -241,9 +241,9 @@
 	    							
 	    							<p>Over the past 43 years, the Boys & Girls Clubs of the Rogue Valley have served thousands of youth in our community.  Boys and girls between the ages of 6 and 18 come to the Club every day after school and in the summer, to play, see their friends and participate in our important programs.   The Clubs offer a safe place, with positive role models and positive programs.  But there’s more to it than that.  The Club is where the kids come to connect and be who they can be. They learn what it is to BE Great!</p>
 	    							
-	    							<p>We offer core programming in five areas including; The Arts, Sports Fitness & Recreation, Character & Leadership, Education & Career Development and Health & Life Skills.   We collaborate with other youth development agencies in the area, providing the best resources and referrals for our at-risk kids and their families. We also work with the USDA to feed our members a supper every day.  In 2012 we served over 94,000 meals and 19,000 snacks, making us one of the largest food providers in the State outside of the school districts. For many of our kids this is the last meal of the day.   We keep our membership fees low at $40 for the school year, while our program costs are well over $1,200 a year per child.  We even offer scholarships for families in need, because we never turn a child away due to the inability to pay.</p>
+	    							<p>We offer core programming in five areas including: The Arts, Sports Fitness & Recreation, Character & Leadership, Education & Career Development and Health & Life Skills.   We collaborate with other youth development agencies in the area, providing the best resources and referrals for our at-risk kids and their families. We also work with the USDA to feed our members a supper every day.  In 2012 we served over 94,000 meals and 19,000 snacks, making us one of the largest food providers in the State outside of the school districts. For many of our kids this is the last meal of the day.   We keep our membership fees low at $40 for the school year, while our program costs are well over $1,200 a year per child.  We even offer scholarships for families in need, because we never turn a child away due to the inability to pay.</p>
 	    							  
-	    							<h3>How we will use a Local’s Know Best community grant from Washington Federal</h3>
+	    							<h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 	    							
 	    							<p>The support from Washington Federal will help to offset the costs of our programs and provide scholarships for the kids that need us most.  We appreciate the opportunity to work together and create a better future for our kids and our community.  We exist through the generosity of community partners such as Washington Federal. Thank you.</p>
 	    							</p>
@@ -290,7 +290,7 @@
 	    	    			
 	    	    			<p>Goodwill’s ultimate goals are to reduce the incidence of child abuse/neglect; provide parents with job and life skills to move them toward financial stability; and decrease the probability of generational poverty for children in our region. Goodwill case managers work with families through home visits, classes, and coordinate family services with community partners.</p>
 	    	    			
-	    	    			<h3>How we will use a Local’s Know Best community grant from Washington Federal</h3>
+	    	    			<h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 	    	    			
 	    	    			<p>Washington Federal Bank’s gift will fund parenting class materials, as well as support medical and mental health services, family counseling, emergency services, and child care while parents are participating in the program’s mandatory “three steps.”</p>
 	    	    			</p>

@@ -944,7 +944,7 @@ div.hover-click span {
 
 
 a.vote-btn {
-	margin: 7px 0px 0px -1px;
+	margin: 7px 0px 0px -1px;  /* NOTE: THIS TOP VALUE MATCHES div.charities-wrap > div.facebook-like-wrap */
 }
 
 span.moneyRaised {
@@ -1151,6 +1151,11 @@ div.facebook-like-wrap {
 	font-size: 1.3em;
 	color:#000;
 	margin-bottom: 15px;
+}
+
+div.charities-wrap > div.facebook-like-wrap {
+    width: auto;
+    margin-top: 7px; /* NOTE: THIS MATCHES a.vote-btn */
 }
 
 

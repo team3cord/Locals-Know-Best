@@ -2,53 +2,47 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
 
 using System.Web.Configuration;
 using System.Data.SqlClient;
+//using System.Net.Mail;
+//using System.Text;
 using System.Data;
+
+using summit;
 
 
 /// <summary>
-/// Summary description for CharityResult
+/// Summary description for CharityCommon
 /// </summary>
-public class CharityResult
+public class CharityCommon: System.Web.UI.Page
 {
-	public CharityResult()
+    protected const string cookieString = "smiles";
+
+	public CharityCommon()
 	{
 		//
 		// TODO: Add constructor logic here
 		//
 	}
-    private DataSet results;
 
-    public DataSet GetResults()
+
+    public string GetMoney(Charity charity_id)
     {
-        if (results == null)
-        {
-            string connectionString = WebConfigurationManager.ConnectionStrings["wfed_dlbConnectionString"].ConnectionString;
-            SqlConnection conn = new SqlConnection(connectionString);
-            SqlDataAdapter dap = new SqlDataAdapter("SELECT charity_id, name, money FROM CharityMoney", conn);
-            results = new DataSet();
-            try
-            {
-                conn.Open();
-                dap.Fill(results);
-            }
-            catch
-            {
-            }
-            finally
-            {
-                conn.Close();
-            }
-        }
-        
-        return results;
+        return SharedData.Instance.GetMoney(charity_id);
     }
 
-
-    public void AddVote(int CharityId)
+    protected bool HasNotVoted()
     {
+        return (Request.Cookies[cookieString] == null);
+    }
+
+    protected bool SaveVote(Charity charity_id)
+    {
+        bool success = false;
         string connectionString = WebConfigurationManager.ConnectionStrings["wfed_dlbConnectionString"].ConnectionString;
         SqlConnection conn = new SqlConnection(connectionString);
         SqlCommand cmd = new SqlCommand("INSERT INTO dlb_vote (charity_id, ip_address, facebook_id, updated)" +
@@ -58,15 +52,20 @@ public class CharityResult
         cmd.Parameters.Add("@facebook_id", System.Data.SqlDbType.BigInt);
         cmd.Parameters.Add("@updated", System.Data.SqlDbType.DateTime);
 
-        cmd.Parameters["@charity_id"].Value = CharityId;
-        cmd.Parameters["@ip_address"].Value = "";
-        cmd.Parameters["@facebook_id"].Value = null;
+        cmd.Parameters["@charity_id"].Value = charity_id;
+        cmd.Parameters["@ip_address"].Value = Request.UserHostAddress;
+        cmd.Parameters["@facebook_id"].Value = 0;
         cmd.Parameters["@updated"].Value = DateTime.Now;
 
         try
         {
             conn.Open();
             cmd.ExecuteNonQuery();
+            HttpCookie cookie = new HttpCookie(cookieString);
+            cookie.Expires = DateTime.Now.AddHours(24);
+            cookie.Value = cookie.Expires.ToString();
+            Response.SetCookie(cookie);
+            success = true;
         }
         catch
         {
@@ -75,6 +74,7 @@ public class CharityResult
         {
             conn.Close();
         }
+        return success;
     }
 
 }

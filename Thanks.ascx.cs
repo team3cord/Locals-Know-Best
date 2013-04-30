@@ -54,23 +54,19 @@ public partial class Thanks : System.Web.UI.UserControl
 
     public string GetCharityUrl()
     {
-        switch ((int)_charity)
-        {
-            case 1: return "https://www.facebook.com/WashingtonFederal.InvestedHere";
-            default: return "https://www.facebook.com/WashingtonFederal.InvestedHere";
-        }
+        return SharedData.Instance.GetCharityUrl(_charity);
     }
 
     public string GetCharityImage()
     {
         switch ((int)_charity)
         {
-            case 1: return "img/charities/central/neighbor-impact/neighbor-impact-thumb.jpg";
-            case 2: return "img/charities/central/opp-knocks/opp-knocks-thumb.jpg";
-            case 3: return "img/charities/kalamth/iys/iys-thumb.jpg";
-            case 4: return "img/charities/kalamth/jr-achievement/jr-achievement-thumb.jpg";
-            case 5: return "img/charities/medford/bngc/bngc-thumb.jpg";
-            case 6: return "img/charities/medford/goodwill/goodwill-thumb.jpg";
+            case (int)Charity.Neighbor: return "img/charities/central/neighbor-impact/neighbor-impact-thumb.jpg";
+            case (int)Charity.Opportunity: return "img/charities/central/opp-knocks/opp-knocks-thumb.jpg";
+            case (int)Charity.IYS: return "img/charities/kalamth/iys/iys-thumb.jpg";
+            case (int)Charity.JA: return "img/charities/kalamth/jr-achievement/jr-achievement-thumb.jpg";
+            case (int)Charity.BGC: return "img/charities/medford/bngc/bngc-thumb.jpg";
+            case (int)Charity.Goodwill: return "img/charities/medford/goodwill/goodwill-thumb.jpg";
             default: return "img/charities/kalamth/iys/iys-thumb.jpg";
         }
     }

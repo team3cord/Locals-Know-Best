@@ -258,7 +258,7 @@
 	       					       					<h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 	       					       					
 	       					       					<p>The support from Washington Federal will help to offset the costs of our programs and provide scholarships for the kids that need us most.  We appreciate the opportunity to work together and create a better future for our kids and our community.  We exist through the generosity of community partners such as Washington Federal. Thank you.</p>
-	       					       					</p>
+	       					       					
 
                         </div>
                     </div>

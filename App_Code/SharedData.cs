@@ -90,7 +90,7 @@ public class SharedData
         if (CharityMoneyTotals != null && CharityMoneyTotals.ContainsKey(id) && CharityMoneyTotals[id] != null)
         {
             if (CharityCountTotals[id] > MaxVotesPerCharity)
-                return "$5000";
+                return "5000";
             return CharityMoneyTotals[id];
         }
         else

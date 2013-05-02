@@ -5,6 +5,7 @@
     <InsertItemTemplate>
         <h2>Enter to Win!</h2>
         	<div class="pop-up-content">
+                <asp:label id="LabelErrors" runat="server" CssClass="error-text" style="float: left;"><%# ErrorMessage %></asp:label>
         <br />
         
         <div style="display: block; float:left;">
@@ -98,8 +99,8 @@
 
                         <br />
             <em>Do you bank with Washington Federal?</em>
-
-                       <span  class="radio-label"><asp:RadioButton ID="RadioButton1" runat="server" Checked='<%# Bind("banks_with") %>' /> Yes</span><span  class="radio-label"><asp:RadioButton ID="RadioButton2" runat="server" OnCheckedChanged="RadioButton2_CheckedChanged" /> No</span>
+                       <span  class="radio-label">
+                           <asp:RadioButton ID="RadioButton1" runat="server" Checked='<%# Bind("banks_with") %>' GroupName="BankWith" /> Yes</span><span  class="radio-label"><asp:RadioButton ID="RadioButton2" runat="server" GroupName="BankWith" /> No</span>
                        
                         
         </div>

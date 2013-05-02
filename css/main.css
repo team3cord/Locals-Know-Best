@@ -536,7 +536,7 @@ footer.main-footer {
 	border-top: 1px dashed #afafaf;
 	margin-top: 10px;
 	background-image: url('../img/dots.jpg');
-	background-repeat:;
+	background-repeat: no-repeat;
 	background-position:left top ;
 }
 
@@ -588,7 +588,7 @@ ul.footer-socail li.lrg-icons a{
 	width: 42px;
 	height: 43px;
 	background-image: url('../img/sprite.png');
-	overflow: 0px;
+	overflow: hidden;
 	text-indent: -9999px;
 }
 

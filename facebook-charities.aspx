@@ -21,7 +21,7 @@
 	       		
 	       		<div class="white-content">
 	       			 
-	       			 <h3 class="vote-headline">Vote for these Charities through June 31st</h3>
+	       			 <h3 class="vote-headline">Vote for these Charities through June 30th</h3>
 
 
 		<!-- First c. -->

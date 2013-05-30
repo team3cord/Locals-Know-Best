@@ -10,7 +10,7 @@
 	       	<p>Our merger with Washington Federal will bring over $250 million in community development funding during the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone.  We are also offering new grants to select Oregon charities of up to $5,000, and we would like you to tell us who you think deserves our support.  Click on the vote button below for the charity of your choice, and we’ll make a $5 donation or grant to that organization.  Be sure to let your friends know how they can benefit their favorite charitable organization by voting too.</p>
         <section class="section-border" style="border-bottom: none;">
 
-            <h2 class="dashed-heading"><span>Vote for these Charities through May 31st</span></h2>
+            <h2 class="dashed-heading"><span>Vote for these Charities through June 30th</span></h2>
 	
 				
 				<p>Make sure to vote for your favorite from this month’s charities and remind your friends to vote for their favorite too.</p>
@@ -284,12 +284,12 @@
 	       		
         <!--------------------                                    RETIRED CHARITIES         ------------------------------------>
 
-           <div class="white-content"style="width: 700px;">
+           <div class="white-content"style="width: 650px;">
 	       			 
-	       			 <h3 class="vote-headline" style="color: #49b557;padding-bottom: 5px;text-align: left;">Over $30,000 raised so far. Keep it going Oregon!</h3>
-                   
-                     <h6 style="text-align: left;color: #7b8974;font-size: 1.4em;font-weight: 500;margin-bottom: 10px;">Check out the power of local Know how and Washington Federal.</h6>
-                   
+	       			 <h2 class="dashed-heading"><span style="width: 23%;">Success Stories</span></h2>
+	
+				
+				<p style="text-align: center;">Over the past months we've donated $30,000 to the charities below.</p>
 
 
 

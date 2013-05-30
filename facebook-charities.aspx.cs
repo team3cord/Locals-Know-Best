@@ -77,5 +77,6 @@ public partial class facebook_charities : CharityCommon
             main.Controls.Remove(mainForm);
         }
     }
+       
 
 }

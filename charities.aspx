@@ -14,6 +14,283 @@
 	
 				
 				<p>Make sure to vote for your favorite from this month’s charities and remind your friends to vote for their favorite too.</p>
+                <div class="white-content"style="width: 700px;">
+		<!-- First c. -->
+		<div class="charities-tout">
+
+			<h4>Central Oregon</h4>
+	       			 		
+			<div class="charities-wrapper no-top-padding">
+	       			 		
+				<a href="#top-left" class="fancybox see-more" >
+					<img src="facebook/charities/june/thbgclub.png" alt="" />	
+					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	       		</a>
+
+
+                    <summit:VoteButton Charity="Charity1" ID="VoteButton1" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton1.Charity) %></em> + raised</span>
+	       			 		
+
+				<!-- Pop up content -->
+				<div id="top-left" class="pop-up" style="display:none;width:600px;"> 
+
+					<h2>Boys & Girls Clubs</h2>
+	       			 			
+						<div class="pop-up-content">
+						
+						<img src="facebook/charities/june/bgclub.png" alt="" />		       				
+	       			 	
+	       			 	<p>For 19 years, Boys & Girls Clubs of Central Oregon has been opening doors to great futures for local youth. Four Clubs in the communities of Bend, Redmond and Terrebonne serve over 1,500 children annually aged 5-18. Programs strategically focus on Academic Success, Healthy Lifestyles, and Character & Citizenship, and which further the mission of the Clubs to enable all young people, especially those who need us most, to reach their full potential as productive, caring, responsible citizens. </p>
+	       			 					 
+	       			 	<p>Boys & Girls Clubs' vision is to create great futures for children in Deschutes County, where success is within reach of every young person who enters our doors, on track to graduate high school with a plan for the future, demonstrating good character and citizenship, and living a healthy lifestyle.</p>		 
+	       			 	
+                        <p>Boys & Girls Clubs of Central Oregon has always been a local organization, serving local kids, focusing on local issues. Three out of ten kids don’t graduate on time; one out of five live in poverty; and four out of ten are overweight. Funded by local dollars, a dedicated team of paid, professional staff allows Boys & Girls Clubs to allocate 89% of resources directly towards programming.</p>
+                           
+                        <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	       			 					 
+	       			 	<p>Funding from Washington Federal will allow Boys & Girls Clubs of Central Oregon to direct resources towards preventing summer learning loss. With the tools available to keep children engaged all summer long, they will return to school in the fall leaps and bounds ahead of their classmates on an accelerated path to success.</p>	       			 				 
+	       		
+	       		</div>
+	       </div>
+	    <!-- END Pop Up -->	 
+	 </div>
+	<!-- END Truck Farm -->
+	       			 	
+	       			 	
+	  
+	       			 
+	<div class="charities-wrapper">
+	       			 	
+		<a href="#bottom-left" class="fancybox see-more" >
+		    <img src="facebook/charities/june/thfriends.png" alt="" />  
+		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	    </a>
+	       			 		
+
+                    <summit:VoteButton Charity="Charity2" ID="VoteButton2" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton2.Charity) %></em> + raised</span>
+	       			 		       			 		      	
+	       			 		       			 		
+		<!-- Pop up content -->
+	    <div id="bottom-left" class="pop-up" style="display:none;width:600px;">
+	    	
+	    	<h2>Friends of the Children</h2>
+	       			 		       			 			
+	       	<div class="pop-up-content">
+	       	
+	       		<img src="facebook/charities/june/friends.png" alt="" />
+	       				       				
+	       		<p>Friends of the Children was founded in 1993 in Portland, Oregon by entrepreneur Duncan Campbell. Despite a hardscrabble childhood, Campbell achieved success and promised that one day, if he had the resources to do so, he would help other children triumph over adversity. </p>
+                   
+                <p>Campbell searched for the most compelling evidence on how to help vulnerable children move forward. He collected best practices from around the country and wove these findings into the bedrock of the Friends of the Children program: start early, train and pay the mentors, stay for the long haul. Research has proven that the single most important factor that fosters resiliency in children is a caring and consistent relationship with an adult. The earlier this bond is formed, the stronger it will be and the greater impact it will have on the child’s future. Friends of the Children selects the children when they begin school, and once selected, we commit to the children through high school graduation, no matter what. With someone to look up to, count on, talk to, help them with school work, comfort them, and align them with goals for the future, with someone who will be there for the long haul, these children will thrive.</p> 
+                     	 		       			 					
+	       		<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	       			 		       			 					
+	       		<p>Our community gift will be used in a variety of ways, including maintenance and improvements to the Friends clubhouse on Altamont Drive, enrichment activities for the children (travel to the gym, library, museum, pool or waterslides), PSAT and SAT fees, scholarship application fees, and graduation materials. </p>	       					 
+	       			 		       			 				 
+	       			 		       			 				       			 		       			 				 
+	       	</div>
+	    </div>
+	    <!-- END Pop Up -->	 
+	</div>
+	<!-- END Truck Farm -->
+	       			 	
+</div>
+<!-- END First C. -->
+                       
+
+
+
+
+
+		<!-- Second C. -->
+		<div class="charities-tout">
+
+			<h4>Klamath Basin</h4>
+	       			 		
+			<div class="charities-wrapper no-top-padding">
+	       			 		
+				<a href="#middle-top" class="fancybox see-more" >
+					<img src="facebook/charities/june/thlakecounty.png" alt="" />	
+					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	       		</a>
+
+
+                    <summit:VoteButton Charity="Charity3" ID="VoteButton3" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton3.Charity) %></em> + raised</span>
+	       			 		
+
+				<!-- Pop up content -->
+				<div id="middle-top" class="pop-up" style="display:none;width:600px;">
+
+					<h2>Klamath & Lake Community Action Services</h2>
+	       			 			
+						<div class="pop-up-content">
+						
+						<img src="facebook/charities/june/lakecounty.png" alt="" />		       				
+	       			 	
+	       			 	<p>Klamath & Lake Community Action Services (KLCAS) is a public 501(c)(3) nonprofit that seeks and distributes State and Federal funding. Funding supports both KLCAS programs and local social service providers throughout Klamath and Lake Counties. KLCAS programs provide economic stability through home energy assistance, emergency shelters, foreclosure counseling, family budgeting, and many other programs. For additional information, please visit www.klcas.org.</p>
+
+                        <p>During the summer, we hold our annual Project Family Connect event where we bring key community partners to one location. This free event educates and connects individuals and families with services and resources that promote economic stability while also providing a free lunch. Last year we served 633 guests, the highest number we have seen in our five-year history. 306 of those guests were children and received school supplies. Of the 327 adults, 43 reported having no income.  </p>
+
+
+	       			 	<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	       			 	
+	       			 	<p>This is our sixth annual Project Family Connect which will be held in August. Funds will be used to help make transformations happen for our neighbors in need. People with medical problems receive no-cost medical exams while those with vision problems receive free reading glasses. People experiencing mouth pain receive free dental care. Funds will also help provide access to a variety of immediate services including school supplies, dental care, food, haircuts, and much more.</p>
+	       		</div>
+	       </div>
+	    <!-- END Pop Up -->	 
+	 </div>
+	<!-- END Truck Farm -->
+	       			 	
+	       			 	
+	  
+	       			 
+	<div class="charities-wrapper">
+	       			 	
+		<a href="#middle-bottom" class="fancybox see-more" >
+			<img src="facebook/charities/june/thmtstar.png" alt="" />
+		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	    </a>
+	       			 		
+
+                    <summit:VoteButton Charity="Charity4" ID="VoteButton4" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton4.Charity) %></em> + raised</span>
+	       			 		       			 		      	
+	       			 		       			 		
+		<!-- Pop up content -->
+	    <div id="middle-bottom" class="pop-up" style="display:none;width:600px;"> 
+	    	
+	    	<h2>MountainStar</h2>
+	    	
+	    	<div class="pop-up-content">
+	    	
+	    			<img src="facebook/charities/june/mtstar.png" alt="" />		       				
+	    			 
+	    			<p>At MountainStar, we keep more than 300 infants and toddlers safe from abuse and neglect each year, while we help their families to address multiple big challenges such as poverty, homelessness, unemployment, family violence, substance abuse, mental illness, and incarceration—to name just a few.  </p>
+
+                    <p>The reality is that currently in Oregon 48% of child abuse victims, and 60% of children who died from abuse and neglect, were 5 years old or younger. The first three years of life are also when 90% of brain development occurs, and the basic patterns that enable us to succeed in life are established. </p>
+
+                    <p>That’s where MountainStar comes in. Families receive crisis intervention, respite care, home visits with parent coaching and education, on-site counseling, support in accessing community resources and referrals, and access to diapers, food and used baby clothing and equipment. Where the risk of abuse and neglect is highest, we also transport 42 infants and toddlers to our intensive Therapeutic Classrooms twice a week where staff are able to monitor and support their health and development. </p>
+
+                    <p>The tough part is, we have a waiting list of 50 children who need to get into our intensive Therapeutic Classrooms—and those are just the children we know about.  We need funding to continue to expand our services. That’s where you come in!</p>
+
+	    			 <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	    			 
+	    			 <p>The tough part is, we have a waiting list of 50 children who need to get into our intensive Therapeutic Classrooms—and those are just the children we know about.  We need funding to continue to expand our services. That’s where you come in!</p>
+	    		 
+	    		 
+	    		 
+	    	</div>
+	    		    </div>
+	    <!-- END Pop Up -->	 
+	</div>
+	<!-- END Truck Farm -->
+	       			 	
+</div>
+<!-- END Second C. -->
+	       			 	
+	       			 	
+	       			 	
+	       			 	
+	    		<!-- Third C. -->
+	    		<div class="charities-tout no-margin-right">
+	    
+	    			<h4>Medford / Grants Pass</h4>
+	    	       			 		
+	    			<div class="charities-wrapper no-top-padding">
+	    	       			 		
+	    				<a href="#top-right" class="fancybox see-more" >
+	    					<img src="facebook/charities/june/thcommhealth.png" alt="" />
+	    					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	    	       		</a>
+	    
+
+                    <summit:VoteButton Charity="Charity5" ID="VoteButton5" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton5.Charity) %></em> + raised</span>
+	    	       			 		
+	    
+	    				<!-- Pop up content -->
+	    				<div id="top-right" class="pop-up" style="display:none;width:600px;">
+	    
+	    					<h2>Community Health Center</h2>
+	    					
+	    					<div class="pop-up-content">
+	    					
+	    							<img src="facebook/charities/june/commhealth.png" alt="" />		       				
+	    							
+	    							<p>Community Health Center was founded in 1972 as the result of a grass-roots effort, and exists today as an Oregon not-for-profit corporation that enjoys tax-exempt status and – since December 2004 – recognition as a federally-qualified health center. All Community Health Center clinic sites (Ashland, Medford, White City, and Butte Falls) and School-Based Health Center sites (Butte Falls Charter School, Ashland and Eagle Point High Schools) are recognized by the Oregon Health Authority as Tier 3 Patient-Centered Primary Care Homes (the highest recognition available). The Mission of Community Health Center has remained unchanged for over forty years, and that is to promote the health of low-income, working uninsured and other vulnerable children and adults in Jackson County, Oregon. The agency fulfills this mission by offering core services that consist of primary, preventative, and perinatal health services, and by offering such complementary services as integrated behavioral health and prescription medication assistance. Services are made accessible and affordable for uninsured individuals and families through a generous sliding-fee schedule, with no uninsured person turned away due to inability to pay at the time of a scheduled visit. In addition, Community Health Center accepts Medicare, Medicaid, and third-party insurances. </p>
+
+                                         
+	    							<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	    							
+	    							<p>Funds raised through the Washington Federal “Locals Know Best” program will be used to assure access to health services for students utilizing school-based health centers (SBHC) operated by Community Health Center. SBHCs are located on school grounds, an ideal location to provide primary, preventive and mental health services to students.  SBHCs save parental time off work, reduce absenteeism, promote healthy lifestyle choices, help keep students healthy and in school which directly contributes to their future success. Health + Education = Success!</p>
+
+	    						 
+	    					</div>
+	    					
+	    	       </div>
+	    	    <!-- END Pop Up -->	 
+	    	 </div>
+	    	<!-- END Truck Farm -->
+	    	       			 	
+	    	       			 	
+	    	  
+	    	       			 
+	    	<div class="charities-wrapper">
+	    	       			 	
+	    		<a href="#bottom-right" class="fancybox see-more" >
+	    			<img src="facebook/charities/june/thcac.png" alt="" />
+	    		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	    	    </a>
+	    	       			 		
+
+                    <summit:VoteButton Charity="Charity6" ID="VoteButton6" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton6.Charity) %></em> + raised</span>
+
+	    	       			 		       			 		
+	    		<!-- Pop up content -->
+	    	    <div id="bottom-right" class="pop-up" style="display:none;width:600px;">
+	    	    	
+	    	    	<h2>Children's Advocacy Center of Jackson County</h2>
+	    	    	
+	    	    	<div class="pop-up-content">
+	    	    	
+	    	    	
+	    	    	
+	    	    			<img src="facebook/charities/june/cac.png" alt="" />		       				
+	    	    			
+	    	    			
+	    	    			<p>The mission of the Children's Advocacy Center of Jackson County is to meet the needs of children and families by providing a community-based center that facilitates a compassionate, multidisciplinary approach to the prevention, treatment, identification, investigation, and prosecution of child abuse.   </p>
+
+                            <p>We provide core and supportive services to victims of child abuse, including forensic disclosure interviews, medical assessments and treatment, therapy services, and mentoring programs. We also provide support groups for non-offending family members and training to professionals and the larger community on the prevention, intervention, and treatment of child abuse.  </p>
+
+	    	    			<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	    	    			
+	    	    			<p>Funds will be used for therapy groups and services to children and teens as they heal from abuse. Our staff served 1,070 youth in 2012, with numbers growing each year.  Support from the community is essential for us to continue to provide services to those who need us. All services are focused on doing our part to meet our vision: communities where children are safe, families are strong, and our child victims become children again.</p>
+	    	    				       				       					 
+	    	    	</div>
+	    	    </div>
+	    	    <!-- END Pop Up -->	 
+	    	</div>
+	    	<!-- END Truck Farm -->
+	    	       			 	
+	    </div>
+	    <!-- END Third C. -->   			 	
+	          			 	
+	     </div>
+	       			       		
+	       		
+        <!--------------------                                    RETIRED CHARITIES         ------------------------------------>
+
+           <div class="white-content"style="width: 700px;">
+	       			 
+	       			 <h3 class="vote-headline" style="color: #49b557;padding-bottom: 5px;text-align: left;">Over $30,000 raised so far. Keep it going Oregon!</h3>
+                   
+                     <h6 style="text-align: left;color: #7b8974;font-size: 1.4em;font-weight: 500;margin-bottom: 10px;">Check out the power of local Know how and Washington Federal.</h6>
+                   
+
 
 
 
@@ -33,8 +310,11 @@
                     </a>
 
 
-                    <summit:VoteButton Charity="Neighbor" ID="VoteButton1" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton1.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
 
                     <!-- Pop up content -->
@@ -75,8 +355,11 @@
                     </a>
 
 
-                    <summit:VoteButton Charity="Opportunity" ID="VoteButton2" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton2.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
                     <!-- Pop up content -->
                     <div id="opp-knocks" class="pop-up" style="display: none; width: 681px;">
@@ -131,8 +414,11 @@
                     </a>
 
 
-                    <summit:VoteButton Charity="IYS" ID="VoteButton3" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton3.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
 
                     <!-- Pop up content -->
@@ -185,8 +471,11 @@
                     </a>
 
 
-                    <summit:VoteButton Charity="JA" ID="VoteButton4" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton4.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
                     <!-- Pop up content -->
                     <div id="jr-achievement" class="pop-up" style="display: none; width: 681px;">
@@ -235,8 +524,11 @@
                     </a>
 
 
-                    <summit:VoteButton Charity="BGC" ID="VoteButton5" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton5.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
 
 
@@ -279,8 +571,11 @@
                     </a>
 
 
-                    <summit:VoteButton Charity="Goodwill" ID="VoteButton6" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton6.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
 
                     <!-- Pop up content -->
@@ -313,7 +608,9 @@
 
             </div>
             <!-- END Third Column -->
-
+</div>
+	       		
+	        
 
         </section>
 

@@ -62,12 +62,12 @@ public partial class FacebookThanks : System.Web.UI.UserControl
     {
         switch ((int)_charity)
         {
-            case (int)Charity.Neighbor: return "img/charities/central/neighbor-impact/neighbor-impact-thumb.jpg";
-            case (int)Charity.Opportunity: return "img/charities/central/opp-knocks/opp-knocks-thumb.jpg";
-            case (int)Charity.IYS: return "img/charities/kalamth/iys/iys-thumb.jpg";
-            case (int)Charity.JA: return "img/charities/kalamth/jr-achievement/jr-achievement-thumb.jpg";
-            case (int)Charity.BGC: return "img/charities/medford/bngc/bngc-thumb.jpg";
-            case (int)Charity.Goodwill: return "img/charities/medford/goodwill/goodwill-thumb.jpg";
+            case (int)Charity.Charity1: return "facebook/charities/june/bgclubsm.png";
+            case (int)Charity.Charity2: return "facebook/charities/june/friendssm.png";
+            case (int)Charity.Charity3: return "facebook/charities/june/lakecountysm.png";
+            case (int)Charity.Charity4: return "facebook/charities/june/mtstarsm.png";
+            case (int)Charity.Charity5: return "facebook/charities/june/commhealthsm.png";
+            case (int)Charity.Charity6: return "facebook/charities/june/cacsm.png";
             default: return "img/charities/kalamth/iys/iys-thumb.jpg";
         }
     }

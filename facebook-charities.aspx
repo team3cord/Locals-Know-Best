@@ -72,36 +72,41 @@
 	<div class="charities-wrapper">
 	       			 	
 		<a href="#bottom-left" class="fancybox see-more" >
-		    <img src="facebook/charities/june/friendssm.png" alt="" />  			 			
+		   <img src="facebook/charities/june/mtstarsm.png" alt="" />			 			
 		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    </a>
 	       			 		
 
-                    <summit:VoteButton Charity="Charity2" ID="VoteButton2" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>Charity2"
+                    <summit:VoteButton Charity="Charity2" ID="VoteButton2" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
                     <span class="moneyRaised">$<em><%= GetMoney(VoteButton2.Charity) %></em> + raised</span>
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="bottom-left" class="pop-up" style="display:none;width:600px;">
+	    <div id="middle-bottom" class="pop-up" style="display:none;width:600px;"> 
 	    	
-	    	<h2>Friends of the Children</h2>
-	       			 		       			 			
-	       	<div class="pop-up-content">
-	       	
-	       		<img src="facebook/charities/june/friends.png" alt="" />
-	       				       				
-	       		<p>Friends of the Children was founded in 1993 in Portland, Oregon by entrepreneur Duncan Campbell. Despite a hardscrabble childhood, Campbell achieved success and promised that one day, if he had the resources to do so, he would help other children triumph over adversity. </p>
-                   
-                <p>Campbell searched for the most compelling evidence on how to help vulnerable children move forward. He collected best practices from around the country and wove these findings into the bedrock of the Friends of the Children program: start early, train and pay the mentors, stay for the long haul. Research has proven that the single most important factor that fosters resiliency in children is a caring and consistent relationship with an adult. The earlier this bond is formed, the stronger it will be and the greater impact it will have on the child’s future. Friends of the Children selects the children when they begin school, and once selected, we commit to the children through high school graduation, no matter what. With someone to look up to, count on, talk to, help them with school work, comfort them, and align them with goals for the future, with someone who will be there for the long haul, these children will thrive.</p> 
-                     	 		       			 					
-	       		<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
-	       			 		       			 					
-	       		<p>Our community gift will be used in a variety of ways, including maintenance and improvements to the Friends clubhouse on Altamont Drive, enrichment activities for the children (travel to the gym, library, museum, pool or waterslides), PSAT and SAT fees, scholarship application fees, and graduation materials. </p>	       					 
-	       			 		       			 				 
-	       			 		       			 				       			 		       			 				 
-	       	</div>
-	    </div>
-	    <!-- END Pop Up -->	 
+	    	<h2>MountainStar</h2>
+	    	
+	    	<div class="pop-up-content">
+	    	
+	    			<img src="facebook/charities/june/mtstar.png" alt="" />		       				
+	    			 
+	    			<p>At MountainStar, we keep more than 300 infants and toddlers safe from abuse and neglect each year, while we help their families to address multiple big challenges such as poverty, homelessness, unemployment, family violence, substance abuse, mental illness, and incarceration—to name just a few.  </p>
+
+                    <p>The reality is that currently in Oregon 48% of child abuse victims, and 60% of children who died from abuse and neglect, were 5 years old or younger. The first three years of life are also when 90% of brain development occurs, and the basic patterns that enable us to succeed in life are established. </p>
+
+                    <p>That’s where MountainStar comes in. Families receive crisis intervention, respite care, home visits with parent coaching and education, on-site counseling, support in accessing community resources and referrals, and access to diapers, food and used baby clothing and equipment. Where the risk of abuse and neglect is highest, we also transport 42 infants and toddlers to our intensive Therapeutic Classrooms twice a week where staff are able to monitor and support their health and development. </p>
+
+                    <p>The tough part is, we have a waiting list of 50 children who need to get into our intensive Therapeutic Classrooms—and those are just the children we know about.  We need funding to continue to expand our services. That’s where you come in!</p>
+
+	    			 <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	    			 
+	    			 <p>The tough part is, we have a waiting list of 50 children who need to get into our intensive Therapeutic Classrooms—and those are just the children we know about.  We need funding to continue to expand our services. That’s where you come in!</p>
+	    		 
+	    		 
+	    		 
+	    	</div>
+	    		    </div>
+	    <!-- END Pop Up -->	 	 
 	</div>
 	<!-- END Truck Farm -->
 	       			 	
@@ -159,7 +164,7 @@
 	<div class="charities-wrapper">
 	       			 	
 		<a href="#middle-bottom" class="fancybox see-more" >
-			<img src="facebook/charities/june/mtstarsm.png" alt="" />			 			
+			<img src="facebook/charities/june/friendssm.png" alt="" />  			 			
 		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    </a>
 	       			 		
@@ -169,31 +174,26 @@
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="middle-bottom" class="pop-up" style="display:none;width:600px;"> 
+	    <div id="bottom-left" class="pop-up" style="display:none;width:600px;">
 	    	
-	    	<h2>MountainStar</h2>
-	    	
-	    	<div class="pop-up-content">
-	    	
-	    			<img src="facebook/charities/june/mtstar.png" alt="" />		       				
-	    			 
-	    			<p>At MountainStar, we keep more than 300 infants and toddlers safe from abuse and neglect each year, while we help their families to address multiple big challenges such as poverty, homelessness, unemployment, family violence, substance abuse, mental illness, and incarceration—to name just a few.  </p>
-
-                    <p>The reality is that currently in Oregon 48% of child abuse victims, and 60% of children who died from abuse and neglect, were 5 years old or younger. The first three years of life are also when 90% of brain development occurs, and the basic patterns that enable us to succeed in life are established. </p>
-
-                    <p>That’s where MountainStar comes in. Families receive crisis intervention, respite care, home visits with parent coaching and education, on-site counseling, support in accessing community resources and referrals, and access to diapers, food and used baby clothing and equipment. Where the risk of abuse and neglect is highest, we also transport 42 infants and toddlers to our intensive Therapeutic Classrooms twice a week where staff are able to monitor and support their health and development. </p>
-
-                    <p>The tough part is, we have a waiting list of 50 children who need to get into our intensive Therapeutic Classrooms—and those are just the children we know about.  We need funding to continue to expand our services. That’s where you come in!</p>
-
-	    			 <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
-	    			 
-	    			 <p>The tough part is, we have a waiting list of 50 children who need to get into our intensive Therapeutic Classrooms—and those are just the children we know about.  We need funding to continue to expand our services. That’s where you come in!</p>
-	    		 
-	    		 
-	    		 
-	    	</div>
-	    		    </div>
-	    <!-- END Pop Up -->	 
+	    	<h2>Friends of the Children</h2>
+	       			 		       			 			
+	       	<div class="pop-up-content">
+	       	
+	       		<img src="facebook/charities/june/friends.png" alt="" />
+	       				       				
+	       		<p>Friends of the Children was founded in 1993 in Portland, Oregon by entrepreneur Duncan Campbell. Despite a hardscrabble childhood, Campbell achieved success and promised that one day, if he had the resources to do so, he would help other children triumph over adversity. </p>
+                   
+                <p>Campbell searched for the most compelling evidence on how to help vulnerable children move forward. He collected best practices from around the country and wove these findings into the bedrock of the Friends of the Children program: start early, train and pay the mentors, stay for the long haul. Research has proven that the single most important factor that fosters resiliency in children is a caring and consistent relationship with an adult. The earlier this bond is formed, the stronger it will be and the greater impact it will have on the child’s future. Friends of the Children selects the children when they begin school, and once selected, we commit to the children through high school graduation, no matter what. With someone to look up to, count on, talk to, help them with school work, comfort them, and align them with goals for the future, with someone who will be there for the long haul, these children will thrive.</p> 
+                     	 		       			 					
+	       		<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	       			 		       			 					
+	       		<p>Our community gift will be used in a variety of ways, including maintenance and improvements to the Friends clubhouse on Altamont Drive, enrichment activities for the children (travel to the gym, library, museum, pool or waterslides), PSAT and SAT fees, scholarship application fees, and graduation materials. </p>	       					 
+	       			 		       			 				 
+	       			 		       			 				       			 		       			 				 
+	       	</div>
+	    </div>
+	    <!-- END Pop Up -->
 	</div>
 	<!-- END Truck Farm -->
 	       			 	

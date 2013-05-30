@@ -21,7 +21,7 @@ public enum Charity
     Charity3 = 9, // lake county
     Charity4 = 10, // friends of the children
     Charity5 = 11, // community health
-    Charity6 = 12 // children advocay center
+    Charity6 = 12 // children advocacy center
 }
 
 /// <summary>

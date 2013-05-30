@@ -82,7 +82,7 @@
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="middle-bottom" class="pop-up" style="display:none;width:600px;"> 
+	    <div id="bottom-left" class="pop-up" style="display:none;width:600px;"> 
 	    	
 	    	<h2>MountainStar</h2>
 	    	
@@ -174,7 +174,7 @@
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="bottom-left" class="pop-up" style="display:none;width:600px;">
+	    <div id="middle-bottom" class="pop-up" style="display:none;width:600px;">
 	    	
 	    	<h2>Friends of the Children</h2>
 	       			 		       			 			

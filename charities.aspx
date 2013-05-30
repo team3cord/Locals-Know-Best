@@ -20,7 +20,7 @@
 
 			<h4>Central Oregon</h4>
 	       			 		
-			<div class="charities-wrapper no-top-padding">
+			<div class="charities-wrap no-top-padding">
 	       			 		
 				<a href="#top-left" class="fancybox see-more" >
 					<img src="facebook/charities/june/thbgclub.png" alt="" />	
@@ -33,7 +33,7 @@
 	       			 		
 
 				<!-- Pop up content -->
-				<div id="top-left" class="pop-up" style="display:none;width:600px;"> 
+				<div id="top-left" class="pop-up" style="display:none;width:681px;"> 
 
 					<h2>Boys & Girls Clubs</h2>
 	       			 			
@@ -60,7 +60,7 @@
 	       			 	
 	  
 	       			 
-	<div class="charities-wrapper">
+	<div class="charities-wrap">
 	       			 	
 		<a href="#bottom-left" class="fancybox see-more" >
 		    <img src="facebook/charities/june/thmtstar.png" alt="" />
@@ -73,7 +73,7 @@
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="middle-bottom" class="pop-up" style="display:none;width:600px;"> 
+	    <div id="bottom-left" class="pop-up" style="display:none;width:681px;"> 
 	    	
 	    	<h2>MountainStar</h2>
 	    	
@@ -114,7 +114,7 @@
 
 			<h4>Klamath Basin</h4>
 	       			 		
-			<div class="charities-wrapper no-top-padding">
+			<div class="charities-wrap no-top-padding">
 	       			 		
 				<a href="#middle-top" class="fancybox see-more" >
 					<img src="facebook/charities/june/thlakecounty.png" alt="" />	
@@ -127,7 +127,7 @@
 	       			 		
 
 				<!-- Pop up content -->
-				<div id="middle-top" class="pop-up" style="display:none;width:600px;">
+				<div id="middle-top" class="pop-up" style="display:none;width:681px;">
 
 					<h2>Klamath & Lake Community Action Services</h2>
 	       			 			
@@ -152,7 +152,7 @@
 	       			 	
 	  
 	       			 
-	<div class="charities-wrapper">
+	<div class="charities-wrap">
 	       			 	
 		<a href="#middle-bottom" class="fancybox see-more" >
 			<img src="facebook/charities/june/thfriends.png" alt="" />  
@@ -165,7 +165,7 @@
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="bottom-left" class="pop-up" style="display:none;width:600px;">
+	    <div id="middle-bottom" class="pop-up" style="display:none;width:681px;">
 	    	
 	    	<h2>Friends of the Children</h2>
 	       			 		       			 			
@@ -199,7 +199,7 @@
 	    
 	    			<h4>Medford / Grants Pass</h4>
 	    	       			 		
-	    			<div class="charities-wrapper no-top-padding">
+	    			<div class="charities-wrap no-top-padding">
 	    	       			 		
 	    				<a href="#top-right" class="fancybox see-more" >
 	    					<img src="facebook/charities/june/thcommhealth.png" alt="" />
@@ -212,7 +212,7 @@
 	    	       			 		
 	    
 	    				<!-- Pop up content -->
-	    				<div id="top-right" class="pop-up" style="display:none;width:600px;">
+	    				<div id="top-right" class="pop-up" style="display:none;width:681px;">
 	    
 	    					<h2>Community Health Center</h2>
 	    					
@@ -238,7 +238,7 @@
 	    	       			 	
 	    	  
 	    	       			 
-	    	<div class="charities-wrapper">
+	    	<div class="charities-wrap">
 	    	       			 	
 	    		<a href="#bottom-right" class="fancybox see-more" >
 	    			<img src="facebook/charities/june/thcac.png" alt="" />
@@ -251,7 +251,7 @@
 
 	    	       			 		       			 		
 	    		<!-- Pop up content -->
-	    	    <div id="bottom-right" class="pop-up" style="display:none;width:600px;">
+	    	    <div id="bottom-right" class="pop-up" style="display:none;width:681px;">
 	    	    	
 	    	    	<h2>Children's Advocacy Center of Jackson County</h2>
 	    	    	
@@ -300,7 +300,7 @@
 
                 <!-- neighbor impact -->
                 <div class="charities-wrap no-top-padding">
-                    <h4>Central Oregon</h4>
+                    <h4></h4>
                     <a href="#neighbor-impact" class="fancybox see-more">
                         <img src="img/charities/central/neighbor-impact/neighbor-impact-thumb.jpg" alt="" />
 
@@ -404,7 +404,7 @@
 
                 <!--iys -->
                 <div class="charities-wrap no-top-padding">
-                    <h4>Klamath Basin</h4>
+                    <h4></h4>
                     <a href="#iys" class="fancybox see-more">
                         <img src="img/charities/kalamth/iys/iys-thumb.jpg" alt="" />
 
@@ -514,7 +514,7 @@
 
                 <!-- bngc -->
                 <div class="charities-wrap no-top-padding">
-                    <h4>Medford / Grants Pass</h4>
+                    <h4></h4>
                     <a href="#bngc" class="fancybox see-more">
                         <img src="img/charities/medford/bngc/bngc-thumb.jpg" alt="" />
 

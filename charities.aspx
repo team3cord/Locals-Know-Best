@@ -6,7 +6,7 @@
     <form id="mainForm" runat="server">
 
         <h1 class="main-headline">YOU choose which community organizations we support.</h1>
-	       	<h3>$250 million for your communities in Oregon</h3>
+	       	<h3>$250 million for your communities in Oregon.</h3>
 	       	<p>Our merger with Washington Federal will bring over $250 million in community development funding during the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone.  We are also offering new grants to select Oregon charities of up to $5,000, and we would like you to tell us who you think deserves our support.  Click on the vote button below for the charity of your choice, and we’ll make a $5 donation or grant to that organization.  Be sure to let your friends know how they can benefit their favorite charitable organization by voting too.</p>
         <section class="section-border" style="border-bottom: none;">
 
@@ -289,7 +289,7 @@
 	       			 <h2 class="dashed-heading"><span style="width: 23%;">Success Stories</span></h2>
 	
 				
-				<p style="text-align: center;">Over the past months we've donated $30,000 to the charities below.</p>
+				<p style="text-align: center;">Over the past months, we've donated a total of $30,000 to the charities below.</p>
 
 
 

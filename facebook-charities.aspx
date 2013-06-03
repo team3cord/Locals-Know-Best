@@ -100,7 +100,7 @@
 
 	    			 <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
 	    			 
-	    			 <p>The tough part is, we have a waiting list of 50 children who need to get into our intensive Therapeutic Classrooms—and those are just the children we know about.  We need funding to continue to expand our services. That’s where you come in!</p>
+	    			 <p>Funds raised through the Washington Federal “Locals Know Best” program will support 15 babies in our intensive Therapeutic Infant Classroom.  This ensures that infants like 4-month-old ‘Jonathon,’ who attends class with his developmentally disabled mother each week, get the support they need to thrive and survive.  Thank you for joining us in keeping children safe, parents successful and families together!</p>
 	    		 
 	    		 
 	    		 
@@ -206,7 +206,7 @@
 	    		<!-- Third C. -->
 	    		<div class="charities-tout no-margin-right">
 	    
-	    			<h4>Medford / Grants Pass</h4>
+	    			<h4>Medford</h4>
 	    	       			 		
 	    			<div class="charities-wrapper no-top-padding">
 	    	       			 		

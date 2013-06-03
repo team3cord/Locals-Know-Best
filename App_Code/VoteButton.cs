@@ -33,12 +33,19 @@ namespace summit
 
         protected override void Render(HtmlTextWriter writer)
         {
-            if (SharedData.Instance.CharityCountTotals != null && SharedData.Instance.CharityCountTotals[(int)_charity] > SharedData.MaxVotesPerCharity)
+            if (SharedData.Instance.CharityCountTotals != null)
             {
-                writer.Write("<div class=\"facebook-like-wrap\"><div class=\"fb-like\" data-href=\"" + SharedData.Instance.GetCharityUrl(_charity) +"\" data-send=\"false\" data-width=\"50\" data-show-faces=\"false\" data-layout=\"button_count\"></div></div>");
-                return;
+                int val;
+                if (SharedData.Instance.CharityCountTotals.TryGetValue((int)_charity, out val))
+                {
+                    if (val > SharedData.MaxVotesPerCharity)
+                    {
+                        writer.Write("<div class=\"facebook-like-wrap\"><div class=\"fb-like\" data-href=\"" + SharedData.Instance.GetCharityUrl(_charity) + "\" data-send=\"false\" data-width=\"50\" data-show-faces=\"false\" data-layout=\"button_count\"></div></div>");
+                        return;
+                    }
+                }
             }
-
+            // Otherwise:
             base.Render(writer);
         }
 

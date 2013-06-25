@@ -281,10 +281,10 @@ and educational and resource services — since 1975.
 
            <div class="white-content"style="width: 681px;">
 	       			 
-	       			 <h2 class="dashed-heading"><span style="width: 23%;">Success Stories</span></h2>
+	       			 <h2 class="dashed-heading"style="width: 650px;"><span style="width: 23%;">Success Stories</span></h2>
 	
 				
-				<p style="text-align: center;">Over the past months, we've donated a total of $60,000 to the charities below.</p>
+				<p style="text-align: center; width: 650px;">Over the past months, we've donated a total of $60,000 to the charities below.</p>
 
 
 

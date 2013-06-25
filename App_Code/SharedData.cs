@@ -16,12 +16,12 @@ using summit;
 
 public enum Charity
 {
-    Charity1 = 7, // boys & girls club
-    Charity2 = 8,  // mtstar
-    Charity3 = 9, // lake county
-    Charity4 = 10, // friends of the children
-    Charity5 = 11, // community health
-    Charity6 = 12 // children advocacy center
+    Charity1 = 13, // cocoa
+    Charity2 = 14,  // kids center
+    Charity3 = 15, // assistance league
+    Charity4 = 16, // casa
+    Charity5 = 17, // consumer credit
+    Charity6 = 18 // foster grandparent
 }
 
 /// <summary>

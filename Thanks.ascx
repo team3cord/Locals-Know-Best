@@ -22,7 +22,7 @@
                              Remember, anyone can vote, so make sure you hit the Like button and
                              get all your friends to vote too. This is part of the Washington Federal
                              giving program in Oregon. Another way we are invested here.</p>
-         <p>And don't forget to enter to win<a href="Default.aspx"> a FREE iPad mini.</a></p>
+         
 
 
 		       	  	<!-- ENTER Form Popup -->

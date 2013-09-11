@@ -157,7 +157,7 @@ p a:hover {
  h2.dashed-heading span {
  	display: block;
  	margin: 0 auto;
- 	width: 22%;
+ 	width: 60%;
  	background-color: #fff;
  	margin-top: -12px;
  	color: #49b557;
@@ -470,8 +470,7 @@ section.charities-wrap {
 div.charities-tout {
 	display: block;
 	float: left;
-	width: 218px;
-	margin-right:21px;
+	width: 47%;
 	margin-bottom: 32px;
 }
 
@@ -508,7 +507,6 @@ a.see-more {
 	display: block;
 	float: left;
 	width: 100%;
-	height:146px;
 	overflow: hidden;
 	position: relative;
 }
@@ -519,7 +517,7 @@ div.hover-click {
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 146px;
+	height: 205px;
 	background-image: url('../img/trans.png');
 }
 
@@ -527,6 +525,8 @@ div.hover-click {
 a.see-more:hover div.hover-click {
 	display: block;
 }
+
+
 
 div.hover-click span {
 	display: block;
@@ -536,11 +536,11 @@ div.hover-click span {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.4em;
-	padding:58px 35px 0px 35px;
+	padding:90px 10px 0px 15px;
 	text-align: center;
 	background-image: url('../img/plus-icon.png');
 	background-repeat: no-repeat;
-	background-position: 22px 72px;
+	background-position: 11px 94px;
 	line-height: 1.3em;
 	
 }
@@ -865,7 +865,6 @@ div.facebook-like-wrap {
 	float: left;
 	width: 100%;
 	padding:5px;
-	background-color: #ccc;
 	font-size: 1.3em;
 	color:#000;
 	margin-bottom: 15px;
@@ -1066,4 +1065,156 @@ div.charities-wrapper > div.facebook-like-wrap {
     h3 {
         page-break-after: avoid;
     }
+}
+
+
+/* -----------------------------------------  BOFA BRANCH LAUNCH 9.5.13 ----------------------------------------- */
+
+
+
+#tabs {
+
+   width: 100%;
+    height:30px; 
+   padding-right: 2px;
+   margin-top: 30px;
+   
+
+}
+a {cursor:pointer;}
+
+#tabs li {
+    float:left; 
+    list-style:none; 
+    width: 19.694%;
+    border-top:1px solid #ccc; 
+    border-left:1px solid #ccc; 
+    border-right:1px solid #ccc; 
+    border-top-left-radius:3px;  
+    border-top-right-radius:3px;
+      outline:none;
+}
+
+#tabs li a {
+
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: small;
+    font-weight: bold; 
+    color: #5685bc;;
+   padding-top: 10px;
+   padding-left: 7px;
+   padding-right: 7px;
+    padding-bottom: 10px; 
+    display:block; 
+    background: #FFF;
+    border-top-left-radius:3px; 
+    border-top-right-radius:3px; 
+    text-align: center;
+    text-decoration:none;
+    outline:none;
+  
+}
+
+#tabs li a.inactive{
+    padding-top:10px;
+    padding-bottom:10px;
+  padding-left: 8px;
+  padding-right: 8px;
+    color:#666666;
+    background: #EEE;
+   outline:none;
+   border-bottom: solid 1px #CCC;
+
+}
+
+#tabs li a:hover, #tabs li a.inactive:hover {
+
+
+    color: #5685bc;
+      outline:none;
+}
+
+.mc-container {
+
+    clear:both;           
+    width:100%; 
+    text-align:left;
+   padding-top: 20px;
+
+}
+
+.mc-container img { 
+    display: block;
+    float: left;
+ }
+
+.mc-container p.tab-right {
+    display: block;
+    float: left;
+    width: 50%;
+    margin-top: 82px;
+}
+
+.mc-container ul {  }
+
+.mc-container li { }
+
+
+/* -------------------------------------------- RETIRED CHARITIES STYLES -----------------------------------------------------------*/
+
+.retired {
+    width: 720px;
+}
+
+.retired .box-3 {
+    display: block;
+    float: left;
+    width: 240px;
+    height: 200px;
+}
+
+.retired span.moneyRaised {
+	display: block;
+	float: left;
+	padding-top: 13px;
+	font-size: 1.3em;
+	color: #636466;
+}
+
+div.facebook-like-wrap {
+	display: block;
+	float: left;
+	width: 50%;
+	padding:5px;
+	font-size: 1.3em;
+	color:#000;
+	margin-bottom: 15px;
+}
+
+.retired div.hover-click {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 91%;
+	height: 205px;
+	background-image: url('../img/trans.png');
+}
+
+
+.retired div.hover-click span {
+	display: block;
+	font-weight:600;
+	color: #fff;
+	font-family: Arial, Verdana, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.4em;
+	padding:49px 0px 0px 8px;
+	text-align: center;
+	background-image: url('../img/plus-icon.png');
+	background-repeat: no-repeat;
+	background-position: 5px 54px;
+	line-height: 1.3em;
+	
 }

@@ -9,31 +9,170 @@
 	       	<h3>$250 million for your communities in Oregon.</h3>
 	       	<p>Our merger with Washington Federal will bring over $250 million in community development funding during the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone.  We are also offering new grants to select Oregon charities of up to $5,000, and we would like you to tell us who you think deserves our support.  Click on the vote button below for the charity of your choice, and we’ll make a $5 donation or grant to that organization.  Be sure to let your friends know how they can benefit their favorite charitable organization by voting too.</p>
         <section class="section-border" style="border-bottom: none;">
+            <div class="location-tabs matt-test">
 
-            <h2 class="dashed-heading"><span>Vote for these Charities through July 31st</span></h2>
+                            <ul id="tabs">
+
+                              <li><a id="tab1">Albuquerque  </a></li>
+                              <li><a id="tab2">Boise  </a></li>
+                              <li><a id="tab3">Spokane  </a></li>
+                              <li><a id="tab4">Tri-Cities </a></li>
+                              <li><a id="tab5">Wenatchee</a></li>  
+
+                            </ul>
+                      <div class="mc-container" id="tab1C">
+                          <h2 class="dashed-heading"><span>Vote for these Charities through October 1st</span></h2>
+                          <p>Make sure to vote for your favorite fromthis month's charities and remind your friends to vote their favorite too.</p>
+
+                    <div class="charities-tout">
+
+                       <div class="charities-wrap no-top-padding">
+
+                          <a href="#top-left" class="fancybox see-more" >
+					        <img src="img/fpo-al-lft.png" alt="" />
+					        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	       		          </a>
+
+
+                            <summit:VoteButton Charity="Charity1" ID="VoteButton1" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                            <span class="moneyRaised">$<em><%= GetMoney(VoteButton1.Charity) %></em> + raised</span>
+
+                          <!-- Pop up content -->
+				            <div id="top-left" class="pop-up" style="display:none;width:681px;"> 
+
+				            	<h2>ALBEQUERQUE LEFT CHARITY</h2>
+	       			 			
+				        		<div class="pop-up-content">
+						
+				        		<img src="img/charities/july/pop-cocoa.png" alt="" />		       				
+	       		        	 	
+	       		        	 	<p>Sometimes seniors need support to stay in their homes, independent and safe, and sometimes that support is a home delivered meal — a meal that will allow them to stay in their home, not only because it’s a nutritious meal, but because a generous volunteer gives of their time and checks on the senior each day a meal is delivered. Sometimes, this volunteer is the only person a senior will see all day — what a critical impact that volunteer has on the safety and well-being of that senior. The volunteer is an important link for the Central Oregon Council On Aging case management team that assesses, tracks and monitors the clients.  </p>
+                               
+                              <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	       			 					 
+	       	        		 	<p>COCOA is a 501c3 organization dedicated to promoting dignity, well-being, safety and independence for Central Oregon seniors, and serves as the designated Area Agency on Aging and the Aging and Disability Resource Connection for the entire Central Region of Oregon — from the borders of California to Washington State — for information and referral services. Along with our dedicated team of employees and volunteers, COCOA serves over 75,000 meals on wheels and 65,000 congregate meals, and provides assistance through 85,000 information and assistance calls, 16,000 hours of in-home care,
+                                    and educational and resource services — since 1975.
+                                </p>
+                                <p>COCOA is also a non-profit, and generous financial support is always welcome to support Meals On Wheels or other programs COCOA provides to over 25,000 seniors in the tri-county region.</p>
+
+
+	                     		</div>
+	                        </div>
+	                     <!-- END Pop Up -->	 
+                          </div>
+                        </div>
+
+                 <div style="width:306px; margin-left:38px;" class="charities-tout">
+                            <div class="charities-wrap no-top-padding">
+	    	       			 		
+	    				            <a href="#top-right" class="fancybox see-more" >
+	    			            		<img src="img/fpo-al-rt.png" alt="" />
+	    			               		<div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	    	       	            	</a>
+	    
+
+                                    <summit:VoteButton Charity="Charity2" ID="VoteButton2" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
+                                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton2.Charity) %></em> + raised</span>
+	    	       			 		
+	    
+	    				<!-- Pop up content -->
+	    		        		<div id="top-right" class="pop-up" style="display:none;width:681px;">
+	    
+	    		        			<h2>ALBEQUERQUE RIGHT CHARITY</h2>
+	    					
+	    				        	<div class="pop-up-content">
+	    					
+	    					    		<img src="img/charities/july/pop-cc.png" alt="" />		       				
+	    					    		
+	    						    	<p>Consumer Credit Counseling Service of Southern Oregon helps people who are often overwhelmed by their financial situation. They are looking for options that will help them gain control and move forward with their lives. A client recently sent us a note that said, “I wanted to thank you for being there when all else seemed to not be working. I will always be appreciative of the service you offer. I hope I do not need you in the future, but if things become overwhelming, I know you are there. I will suggest your services to anyone who is in need.”  (Sarah from Medford)</p>
+
+                                       <p>Consumer Credit Counseling Service of Southern Oregon has been helping people like Sarah in Southern Oregon and Northern California since 1971. The Agency’s certified counselors provide free confidential credit and housing counseling, debt repayment plans, credit report review, and bankruptcy counseling and education. The Agency provides over 200 community and school education programs on budgeting, money management and credit each year. Volunteers assist low income seniors and the disabled through its Money Management Program. CCCS is a Jackson County United Way agency, is accredited by the Council on Accreditation for Children and Families and is a HUD certified housing counseling agency.  More information is available at <a href="www.cccsso.org." target="_blank">www.cccsso.org</a>.</p>
+                                         
+	    					    		<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	    							
+	    					    		<p>Washington Federal Bank’s gift would be used to help support the Agency’s free confidential credit counseling program. During the appointment a budget is developed, concerns are addressed, options are discussed and ongoing support is provided. Over 2000 individuals like Sarah receive help every year.</p>
+	    						 
+	    			        		</div>
+	    					
+	    	                   </div>
+	    	            <!-- END Pop Up -->	 
+	    	 </div>
+
+
+
+                          
+                          
+                     </div>
+                      </div>
+                      <div class="mc-container" id="tab2C">
+                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
+                          <img src="img/fpo-cal.png" alt="" />
+                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
+                      </div>
+
+                      <div class="mc-container" id="tab3C">
+                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
+                          <img src="img/fpo-cal.png" alt="" />
+                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
+
+                      </div>
+
+                      <div class="mc-container" id="tab4C">
+                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
+                          <img src="img/fpo-cal.png" alt="" />
+                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
+
+                      </div>
+
+                      <div class="mc-container" id="tab5C">
+                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
+                         <img src="img/fpo-cal.png" alt="" />
+                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
+
+                      </div>
+
+
+            </div>
+            
 	
 				
-				<p>Make sure to vote for your favorite from this month’s charities and remind your friends to vote for their favorite too.</p>
-                <div class="white-content"style="width: 700px;">
-		<!-- First c. -->
-		<div class="charities-tout">
+				
+ 
+	       			       		
+	       		
+        <!--------------------                                    RETIRED CHARITIES         ------------------------------------>
 
-			<h4>Central Oregon</h4>
-	       			 		
-			<div class="charities-wrap no-top-padding">
-	       			 		
-				<a href="#top-left" class="fancybox see-more" >
+
+            
+
+      <div class="white-content"style="width: 681px;display: block; float: left;">
+	       			 
+	       			 <h2 class="dashed-heading"style="width: 650px;"><span style="width: 23%;">Success Stories</span></h2>
+	
+				
+				<p style="text-align: center; width: 650px;">Over the past months, we've donated a total of $90,000 to the charities below.</p>
+
+
+
+          <div class="retired">
+
+               <div class="box-3">
+                    <a href="#cocoa" class="fancybox see-more" >
 					<img src="img/charities/july/land-cocoa.png" alt="" />	
 					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		</a>
 
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
-                    <summit:VoteButton Charity="Charity1" ID="VoteButton1" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton1.Charity) %></em> + raised</span>
+                    
 	       			 		
 
 				<!-- Pop up content -->
-				<div id="top-left" class="pop-up" style="display:none;width:681px;"> 
+			     <div id="cocoa" class="pop-up" style="display:none;width:681px;"> 
 
 					<h2>Central Oregon Council On Aging (COCOA)</h2>
 	       			 			
@@ -52,28 +191,101 @@ and educational and resource services — since 1975.
 
 
 	       		</div>
+	       </div> 
+	    <!-- END Pop Up -->	
+                </div> 
+
+            <div class="box-3">
+                    <a href="#alkc" class="fancybox see-more" >
+					<img src="img/charities/july/land-al.png" alt="" />	
+					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	       		</a>
+
+
+                   <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
+	       			 		
+
+				<!-- Pop up content -->
+				<div id="alkc" class="pop-up" style="display:none;width:681px;">
+
+					<h2>Assistance League of Klamath County</h2>
+	       			 			
+						<div class="pop-up-content">
+						
+						<img src="img/charities/july/pop-al.png" alt="" />		       				
+	       			 	
+	       			 	<p>Assistance League® of Klamath Basin is a 501(c)(3) nonprofit whose volunteer members administer philanthropic programs that have served the local Klamath Basin community for 25 years. Funds raised are returned entirely to this community. It is a chapter of National Assistance League®, 25,000 members strong.  </p>
+
+                        <p>Our primary philanthropic program, Operation School Bell® provided new clothing to a record number of K-12 grade children in all the Klamath County and City School Districts and areas of Northern California during the 2012/2013 fiscal year. 732 children and youth were served. Through referrals from school staff, children receive a winter coat, hat, gloves two pair of pants, shirts, underwear, a sweat outfit, socks, new shoes and a hygiene kit. Additionally, we delivered award winning books to all Klamath schools and libraries.</p>
+
+                        <p>Our mission is to promote learning, school attendance, and self-esteem for children and families in need within the Basin.  Receiving new clothing does just that as evidenced by countless testimonials. Our National organization provides us with guidance, so we can change and evolve depending on conditions in the community.</p>
+
+	       			 	<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	       			 	
+	       			 	<p>Our programs help with an Oregon county that has one of the highest percentages of poverty and neglect/threat of harm to children. But, as typical of non-profit organizations across the country, we are struggling with funding and a reduced budget. Funding from Washington Federal, will help Assistance League® of Klamath Basin maintain the high level of contribution we have been making to the community and its children.</p>
+
+                 </div>
 	       </div>
-	    <!-- END Pop Up -->	 
-	 </div>
-	<!-- END Truck Farm -->
-	       			 	
-	       			 	
-	  
-	       			 
-	<div class="charities-wrap">
-	       			 	
-		<a href="#bottom-left" class="fancybox see-more" >
+	    <!-- END Pop Up -->
+                </div>
+
+                <div class="box-3">
+                    <a href="#ccc" class="fancybox see-more" >
+	    					<img src="img/charities/july/land-cc.png" alt="" />
+	    					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	    	       		</a>
+	    
+
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
+	    	       			 		
+	    
+	    				<!-- Pop up content -->
+	    				<div id="ccc" class="pop-up" style="display:none;width:681px;">
+	    
+	    					<h2>Consumer Credit Counseling</h2>
+	    					
+	    					<div class="pop-up-content">
+	    					
+	    							<img src="img/charities/july/pop-cc.png" alt="" />		       				
+	    							
+	    							<p>Consumer Credit Counseling Service of Southern Oregon helps people who are often overwhelmed by their financial situation. They are looking for options that will help them gain control and move forward with their lives. A client recently sent us a note that said, “I wanted to thank you for being there when all else seemed to not be working. I will always be appreciative of the service you offer. I hope I do not need you in the future, but if things become overwhelming, I know you are there. I will suggest your services to anyone who is in need.”  (Sarah from Medford)</p>
+
+                                    <p>Consumer Credit Counseling Service of Southern Oregon has been helping people like Sarah in Southern Oregon and Northern California since 1971. The Agency’s certified counselors provide free confidential credit and housing counseling, debt repayment plans, credit report review, and bankruptcy counseling and education. The Agency provides over 200 community and school education programs on budgeting, money management and credit each year. Volunteers assist low income seniors and the disabled through its Money Management Program. CCCS is a Jackson County United Way agency, is accredited by the Council on Accreditation for Children and Families and is a HUD certified housing counseling agency.  More information is available at <a href="www.cccsso.org." target="_blank">www.cccsso.org</a>.</p>
+                                         
+	    							<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	    							
+	    							<p>Washington Federal Bank’s gift would be used to help support the Agency’s free confidential credit counseling program. During the appointment a budget is developed, concerns are addressed, options are discussed and ongoing support is provided. Over 2000 individuals like Sarah receive help every year.</p>
+	    						 
+	    					</div>
+	    					
+	    	       </div>
+	    	    <!-- END Pop Up -->	 
+                </div>
+
+                <div class="box-3">
+                    <a href="#kc" class="fancybox see-more" >
 		    <img src="img/charities/july/land-kc.png" alt="" />
 		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    </a>
 	       			 		
 
-                    <summit:VoteButton Charity="Charity2" ID="VoteButton2" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton2.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="bottom-left" class="pop-up" style="display:none;width:681px;"> 
+	    <div id="kc" class="pop-up" style="display:none;width:681px;"> 
 	    	
 	    	<h2>Kids Center</h2>
 	    	
@@ -94,77 +306,29 @@ and educational and resource services — since 1975.
 	    		 
 	    	</div>
 	    		    </div>
-	    <!-- END Pop Up -->	  
-	</div>
-	<!-- END Truck Farm -->
-	       			 	
-</div>
-<!-- END First C. -->
-                       
+	    <!-- END Pop Up -->	
+                </div>
 
+                
 
+                
 
-
-
-		<!-- Second C. -->
-		<div class="charities-tout">
-
-			<h4>Klamath - Lakeview</h4>
-	       			 		
-			<div class="charities-wrap no-top-padding">
-	       			 		
-				<a href="#middle-top" class="fancybox see-more" >
-					<img src="img/charities/july/land-al.png" alt="" />	
-					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
-	       		</a>
-
-
-                    <summit:VoteButton Charity="Charity3" ID="VoteButton3" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton3.Charity) %></em> + raised</span>
-	       			 		
-
-				<!-- Pop up content -->
-				<div id="middle-top" class="pop-up" style="display:none;width:681px;">
-
-					<h2>Assistance League of Klamath County</h2>
-	       			 			
-						<div class="pop-up-content">
-						
-						<img src="img/charities/july/pop-al.png" alt="" />		       				
-	       			 	
-	       			 	<p>Assistance League® of Klamath Basin is a 501(c)(3) nonprofit whose volunteer members administer philanthropic programs that have served the local Klamath Basin community for 25 years. Funds raised are returned entirely to this community. It is a chapter of National Assistance League®, 25,000 members strong.  </p>
-
-                        <p>Our primary philanthropic program, Operation School Bell® provided new clothing to a record number of K-12 grade children in all the Klamath County and City School Districts and areas of Northern California during the 2012/2013 fiscal year. 732 children and youth were served. Through referrals from school staff, children receive a winter coat, hat, gloves two pair of pants, shirts, underwear, a sweat outfit, socks, new shoes and a hygiene kit. Additionally, we delivered award winning books to all Klamath schools and libraries.</p>
-
-                        <p>Our mission is to promote learning, school attendance, and self-esteem for children and families in need within the Basin.  Receiving new clothing does just that as evidenced by countless testimonials. Our National organization provides us with guidance, so we can change and evolve depending on conditions in the community.</p>
-
-	       			 	<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
-	       			 	
-	       			 	<p>Our programs help with an Oregon county that has one of the highest percentages of poverty and neglect/threat of harm to children. But, as typical of non-profit organizations across the country, we are struggling with funding and a reduced budget. Funding from Washington Federal, will help Assistance League® of Klamath Basin maintain the high level of contribution we have been making to the community and its children.</p>
-
-                 </div>
-	       </div>
-	    <!-- END Pop Up -->	 
-	 </div>
-	<!-- END Truck Farm -->
-	       			 	
-	       			 	
-	  
-	       			 
-	<div class="charities-wrap">
-	       			 	
-		<a href="#middle-bottom" class="fancybox see-more" >
+                <div class="box-3">
+                    <a href="#casa" class="fancybox see-more" >
 			<img src="img/charities/july/land-casa.png" alt="" />  
 		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    </a>
 	       			 		
 
-                    <summit:VoteButton Charity="Charity4" ID="VoteButton4" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton4.Charity) %></em> + raised</span>
+                    <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 	       			 		       			 		      	
 	       			 		       			 		
 		<!-- Pop up content -->
-	    <div id="middle-bottom" class="pop-up" style="display:none;width:681px;">
+	    <div id="casa" class="pop-up" style="display:none;width:681px;">
 	    	
 	    	<h2>CASA of Lake County</h2>
 	       			 		       			 			
@@ -182,73 +346,25 @@ and educational and resource services — since 1975.
 	       	</div>
 	    </div>
 	    <!-- END Pop Up -->
-	</div>
-	<!-- END Truck Farm -->
-	       			 	
-</div>
-<!-- END Second C. -->
-	       			 	
-	       			 	
-	       			 	
-	       			 	
-	    		<!-- Third C. -->
-	    		<div class="charities-tout no-margin-right">
-	    
-	    			<h4>Medford</h4>
-	    	       			 		
-	    			<div class="charities-wrap no-top-padding">
-	    	       			 		
-	    				<a href="#top-right" class="fancybox see-more" >
-	    					<img src="img/charities/july/land-cc.png" alt="" />
-	    					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
-	    	       		</a>
-	    
+                </div>
 
-                    <summit:VoteButton Charity="Charity5" ID="VoteButton5" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton5.Charity) %></em> + raised</span>
-	    	       			 		
-	    
-	    				<!-- Pop up content -->
-	    				<div id="top-right" class="pop-up" style="display:none;width:681px;">
-	    
-	    					<h2>Consumer Credit Counseling</h2>
-	    					
-	    					<div class="pop-up-content">
-	    					
-	    							<img src="img/charities/july/pop-cc.png" alt="" />		       				
-	    							
-	    							<p>Consumer Credit Counseling Service of Southern Oregon helps people who are often overwhelmed by their financial situation. They are looking for options that will help them gain control and move forward with their lives. A client recently sent us a note that said, “I wanted to thank you for being there when all else seemed to not be working. I will always be appreciative of the service you offer. I hope I do not need you in the future, but if things become overwhelming, I know you are there. I will suggest your services to anyone who is in need.”  (Sarah from Medford)</p>
-
-                                    <p>Consumer Credit Counseling Service of Southern Oregon has been helping people like Sarah in Southern Oregon and Northern California since 1971. The Agency’s certified counselors provide free confidential credit and housing counseling, debt repayment plans, credit report review, and bankruptcy counseling and education. The Agency provides over 200 community and school education programs on budgeting, money management and credit each year. Volunteers assist low income seniors and the disabled through its Money Management Program. CCCS is a Jackson County United Way agency, is accredited by the Council on Accreditation for Children and Families and is a HUD certified housing counseling agency.  More information is available at <a href="www.cccsso.org." target="_blank">www.cccsso.org</a>.</p>
-                                         
-	    							<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
-	    							
-	    							<p>Washington Federal Bank’s gift would be used to help support the Agency’s free confidential credit counseling program. During the appointment a budget is developed, concerns are addressed, options are discussed and ongoing support is provided. Over 2000 individuals like Sarah receive help every year.</p>
-	    						 
-	    					</div>
-	    					
-	    	       </div>
-	    	    <!-- END Pop Up -->	 
-	    	 </div>
-	    	<!-- END Truck Farm -->
+                <div class="box-3">
 	    	       			 	
-	    	       			 	
-	    	  
-	    	       			 
-	    	<div class="charities-wrap">
-	    	       			 	
-	    		<a href="#bottom-right" class="fancybox see-more" >
-	    			<img src="img/charities/july/land-fg.png" alt="" />
+	    		<a href="#fg" class="fancybox see-more" >
+	    			<img src="img/charities/july/land-fg.png" alt="" />	 			
 	    		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	    </a>
 	    	       			 		
 
-                    <summit:VoteButton Charity="Charity6" ID="VoteButton6" runat="server" CssClass="green-btn left vote-btn" OnClick="VoteButton_Click">Vote Now</summit:VoteButton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton6.Charity) %></em> + raised</span>
+                     <div class="facebook-like-wrap">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                             </div>
+                        </div>
+                          <span class="moneyRaised">$5,000+ raised</span>
 
 	    	       			 		       			 		
 	    		<!-- Pop up content -->
-	    	    <div id="bottom-right" class="pop-up" style="display:none;width:681px;">
+	    	    <div id="fg" class="pop-up" style="display:none;width:600px;">
 	    	    	
 	    	    	<h2>Foster Grandparent Program</h2>
 	    	    	
@@ -263,38 +379,19 @@ and educational and resource services — since 1975.
 
 	    	    			<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
 	    	    			
-	    	    			<p>The Foster Grandparent Program is comprised of volunteers, age 55 and above, that wish to utilize their wealth of experience to tutor, mentor and befriend at-risk youth ranging in age from birth to 21.  Foster Grandparents work 15 to 40 hours per week at non-profit organizations throughout our community.  As the program was designed specifically to involve lower income seniors, they receive a non-taxable, non-deductable stipend of $2.65 per hour.  Participating volunteers are also eligible to receive transportation reimbursement at .30 cents per mile and supplemental insurance coverage.  The sites at which Foster Grandparents are placed all share a mission of service to children, whether that be in traditional settings like public schools and Head Start centers or involvement with children at the Boys and Girls Club.  The young people served by Foster Grandparents greatly benefit from the attention given within the context of an ongoing relationship with a caring Foster Grandparent.  The volunteers, in turn, enjoy a revitalized sense of purpose in addition to some financial relief.  The Foster Grandparent Program of Southern Oregon serves Jackson, Josephine and Klamath counties at 57 registered sites. 90 Foster Grandparent volunteers provided 75,648 hours of service throughout the community last year alone!</p>
-                        	       				       					 
+	    	    			<p>Funds raised through the Washington Federal “Locals Know Best” program will be used for a portion of both the stipend and mileage reimbursement these Foster Grandparents receive.  These volunteers can then continue to serve as valuable resources, mentors, and non-judgmental companions to the at-risk youth of Southern Oregon.
+                            </p>
+	       				       					 
 	    	    	</div>
 	    	    </div>
 	    	    <!-- END Pop Up -->	 
 	    	</div>
-	    	<!-- END Truck Farm -->
-	    	       			 	
-	    </div>
-	    <!-- END Third C. -->   			 	
-	          			 	
-	     </div>
-	       			       		
-	       		
-        <!--------------------                                    RETIRED CHARITIES         ------------------------------------>
-
-           <div class="white-content"style="width: 681px;">
-	       			 
-	       			 <h2 class="dashed-heading"style="width: 650px;"><span style="width: 23%;">Success Stories</span></h2>
-	
-				
-				<p style="text-align: center; width: 650px;">Over the past months, we've donated a total of $60,000 to the charities below.</p>
 
 
 
-
-            <!-- First Column -->
-            <div class="charities-tout">
-
-
-                <!-- neighbor impact -->
-                <div class="charities-wrap no-top-padding">
+                <div class="box-3">
+                    <!-- neighbor impact -->
+                <div>
   
                     <a href="#neighbor-impact" class="fancybox see-more">
                         <img src="img/charities/central/neighbor-impact/neighbor-impact-thumb.jpg" alt="" />
@@ -335,11 +432,11 @@ and educational and resource services — since 1975.
                     </div>
                     <!-- END Pop Up -->
                 </div>
+                </div>
 
-
-
-                <!-- Opportunity knocks -->
-                <div class="charities-wrap" style="width: 100%;">
+                <div class="box-3">
+                    <!-- Opportunity knocks -->
+                
 
                     <a href="#opp-knocks" class="fancybox see-more">
                         <img src="img/charities/central/opp-knocks/opp-knocks-thumb.jpg" alt="" />
@@ -385,20 +482,10 @@ and educational and resource services — since 1975.
                     <!-- END Pop Up -->
                 </div>
 
-
-            </div>
-            <!-- END first column wrap -->
-
-
-
-
-
-
-            <!-- Second Column -->
-            <div class="charities-tout">
-
-                <!--iys -->
-                <div class="charities-wrap no-top-padding">
+               
+                <div class="box-3">
+                     <!--iys -->
+                
 
                     <a href="#iys" class="fancybox see-more">
                         <img src="img/charities/kalamth/iys/iys-thumb.jpg" alt="" />
@@ -452,10 +539,9 @@ and educational and resource services — since 1975.
                     <!-- END Pop Up -->
                 </div>
 
-
-
-                <!-- jr achievement -->
-                <div class="charities-wrap">
+                <div class="box-3">
+                    <!-- jr achievement -->
+                
 
                     <a href="#jr-achievement" class="fancybox see-more">
                         <img src="img/charities/kalamth/jr-achievement/jr-achievement-thumb.jpg" alt="" />
@@ -482,7 +568,7 @@ and educational and resource services — since 1975.
 
                             <img src="img/charities/kalamth/jr-achievement/jr-achievement-lrg.png" alt="" />
 
- <p>Junior Achievement (JA) is a nonprofit youth organization whose core purpose is to inspire and prepare young people to succeed in a global economy. We work in partnership with schools and businesses to improve student knowledge in the areas of entrepreneurship, work-readiness and financial literacy. In the current economic climate, it becomes more and more evident that sound financial education and a solid understanding in fiscal responsibility are imperative for all citizens – especially young people. </p> 
+                    <p>Junior Achievement (JA) is a nonprofit youth organization whose core purpose is to inspire and prepare young people to succeed in a global economy. We work in partnership with schools and businesses to improve student knowledge in the areas of entrepreneurship, work-readiness and financial literacy. In the current economic climate, it becomes more and more evident that sound financial education and a solid understanding in fiscal responsibility are imperative for all citizens – especially young people. </p> 
 	       			       						 
 	       			       						 <p>The hallmark of JA is its incorporation of volunteers from community businesses and organizations who visit school classrooms to present JA programs. Depending on the program, these visits are typically on a once-a-week basis and last between five and ten weeks. The dynamic interaction between students and classroom volunteers with practical business experience promotes active learning and brings theory to life, often resulting in life-changing experiences.</p>
 	       			       						 
@@ -498,17 +584,9 @@ and educational and resource services — since 1975.
                     <!-- END Pop Up -->
                 </div>
 
-
-            </div>
-            <!-- END Second Column -->
-
-
-
-            <!-- Third Column -->
-            <div class="charities-tout" style="margin-right: 0px;">
-
-                <!-- bngc -->
-                <div class="charities-wrap no-top-padding">
+                <div class="box-3">
+                     <!-- bngc -->
+                
  
                     <a href="#bngc" class="fancybox see-more">
                         <img src="img/charities/medford/bngc/bngc-thumb.jpg" alt="" />
@@ -552,10 +630,9 @@ and educational and resource services — since 1975.
                     <!-- END Pop Up -->
                 </div>
 
-
-
-                <!-- Goodwill -->
-                <div class="charities-wrap">
+                <div class="box-3">
+                      <!-- Goodwill -->
+               
 
                     <a href="#goodwill" class="fancybox see-more">
                         <img src="img/charities/medford/goodwill/goodwill-thumb.jpg" alt="" />
@@ -600,21 +677,8 @@ and educational and resource services — since 1975.
                     <!-- END Pop Up -->
                 </div>
 
-
-            </div>
-            <!-- END Third Column -->
-
-
-               <!--------------------------------------------------------------JUNE---------------------------------------------------------->   
-
-               		<!-- First c. -->
-		<div class="charities-tout">
-
-
-	       			 		
-			<div class="charities-wrap no-top-padding">
-	       			 		
-				<a href="#june-top-left" class="fancybox see-more" >
+                <div class="box-3">
+                    <a href="#june-top-left" class="fancybox see-more" >
 					<img src="facebook/charities/june/thbgclub.png" alt="" />	
 					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		</a>
@@ -649,15 +713,10 @@ and educational and resource services — since 1975.
 	       		</div>
 	       </div>
 	    <!-- END Pop Up -->	 
-	 </div>
-	<!-- END Truck Farm -->
-	       			 	
-	       			 	
-	  
-	       			 
-	<div class="charities-wrap">
-	       			 	
-		<a href="#june-bottom-left" class="fancybox see-more" >
+                </div>
+
+                <div class="box-3">
+                    <a href="#june-bottom-left" class="fancybox see-more" >
 		    <img src="facebook/charities/june/thmtstar.png" alt="" />
 		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    </a>
@@ -696,20 +755,10 @@ and educational and resource services — since 1975.
 	    	</div>
 	    		    </div>
 	    <!-- END Pop Up -->	  
-	</div>
-	<!-- END Truck Farm -->
-	       			 	
-</div>
-<!-- END First C. -->
+                </div>
 
-               		<!-- Second C. -->
-		<div class="charities-tout">
-
-
-	       			 		
-			<div class="charities-wrap no-top-padding">
-	       			 		
-				<a href="#june-middle-top" class="fancybox see-more" >
+                <div class="box-3">
+                    <a href="#june-middle-top" class="fancybox see-more" >
 					<img src="facebook/charities/june/thlakecounty.png" alt="" />	
 					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		</a>
@@ -742,15 +791,10 @@ and educational and resource services — since 1975.
 	       		</div>
 	       </div>
 	    <!-- END Pop Up -->	 
-	 </div>
-	<!-- END Truck Farm -->
-	       			 	
-	       			 	
-	  
-	       			 
-	<div class="charities-wrap">
-	       			 	
-		<a href="#june-middle-bottom" class="fancybox see-more" >
+                </div>
+
+                <div class="box-3">
+                    <a href="#june-middle-bottom" class="fancybox see-more" >
 			<img src="facebook/charities/june/thfriends.png" alt="" />  
 		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    </a>
@@ -784,22 +828,10 @@ and educational and resource services — since 1975.
 	       	</div>
 	    </div>
 	    <!-- END Pop Up -->
-	</div>
-	<!-- END Truck Farm -->
-</div>	       			 	
+                </div>
 
-<!-- END Second C. -->
-	       			 	
-	       			 	
-	       			 	
-	       			 	
-	    		<!-- Third C. -->
-	    		<div class="charities-tout no-margin-right">
-	    
-	    	       			 		
-	    			<div class="charities-wrap no-top-padding">
-	    	       			 		
-	    				<a href="#june-top-right" class="fancybox see-more" >
+                <div class="box-3">
+                    <a href="#june-top-right" class="fancybox see-more" >
 	    					<img src="facebook/charities/june/thcommhealth.png" alt="" />
 	    					<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	       		</a>
@@ -833,15 +865,10 @@ and educational and resource services — since 1975.
 	    					
 	    	       </div>
 	    	    <!-- END Pop Up -->	 
-	    	 </div>
-	    	<!-- END Truck Farm -->
-	    	       			 	
-	    	       			 	
-	    	  
-	    	       			 
-	    	<div class="charities-wrap">
-	    	       			 	
-	    		<a href="#june-bottom-right" class="fancybox see-more" >
+                </div>
+
+                <div class="box-3">
+                    <a href="#june-bottom-right" class="fancybox see-more" >
 	    			<img src="facebook/charities/june/thcac.png" alt="" />
 	    		    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	    </a>
@@ -877,20 +904,41 @@ and educational and resource services — since 1975.
 	    	    	</div>
 	    	    </div>
 	    	    <!-- END Pop Up -->	 
-	    	</div>
-	    	<!-- END Truck Farm -->
-	    	       			 	
-	    </div>
-	    <!-- END Third C. -->  
+                </div>
 
-	       		
-	        
+                
+
+
           </div>
+
+     </div>
         </section>
+
 
 
     </form>
 
+    <script>        // http://jsfiddle.net/vRqcb/11/ */
 
+        $(document).ready(function () {
+
+            $('#tabs li a:not(:first)').addClass('inactive');
+            $('.mc-container').hide();
+            $('.mc-container:first').show();
+
+            $('#tabs li a').click(function () {
+                var t = $(this).attr('id');
+                if ($(this).hasClass('inactive')) { //this is the start of our condition 
+                    $('#tabs li a').addClass('inactive');
+                    $(this).removeClass('inactive');
+
+                    $('.mc-container').hide();
+                    $('#' + t + 'C').fadeIn('slow');
+                }
+            });
+
+        });
+
+    </script>
 </asp:Content>
 

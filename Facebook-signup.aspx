@@ -8,9 +8,9 @@
           <div class="wrap">
 	       	<div class="content-wrap">
 	       	
-	       		<h1 class="main-headline">The new iPad mini a week<br /> until everyone’s happy<br /> giveaway.</h1>
+	       		<h1 class="main-headline">Congratulations to our iPad Mini winners.</h1>
 	       		
-	       		<p class="sub-head">To show how much we appreciate your business, we’re giving current clients<br /> a chance to win a new iPad each week.</p>
+	       		<p class="sub-head">To show how much we appreciate your business <br /> we’ve given away an iPad Mini to one of our customers each week for the last 3 months.  </p>
 	       		
 	       		<div class="white-content">
 	       		

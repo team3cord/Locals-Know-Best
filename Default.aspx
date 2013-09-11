@@ -5,9 +5,9 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
 	       
-            <h1 class="main-headline">Announcing the new iPad mini a week until everyone’s happy giveaway.</h1>
+            <h1 class="main-headline">Congratulations to our iPad Mini<br> winners</h1>
 	       	
-	       	<span class="offering">To show how much we appreciate your business, we’re automatically entering our current clients in a drawing for a new iPad mini each week. </span>
+	       
 	       	
 	        <section class="section-border top-border ipad-mini-section">
 	       	
@@ -17,11 +17,11 @@
 		       	
 		       	<div class="content-wrap">
 		       	
-			       	 <h3>Congratulations! If you’re a current Washington Federal client, you’re already entered to win a new iPad mini.</h3>
+			       
 			       	 
-			       	 <p>From now until July 15, 2013, we’re giving away an iPad mini a week to our clients. It’s our way of saying thanks for sticking with us.  We know you have a choice of banks, and we’re proud of our nearly 100-year track record of making our clients happy. So sit tight and we’ll be in touch if you win one of the iPad minis. Good luck, we’re rooting for you.  Learn more about the <a href="Rules.aspx" class="fancybox">drawing rules.</a></p>
+			       	 <p>To show how much we appreciate your business, we’ve given away an iPad Mini to one of our clients each week for the last 3 months.  We know you have a choice of banks, and we’re proud of our nearly 100-year track record of making our clients happy. </p>
 			       	 
-			       	 
+			       	 <h3>Thank you for your continued business and join us in <br /> congratulating our winners:</h3>
 
 			       	 
 
@@ -31,12 +31,28 @@
 		       	 
 		       	 <div class="content-wrap">
 		       	 
-			       	 <span class="promotion-discloser">Apple is not a participant in or sponsor of this promotion.</span>
+			       	 <span style="margin-top: 50px;" class="promotion-discloser">Apple is not a participant in or sponsor of this promotion.</span>
 			       	 
-			       	 <p style="width: 400px;">Not a Washington Federal client? Don’t worry. While we’d love to have you as a client, you can still enter to win. It would just be downright un-neighborly if we didn’t let everybody share
-			       	 the fun.</p>
+			       	 <ul style="width: 208px; float: left; margin-top: 23px; font-size: 1.3em; line-height: 1.4em; color: #636466;">
+                            <li>Stephen from Vancouver, WA</li>
+                            <li>Cathleen  from Klamath Falls, OR</li>
+                            <li>Geraldine from Eagle Point, OR</li>
+                            <li>Evelyn from Cave Junction, OR</li>
+                            <li>Huan Ming from Seattle, WA</li>
+                            <li>Joan from Poulsbo, WA</li>
+                            <li>Larry from Layton, UT</li>
+                     </ul>
+
+                     <ul style="width: 185px; float: right; margin-top: 23px; font-size: 1.3em; line-height: 1.4em; color: #636466;">
+                            <li>Leta from Waldport, OR</li>
+                            <li>Gerd from Seattle, WA</li>
+                            <li>Alice from Grants Pass, OR</li>
+                            <li>Judith from Puyallup, WA</li>
+                            <li>Dave from Aurora, OR</li>
+                            <li>Lois from Eugene, OR</li>
+			       	 </ul>
 			       	 
-			       	  <a href="#enter-form" class="fancybox green-btn">Enter</a>
+			       	 
 		       	  
 		       	  
 		       	  	<!-- ENTER Form Popup -->
@@ -72,7 +88,7 @@
 	       	 
 		       	 <h3>$250 million for your communities</h3>
 		       	 
-		       	  <p>Our merger with Washington Federal will bring over $250 million in community development funding over the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone.  We are also offering new grants to select Oregon charities of up to $5,000, and we would like you to tell us who you think deserves our support.</p>
+		       	  <p>Our merger with Washington Federal will bring over $250 million in community development funding over the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone.</p>
 
 		       	  
 		       	 <!-- <a href="#">Click to see a list of participating</a> -->

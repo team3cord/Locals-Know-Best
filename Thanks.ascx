@@ -10,7 +10,7 @@
 
     <div style="margin-top: -15px;">
 
-        <div class="facebook-like-wrap">
+        <div style="width: 100%;" class="facebook-like-wrap">
             <div class="fb-like" data-href="<%= GetCharityUrl() %>" data-send="false" data-width="450" data-show-faces="false"></div>
         </div>
 
@@ -18,10 +18,9 @@
 
        <h3>Thank you for your vote</h3>
 			       	 
-			       	 <p>Thanks to your vote, Washington Federal will donate $5 to this charity.
-                             Remember, anyone can vote, so make sure you hit the Like button and
-                             get all your friends to vote too. This is part of the Washington Federal
-                             giving program in Oregon. Another way we are invested here.</p>
+			       	 <p>Thanks to you, Washington Federal will donate $5 to this charity. Remember, anyone can vote, so make sure you hit
+                             the Like button and get all your friends to vote too. This is part or the Washington Federal Locals Know Best
+                             giving program, just another way that we are invested here.</p>
          
 
 

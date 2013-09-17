@@ -183,7 +183,7 @@ p a:hover {
  	width: 60%;
  	background-color: #fff;
  	margin-top: -12px;
- 	color: #49b557;
+ 	color: #008F89;
  	font-family: Arial, Verdana, sans-serif;
  	font-weight: 600;
  	font-size: .9em;
@@ -448,7 +448,10 @@ div.header-img {
 }
 
 div.header-img.index-header {background: url('../img/header-index.jpg') no-repeat top center;}
-div.header-img.charities-header {background:url('../img/header-charities.jpg') no-repeat top center;}
+div.header-img.charities-header {background:url('../img/localsknow.png') no-repeat top center;}
+div.header-img.faq-header {background:url('../img/mergerfaq.png') no-repeat top center;}
+div.header-img.nominate-header {background:url('../img/nominate-header.png') no-repeat top center;}
+
 div.header-img.drawing-header {background:url('../img/header-drawing.jpg') no-repeat top center;}
 
 
@@ -1452,7 +1455,7 @@ a {cursor:pointer;}
     clear:both;           
     width:100%; 
     text-align:left;
-   padding-top: 20px;
+   padding-top: 35px;
 
 }
 
@@ -1464,8 +1467,9 @@ a {cursor:pointer;}
 .mc-container p.tab-right {
     display: block;
     float: left;
-    width: 50%;
-    margin-top: 82px;
+    width: 65%;
+    margin-top: 50px;
+    margin-left: 25px;
 }
 
 .mc-container ul {  }
@@ -1525,4 +1529,7 @@ div.facebook-like-wrap {
 	background-position: 5px 54px;
 	line-height: 1.3em;
 	
+}
+span.red {
+    background: red;
 }

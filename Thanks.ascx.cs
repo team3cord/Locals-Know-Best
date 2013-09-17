@@ -61,8 +61,8 @@ public partial class Thanks : System.Web.UI.UserControl
     {
         switch ((int)_charity)
         {
-            case (int)Charity.Charity1: return "img/charities/july/thx-cocoa.png";
-            case (int)Charity.Charity2: return "img/charities/july/thx-kc.png";
+            case (int)Charity.Charity1: return "img/cc-thx.png";
+            case (int)Charity.Charity2: return "img/bgc-thx.png";
             case (int)Charity.Charity3: return "img/charities/july/thx-al.png";
             case (int)Charity.Charity4: return "img/charities/july/thx-casa.png";
             case (int)Charity.Charity5: return "img/charities/july/thx-cc.png";

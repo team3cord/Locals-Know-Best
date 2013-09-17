@@ -94,8 +94,8 @@
        </header>
 
     <div runat="server" class="header-img" id="HeaderImage"> <!--  index-header is the default class -->
-        <h1 runat="server" id="HeaderH1">We treat our current clients like they’re new clients.</h1>
-    </div>
+       <h1 runat="server" id="HeaderH1">We treat our current clients like they’re new clients.</h1>
+    </div> 
 
     <!-- Start Wrap -->
 
@@ -105,11 +105,11 @@
 	       	<span class="slogan-btn">That's just common sense</span>
 		        <nav class="side-nav">
 		       	<ul>
-		       		<li><a href="https://washingtonfederal.com/south-valley/Welcome-South-Valley.aspx">Welcome <br />South Valley Clients</a></li>
+		       		<!-- <li><a href="#">Welcome Bank of<br />America Clients</a></li> -->
 		       		
-		       		<li><a href="charities.aspx">Charities</a></li>
-		       		
-		       		<li><a href="Faqs.aspx"> Merger FAQs</a></li>
+		       		<li><a href="charities.aspx">Locals Know Best</a></li>
+		       		<li><a href="Nominate.aspx">Nominate Your Charity</a></li>
+		       		<li><a href="http://www.washingtonfederal.com/NMXBAC/Frequently-Asked-Questions.aspx" target="_blank"> Merger FAQs</a></li>
 		       		<li><a href="https://washingtonfederal.com/About-Us.aspx">Our Bank</a></li>
 		       		<li><a href="https://washingtonfederal.com/About-Us/Contact-Us.aspx">Contact Us</a></li>
 		       	</ul>

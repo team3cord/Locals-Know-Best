@@ -6,8 +6,14 @@
     <form id="mainForm" runat="server">
 
         <h1 class="main-headline">YOU choose which community organizations we support.</h1>
-	       	<h3>$250 million for your communities in Oregon.</h3>
-	       	<p>Our merger with Washington Federal will bring over $250 million in community development funding during the next five years to Oregon and over $100,000 in direct contributions to our local charities in 2013 alone.  We are also offering new grants to select Oregon charities of up to $5,000, and we would like you to tell us who you think deserves our support.  Click on the vote button below for the charity of your choice, and we’ll make a $5 donation or grant to that organization.  Be sure to let your friends know how they can benefit their favorite charitable organization by voting too.</p>
+	       	
+
+                <p class="sub-head">It has always been our policy to directly support charitable organizations in the communities we serve. And no one knows which
+                     organizations are most in need better than the people in the community. We are asking for your help.  Just click the community tab that you are
+                     interested in and click on the vote button to choose the charity you would like to support. For every click, we’ll make a $5 donation or grant
+                     to that organization. Be sure to tell your friends how they can support their favorite charities by voting, too — anyone can vote and raise
+                     money for their charity. This is part of the Washington Federal community support program, just another way we are invested here.</p>
+
         <section class="section-border" style="border-bottom: none;">
             <div class="location-tabs matt-test">
 
@@ -21,15 +27,15 @@
 
                             </ul>
                       <div class="mc-container" id="tab1C">
-                          <h2 class="dashed-heading"><span>Vote for these Charities through October 1st</span></h2>
-                          <p>Make sure to vote for your favorite fromthis month's charities and remind your friends to vote their favorite too.</p>
+                          <h2 class="dashed-heading"><span>Vote for these charities through October 31st</span></h2>
+                          <p>Make sure to vote for your favorite from this month's charities and remind your friends to vote their favorite too.</p>
 
                     <div class="charities-tout">
 
                        <div class="charities-wrap no-top-padding">
 
                           <a href="#top-left" class="fancybox see-more" >
-					        <img src="img/fpo-al-lft.png" alt="" />
+					        <img src="img/cc-main.png" alt="" />
 					        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		          </a>
 
@@ -40,21 +46,30 @@
                           <!-- Pop up content -->
 				            <div id="top-left" class="pop-up" style="display:none;width:681px;"> 
 
-				            	<h2>ALBEQUERQUE LEFT CHARITY</h2>
+				            	<h2>Catholic Charities of the Diocese of Las Cruces </h2>
 	       			 			
 				        		<div class="pop-up-content">
 						
-				        		<img src="img/charities/july/pop-cocoa.png" alt="" />		       				
+				        		<img src="img/cc-pop.png" alt="" />		       				
 	       		        	 	
-	       		        	 	<p>Sometimes seniors need support to stay in their homes, independent and safe, and sometimes that support is a home delivered meal — a meal that will allow them to stay in their home, not only because it’s a nutritious meal, but because a generous volunteer gives of their time and checks on the senior each day a meal is delivered. Sometimes, this volunteer is the only person a senior will see all day — what a critical impact that volunteer has on the safety and well-being of that senior. The volunteer is an important link for the Central Oregon Council On Aging case management team that assesses, tracks and monitors the clients.  </p>
+	       		        	 	<p> Catholic Charities of the Diocese of Las Cruces (CCDLC) is a non-profit Catholic-based ministry offering a broad range of social justice programs and 
+                                        solutions within the 10 southern counties of NM.  CCDLC is chartered by the Diocese of Las Cruces to be the principal provider of social, legal and 
+                                        economic assistance to people in need regardless of faith, belief, ethnicity or cultural background. </p>
+
+                                    <p>The Mission of CCDLC is a social outreach ministry providing the following services: low cost citizenship and immigration-related legal services; 
+                                        referrals for other legal matters and other social service needs; a store which generates revenue to support programs and which provides assistance 
+                                        to needy families with low cost clothing and household items; a voucher program for no-cost clothing to impoverished families; emergency financial
+                                         assistance of last resort with preference given to children, disabled and the elderly, especially on the threshold of homelessness; a goal of 
+                                        revitalizing the financial literacy program providing much needed financial education to children and adults.</p>
                                
                               <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
 	       			 					 
-	       	        		 	<p>COCOA is a 501c3 organization dedicated to promoting dignity, well-being, safety and independence for Central Oregon seniors, and serves as the designated Area Agency on Aging and the Aging and Disability Resource Connection for the entire Central Region of Oregon — from the borders of California to Washington State — for information and referral services. Along with our dedicated team of employees and volunteers, COCOA serves over 75,000 meals on wheels and 65,000 congregate meals, and provides assistance through 85,000 information and assistance calls, 16,000 hours of in-home care,
-                                    and educational and resource services — since 1975.
+	       	        		 	<p>Catholic Charities of the Diocese of Las Cruces intends to use this community gift from Washington Federal to create a Financial Literacy
+                                         program that can be implemented in all 10 Southern NM Counties by teaching instructors for each community.  Our targeted outcome is
+                                         helping impoverished communities to develop financial habits that will empower them to achieve financial sustainability.  Education 
+                                        is the key to breaking the cycle of poverty.
                                 </p>
-                                <p>COCOA is also a non-profit, and generous financial support is always welcome to support Meals On Wheels or other programs COCOA provides to over 25,000 seniors in the tri-county region.</p>
-
+                                
 
 	                     		</div>
 	                        </div>
@@ -66,7 +81,7 @@
                             <div class="charities-wrap no-top-padding">
 	    	       			 		
 	    				            <a href="#top-right" class="fancybox see-more" >
-	    			            		<img src="img/fpo-al-rt.png" alt="" />
+	    			            		<img src="img/bgc-main.png" alt="" />
 	    			               		<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	       	            	</a>
 	    
@@ -78,19 +93,26 @@
 	    				<!-- Pop up content -->
 	    		        		<div id="top-right" class="pop-up" style="display:none;width:681px;">
 	    
-	    		        			<h2>ALBEQUERQUE RIGHT CHARITY</h2>
+	    		        			<h2>Boys and Girls Clubs of Santa Fe</h2>
 	    					
 	    				        	<div class="pop-up-content">
 	    					
-	    					    		<img src="img/charities/july/pop-cc.png" alt="" />		       				
+	    					    		<img src="img/bgc-pop.png" alt="" />		       				
 	    					    		
-	    						    	<p>Consumer Credit Counseling Service of Southern Oregon helps people who are often overwhelmed by their financial situation. They are looking for options that will help them gain control and move forward with their lives. A client recently sent us a note that said, “I wanted to thank you for being there when all else seemed to not be working. I will always be appreciative of the service you offer. I hope I do not need you in the future, but if things become overwhelming, I know you are there. I will suggest your services to anyone who is in need.”  (Sarah from Medford)</p>
+	    			                    <p>Since 1938, the Boys and Girls Clubs of Santa Fe have been providing a safe, educational place for our children to grow. We have lasted this long because 
+                                            generations of people, businesses, government, and volunteers gave their time, money, and other resources to our clubs. With your help we can be around 
+                                            for another 75. It's because of supporters, like yourself who truly care, that we are able to provide our children with an all-day summer recreation program 
+                                            and after school program. Both programs provide children ages 5 to 18 access to a computer club house, recreational activities, homework help, and reading
+                                             instruction. In addition, in the summer months we provide breakfast, lunch, and an afternoon snack to thousands of children throughout the Santa Fe community. </p>
 
-                                       <p>Consumer Credit Counseling Service of Southern Oregon has been helping people like Sarah in Southern Oregon and Northern California since 1971. The Agency’s certified counselors provide free confidential credit and housing counseling, debt repayment plans, credit report review, and bankruptcy counseling and education. The Agency provides over 200 community and school education programs on budgeting, money management and credit each year. Volunteers assist low income seniors and the disabled through its Money Management Program. CCCS is a Jackson County United Way agency, is accredited by the Council on Accreditation for Children and Families and is a HUD certified housing counseling agency.  More information is available at <a href="www.cccsso.org." target="_blank">www.cccsso.org</a>.</p>
-                                         
+                                        
 	    					    		<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
 	    							
-	    					    		<p>Washington Federal Bank’s gift would be used to help support the Agency’s free confidential credit counseling program. During the appointment a budget is developed, concerns are addressed, options are discussed and ongoing support is provided. Over 2000 individuals like Sarah receive help every year.</p>
+	    					    		<p>In February of 2013, we merged our Santa Fe Clubs with the Boys and Girls Clubs of Del Norte. The Boys and Girls Clubs of Del Norte consist of a Boys and Girls Club 
+                                            in Abiquiu and Chimayo. By combining the two organizations into one, we were able to reduce administrative costs and are using that savings for
+                                             enhancing existing programs and implementing new ones. When you give to the Boys and Girls Clubs of Santa Fe, you are making an investment into
+                                             your community, and together we are fulfilling our mission, "To enable all young people, especially those who need us most, to reach their full
+                                             potential as productive, caring, responsible citizens."</p>
 	    						 
 	    			        		</div>
 	    					
@@ -104,32 +126,37 @@
                           
                      </div>
                       </div>
-                      <div class="mc-container" id="tab2C">
-                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
-                          <img src="img/fpo-cal.png" alt="" />
-                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
-                      </div>
+                      <div class="mc-container" id="tab2C" style="display: block; padding: 35px 15px 69px 10px; height: 200px;">
+                          
+                          <img src="img/calendar.png" alt="" />
+                          <p class="tab-right">On October 15th we are going to open up voting on charities in  Boise. Please check back then and show your support. Voting is open to everyone,
+                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                     
+                           </div>
 
-                      <div class="mc-container" id="tab3C">
-                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
-                          <img src="img/fpo-cal.png" alt="" />
-                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
+                      <div class="mc-container" id="tab3C" style="display: block; padding: 35px 15px 69px 10px; height: 200px;">
+                          
+                          <img src="img/calendar.png" alt="" />
+                          <p class="tab-right">On October 15th we are going to open up voting on charities in  Spokane. Please check back then and show your support. Voting is open to everyone,
+                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                     
+                           </div>
 
-                      </div>
+                      <div class="mc-container" id="tab4C" style="display: block; padding: 35px 15px 69px 10px; height: 200px;">
+                         
+                          <img src="img/calendar.png" alt="" />
+                          <p class="tab-right">On October 15th we are going to open up voting on charities in  Tri-Cities. Please check back then and show your support. Voting is open to everyone,
+                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                     
+                           </div>
 
-                      <div class="mc-container" id="tab4C">
-                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
-                          <img src="img/fpo-cal.png" alt="" />
-                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
-
-                      </div>
-
-                      <div class="mc-container" id="tab5C">
-                          <h2 class="dashed-heading"><span>Voting  for these Charities begins October 1st</span></h2>
-                         <img src="img/fpo-cal.png" alt="" />
-                          <p class="tab-right">Our merger with Washington Federal will bring over $XXX million in community development funding during the next five years to Boise, Idaho. You know best which charities deserve our support. Hurry to <a href="/nominate.aspx">nominate a charity</a> of your choice. Voting begins October 1st!</p>
-
-                      </div>
+                      <div class="mc-container" id="tab5C" style="display: block; padding: 35px 15px 69px 10px; height: 200px;">
+                         
+                         <img src="img/calendar.png" alt="" />
+                          <p class="tab-right">On October 15th we are going to open up voting on charities in  Wenatchee. Please check back then and show your support. Voting is open to everyone,
+                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                     
+                           </div>
 
 
             </div>

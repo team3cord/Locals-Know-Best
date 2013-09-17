@@ -87,7 +87,7 @@
        	
        </header>
        
-        <div class="header-img charities-header">
+        <div class="header-img nominate-header">
        	<h1>We treat our current clients like they’re new clients.</h1>
        </div>
        
@@ -100,11 +100,10 @@
 	       	<span class="slogan-btn">Thats just common sense</span>
 		       <nav class="side-nav">
 		       	<ul>
-		       		<li><a href="https://washingtonfederal.com/south-valley/Welcome-South-Valley.aspx">Welcome <br />South Valley Clients</a></li>
-		       		<li><a href="Default.aspx">Client Appreciation Programs</a></li>
-		       		<li><a href="charities.aspx">Charities</a></li>
+		       		<!-- <li><a href="#">Welcome Bank of<br />America Clients</a></li>  -->
+		       		<li><a href="charities.aspx">Locals Know Best</a></li>
 		       		<li><a href="Nominate.aspx">Nominate Your Charity</a></li>
-		       		<li><a href="Faqs.aspx"> Merger FAQs</a></li>
+		       		<li><a href="http://www.washingtonfederal.com/NMXBAC/Frequently-Asked-Questions.aspx" target="_blank"> Merger FAQs</a></li>
 		       		<li><a href="https://washingtonfederal.com/About-Us.aspx">Our Bank</a></li>
 		       		<li><a href="https://washingtonfederal.com/About-Us/Contact-Us.aspx">Contact Us</a></li>
 		       	</ul>
@@ -114,13 +113,15 @@
 	       <div class="main-content">
 	       
 	       	<h1 class="main-headline">Washington Federal in the community</h1>
-	       	<p>Washington Federal believes that the relationships we have with our local communities are as important as those we share with our clients, stockholders and employees. We believe we have an obligation to operate in a responsible, sustainable manner which supports the health and vibrancy of the communities we serve. 
+	       	<p>Washington Federal believes that the relationships we have with our local communities are as important as those we share with our clients, stockholders and employees.
+                    We believe we have an obligation to operate in a responsible, sustainable manner, which supports the health and vibrancy of the communities we serve.
 	       	</p>
 	       	
 	       	<h3>Applying for contributions or grants for your charity</h3>
+               <p>We appreciate your interest in Locals Know Best. To nominate your charity or a charity you are passionate about, please send us an email with the particulars of your specific charity.
+                    We are interested in both the nature and mission of your charity and how a grant or donation would be used to benefit your charity.</p>
 	       	
-	       	<p>We appreciate your interest in Oregon community development funding. To nominate your charity or a charity you are passionate about, please send us an email with the particulars of your specific charity. We are interested in both the nature and mission of your charity and how a grant or donation would be used to benefit your charity.</p>
-	       	<a href="mailto:nominate.charity@wafd.com?subject=nominate" class="green-btn right vote-btn" style="margin-top:-10px;">Email Now</a>
+	       	  	<a href="mailto:nominate.charity@wafd.com?subject=nominate" class="green-btn right vote-btn" style="margin-top:-10px;">Email Now</a>
 	       	
 	       	
 		        <section class="section-border top-border" style="border-bottom: none; margin-top: 15px;">
@@ -128,11 +129,18 @@
 						<h3>We generally direct our contributions to these areas:</h3>
 						
 							<ul class="areas-list">
-								<li><span class="bold">Housing & Community Development:</span> As a financial institution dedicated to financing and promoting home ownership, Washington Federal supports programs and causes which help provide affordable housing for low and moderate income individuals. We also directly finance projects designed to build stronger communities that provide affordable housing, access to quality healthcare, and a vibrant environment for job growth. These causes align with our mission as a responsible bank and help us meet our goals under the Community Reinvestment Act.</li>
+								<li><span class="bold">Housing & Community Development:</span> As a financial institution dedicated to financing and promoting home ownership, Washington Federal supports 
+                                    programs and causes which help provide affordable housing for low and moderate income individuals. We also directly finance projects designed to build
+                                     stronger communities that provide affordable housing, access to quality healthcare, and a vibrant environment for job growth. These causes align with 
+                                    our mission as a responsible bank and help us meet our goals under the Community Reinvestment Act.</li>
 								
-								<li><span class="bold">Social Service Needs of Senior Citizens and Low Income Families:</span> The Washington Federal Foundation provides support for social and human service agencies which serve the needs of low income seniors and families who reside in our communities.</li>
+								<li><span class="bold">Social Service Needs of Senior Citizens and Low Income Families:</span> The Washington Federal Foundation provides support for social
+                                     and human service agencies, which serve the needs of low-income seniors and families who reside in our communities.</li>
 								
-								<li><span class="bold">Financial Literacy:</span> Washington Federal supports efforts to expand financial literacy among youth and adults and encourages each of our branches to host Save at School programs with local middle and elementary schools, where students learn the “habit” of thrift by making small deposits during on-site “Bank Days” once or twice a month.  Washington Federal matches each initial $5 opening deposit to a Save at School account dollar-for-dollar.  Email <a href="mailto:ask@wafed.com?Subject=Merger%20Questions" class="green-link">ask@wafd.com</a> to inquire about launching a school savings program in your area.</li>
+								<li><span class="bold">Financial Literacy:</span> Washington Federal supports efforts to expand financial literacy among youth and adults and encourages each of our
+                                     branches to host Save at School programs with local middle and elementary schools, where students learn the “habit” of thrift by making small deposits during on-site 
+                                    “Bank Days” once or twice a month. Washington Federal matches each initial $5 opening deposit to a Save at School account dollar-for-dollar.
+                                      Email <a href="mailto:ask@wafed.com?Subject=Save%20at%20School" class="green-link">ask@wafd.com</a> to inquire about launching a school savings program in your area.</li>
 								
 								<li><span class="bold">Employee Involvement:</span> Washington Federal also considers grants to charitable organizations supported by our employees who serve as volunteers or board members.</li>
 							</ul>

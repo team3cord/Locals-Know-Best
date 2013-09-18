@@ -18,11 +18,16 @@
                     we support this month.</h1>
 
 
-                <p class="sub-head">It has always been our policy to directly support charitable organizations in the communities we serve. And no one knows which
-                     organizations are most in need better than the people in the community. We are asking for your help.  Just click the community tab that you are
-                     interested in and click on the vote button to choose the charity you would like to support. For every click, we’ll make a $5 donation or grant
-                     to that organization. Be sure to tell your friends how they can support their favorite charities by voting, too — anyone can vote and raise
-                     money for their charity. This is part of the Washington Federal community support program, just another way we are invested here.</p>
+                <p class="sub-head">
+                    It has always been our policy to directly support charitable organizations in
+             the communities we serve. And, no one knows which organizations are most in need better than
+             the people who live in that community. That’s why we are asking for your help.  Just choose
+             the community tab that you are interested in and click on the vote button to choose the charity
+             you would like to support. For every click, we’ll make a $5 donation to that organization
+             up to a combined $3,000 grant. Be sure to tell your friends how they can support their favorite
+             charities by voting, too.  Anyone can vote and raise money for their favorite charity. It’s one
+             part of the Washington Federal community support program, just another way we are invested here.
+                </p>
 
                 <div class="white-content">
 

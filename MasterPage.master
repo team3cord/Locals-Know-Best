@@ -105,8 +105,7 @@
 	       	<span class="slogan-btn">That's just common sense</span>
 		        <nav class="side-nav">
 		       	<ul>
-		       		<!-- <li><a href="#">Welcome Bank of<br />America Clients</a></li> -->
-		       		
+		       		<li><a href="http://www.washingtonfederal.com/nmxbac.aspx" target="_blank">Welcome Bank of<br />America Clients</a></li>
 		       		<li><a href="charities.aspx">Locals Know Best</a></li>
 		       		<li><a href="Nominate.aspx">Nominate Your Charity</a></li>
 		       		<li><a href="http://www.washingtonfederal.com/NMXBAC/Frequently-Asked-Questions.aspx" target="_blank"> Merger FAQs</a></li>

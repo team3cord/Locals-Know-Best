@@ -481,12 +481,12 @@ aside.side-bar {
 span.slogan-btn {
 	display: block;
 	width: 265px;
-	height: 265px;
+	height: 303px;
 	position: absolute;
 	top: -120px;
 	left: -40px;
-	background-image:url('../img/sprite.png');
-	background-position: 0px -70px;
+	background-image:url('../img/slogan.png');
+	/*background-position: 0px -70px;*/
 	overflow: hidden;
 	text-indent: -9999px;
 }

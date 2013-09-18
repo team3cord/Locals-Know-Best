@@ -100,7 +100,7 @@
 	       	<span class="slogan-btn">Thats just common sense</span>
 		       <nav class="side-nav">
 		       	<ul>
-		       		<!-- <li><a href="#">Welcome Bank of<br />America Clients</a></li>  -->
+		       		<li><a href="http://www.washingtonfederal.com/nmxbac.aspx" target="_blank">Welcome Bank of<br />America Clients</a></li>
 		       		<li><a href="charities.aspx">Locals Know Best</a></li>
 		       		<li><a href="Nominate.aspx">Nominate Your Charity</a></li>
 		       		<li><a href="http://www.washingtonfederal.com/NMXBAC/Frequently-Asked-Questions.aspx" target="_blank"> Merger FAQs</a></li>
@@ -118,8 +118,10 @@
 	       	</p>
 	       	
 	       	<h3>Applying for contributions or grants for your charity</h3>
-               <p>We appreciate your interest in Locals Know Best. To nominate your charity or a charity you are passionate about, please send us an email with the particulars of your specific charity.
-                    We are interested in both the nature and mission of your charity and how a grant or donation would be used to benefit your charity.</p>
+               <p>We appreciate your interest in Locals Know Best. To nominate your charity or a charity you are passionate about,
+                   for consideration as a participant of the Locals Know Best campaign, please send us an email with the
+                   particulars of your specific charity. We are interested in both the nature and mission of your charity
+                   and how a grant or donation would be used to benefit your charity.</p>
 	       	
 	       	  	<a href="mailto:nominate.charity@wafd.com?subject=nominate" class="green-btn right vote-btn" style="margin-top:-10px;">Email Now</a>
 	       	

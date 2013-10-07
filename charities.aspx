@@ -135,7 +135,7 @@
                           
                           <img src="img/calendar.png" alt="" />
                           <p class="tab-right">On October 15th we are going to open up voting on charities in  Boise. Please check back then and show your support. Voting is open to everyone,
-                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                               so don’t forget to tell your friends. <a href="/wfed/Nominate.aspx">Nominate your charity</a>  here.</p>
                      
                            </div>
 
@@ -143,7 +143,7 @@
                           
                           <img src="img/calendar.png" alt="" />
                           <p class="tab-right">On October 15th we are going to open up voting on charities in  Spokane. Please check back then and show your support. Voting is open to everyone,
-                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                               so don’t forget to tell your friends. <a href="/wfed/Nominate.aspx">Nominate your charity</a>  here.</p>
                      
                            </div>
 
@@ -151,7 +151,7 @@
                          
                           <img src="img/calendar.png" alt="" />
                           <p class="tab-right">On October 15th we are going to open up voting on charities in  Tri-Cities. Please check back then and show your support. Voting is open to everyone,
-                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                               so don’t forget to tell your friends. <a href="/wfed/Nominate.aspx">Nominate your charity</a>  here.</p>
                      
                            </div>
 
@@ -159,7 +159,7 @@
                          
                          <img src="img/calendar.png" alt="" />
                           <p class="tab-right">On October 15th we are going to open up voting on charities in  Wenatchee. Please check back then and show your support. Voting is open to everyone,
-                               so don’t forget to tell your friends. <a href="/nominate.aspx">Nominate your charity</a>  here.</p>
+                               so don’t forget to tell your friends. <a href="/wfed/Nominate.aspx">Nominate your charity</a>  here.</p>
                      
                            </div>
 

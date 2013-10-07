@@ -103,7 +103,7 @@
 		       		<li><a href="http://www.washingtonfederal.com/nmxbac.aspx" target="_blank">Welcome Bank of<br />America Clients</a></li>
 		       		<li><a href="charities.aspx">Locals Know Best</a></li>
 		       		<li><a href="Nominate.aspx">Nominate Your Charity</a></li>
-		       		<li><a href="http://www.washingtonfederal.com/NMXBAC/Frequently-Asked-Questions.aspx" target="_blank"> Merger FAQs</a></li>
+		       		<li><a href="http://www.washingtonfederal.com/NMXBAC/Frequently-Asked-Questions.aspx" target="_blank">Conversion FAQs</a></li>
 		       		<li><a href="https://washingtonfederal.com/About-Us.aspx">Our Bank</a></li>
 		       		<li><a href="https://washingtonfederal.com/About-Us/Contact-Us.aspx">Contact Us</a></li>
 		       	</ul>

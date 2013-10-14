@@ -64,10 +64,14 @@ public partial class FacebookThanks : System.Web.UI.UserControl
         {
             case (int)Charity.Charity1: return "img/cc-thx.png";
             case (int)Charity.Charity2: return "img/bgc-thx.png";
-            case (int)Charity.Charity3: return "img/charities/july/thx-al.png";
-            case (int)Charity.Charity4: return "img/charities/july/thx-casa.png";
-            case (int)Charity.Charity5: return "img/charities/july/thx-cc.png";
-            case (int)Charity.Charity6: return "img/charities/july/thx-fg.png";
+            case (int)Charity.Charity3: return "img/bhh-thx.png";
+            case (int)Charity.Charity4: return "img/seid-thx.png";
+            case (int)Charity.Charity5: return "img/jai-thx.png";
+            case (int)Charity.Charity6: return "img/pnhs-thx.png";
+            case (int)Charity.Charity7: return "img/sh-thx.png";
+            case (int)Charity.Charity8: return "img/swv-thx.png";
+            case (int)Charity.Charity9: return "img/hhw-thx.png";
+            case (int)Charity.Charity10: return "img/rb5-thx.png";
             default: return "img/charities/july/thx-fg.png";
         }
     }

@@ -597,7 +597,7 @@ div.retailers-img-wrap {
 div.pop-up-content {
 	display: block;
 	float: left;
-	width: 580px;
+	width: 680px;
 	padding-top: 20px;
 }
 
@@ -1086,7 +1086,7 @@ a {cursor:pointer;}
 #tabs li {
     float:left; 
     list-style:none; 
-    width: 19.694%;
+    width: 33.02%;
     border-top:1px solid #ccc; 
     border-left:1px solid #ccc; 
     border-right:1px solid #ccc; 

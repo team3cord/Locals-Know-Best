@@ -18,10 +18,14 @@ public enum Charity
 {
     Charity1 = 19, // catholic charities
     Charity2 = 20,  // boys & girls club
-    Charity3 = 15, // assistance league
-    Charity4 = 16, // casa
-    Charity5 = 17, // consumer credit
-    Charity6 = 18 // foster grandparent
+    Charity3 = 21, // boise habitat
+    Charity4 = 22, // sei com action
+    Charity5 = 23, // jr achivement
+    Charity6 = 24, //  pnhs
+    Charity7 = 25, // second harvest
+    Charity8 = 26, // serve wenatchee
+    Charity9 = 27, // wenatchee habitat
+    Charity10 = 28 // ready by 5
 }
 
 /// <summary>
@@ -41,7 +45,7 @@ public class SharedData
         }
     }
 
-    public const int MaxVotesPerCharity = 1000;
+    public const int MaxVotesPerCharity = 600; 
     public Dictionary<int, string> CharityMoneyTotals;
     public Dictionary<int, int> CharityCountTotals;
 
@@ -90,7 +94,7 @@ public class SharedData
         if (CharityMoneyTotals != null && CharityMoneyTotals.ContainsKey(id) && CharityMoneyTotals[id] != null)
         {
             if (CharityCountTotals[id] > MaxVotesPerCharity)
-                return "5000";
+                return "3000";
             return CharityMoneyTotals[id];
         }
         else

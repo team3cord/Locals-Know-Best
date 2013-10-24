@@ -43,7 +43,7 @@
 
                         <div class="mc-container" id="tab1C">
                             
-                            <h2 class="dashed-heading"><span>Vote for these charities through October 31st</span></h2>
+                            <h2 class="dashed-heading"><span>Vote for these charities through November 30th</span></h2>
                             <p>Make sure to vote for your favorite from this month's charities and remind your friends to vote for their favorite too.</p>
 
                             <div style="display: block; float: left; width: 331px;">
@@ -51,7 +51,7 @@
 
 
                                 <a href="#al-left" class="fancybox see-more">
-                                    <img style="width: 331px;" src="img/cc-main.png" alt="" />
+                                    <img style="width: 331px;" src="img/wesst-main.png" alt="" />
                                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                                 </a>
 
@@ -62,28 +62,30 @@
                                 <!-- Pop up content -->
                                 <div id="al-left" class="pop-up" style="display: none; width: 681px;">
 
-                                    <h2>Catholic Charities of the Diocese of Las Cruces </h2>
+                                    <h2>WESST (Women's Economic Self Sufficiency Team) </h2>
 	       			 			
 				        		<div class="pop-up-content">
 						
-				        		<img src="img/cc-pop.png" alt="" />		       				
+				        		<img src="img/wesst-pop.png" alt="" />		       				
 	       		        	 	
-	       		        	 	<p> Catholic Charities of the Diocese of Las Cruces (CCDLC) is a non-profit Catholic-based ministry offering a broad range of social justice programs and 
-                                        solutions within the 10 southern counties of NM.  CCDLC is chartered by the Diocese of Las Cruces to be the principal provider of social, legal and 
-                                        economic assistance to people in need regardless of faith, belief, ethnicity or cultural background. </p>
+	       		        	 	<p> WESST is a statewide small business development and training organization committed to growing New Mexico’s economy by cultivating 
+                                        entrepreneurship. Founded in 1988 as a 501(c)3 nonprofit, WESST has nurtured the entrepreneurial dreams of thousands of New Mexicans
+                                         by providing training, technical assistance and access to capital. </p>
                                     
-                                    <p>The Mission of CCDLC is a social outreach ministry providing the following services: low cost citizenship and immigration-related legal services; 
-                                        referrals for other legal matters and other social service needs; a store which generates revenue to support programs and which provides assistance 
-                                        to needy families with low cost clothing and household items; a voucher program for no-cost clothing to impoverished families; emergency financial
-                                         assistance of last resort with preference given to children, disabled and the elderly, especially on the threshold of homelessness; a goal of 
-                                        revitalizing the financial literacy program providing much needed financial education to children and adults.</p>
+                                    <p>Throughout its 25-year history, WESST has focused on providing financial literacy and self-employment training to low-income individuals,
+                                         because it simultaneously addresses the need to create jobs and stimulate economic development in a state where microenterprise is one
+                                         of the primary sectors of job growth. However, many New Mexicans need intensive training to overcome obstacles to successful 
+                                        entrepreneurship. For these individuals, opportunities for success are hampered by poor financial literacy, limited business and
+                                         marketing skills, limited access to technical resources, lack of capital and low self-esteem. With affordable and quality training,
+                                         micro-entrepreneurship can become a viable route out of poverty — especially for women needing to overcome significant barriers to
+                                         employment (e.g., lack of childcare and/or transportation), which can often be alleviated by working from the home.  </p>
                                
                               <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
 	       			 					 
-	       	        		 	<p>Catholic Charities of the Diocese of Las Cruces intends to use this community gift from Washington Federal to create a Financial Literacy
-                                         program that can be implemented in all 10 Southern NM Counties by teaching instructors for each community.  Our targeted outcome is
-                                         helping impoverished communities to develop financial habits that will empower them to achieve financial sustainability.  Education 
-                                        is the key to breaking the cycle of poverty.
+	       	        		 	<p>The project will provide Financial Literacy/Financial Management training to pre-startup through existing businesses with a primary goal 
+                                        of helping participants: 1) pay off debt, 2) save money, and 3) become bankable. Targeted individuals will include those who have “no”
+                                         credit or “bad” credit with a view to increasing financial management skills.
+
                                 </p>
                                     </div>
                                 </div>
@@ -95,7 +97,7 @@
 
 
                                 <a href="#al-right" class="fancybox see-more">
-                                    <img style="width: 331px;" src="img/bgc-main.png" alt="" />
+                                    <img style="width: 331px;" src="img/caa-main.png" alt="" />
                                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                                 </a>
 
@@ -107,26 +109,38 @@
                                 <!-- Pop up content -->
                                 <div id="al-right" class="pop-up" style="display: none; width: 681px;">
 
-                                    <h2>Boys and Girls Clubs of Santa Fe</h2>
+                                    <h2>Community Action Agency of Southern New Mexico (CAASNM)</h2>
 	    					
 	    				        	<div class="pop-up-content">
 	    					
-	    					    		<img src="img/bgc-pop.png" alt="" />		       				
+	    					    		<img src="img/caa-pop.png" alt="" />		       				
 	    					    		
-	    			                    <p>Since 1938, the Boys and Girls Clubs of Santa Fe have been providing a safe, educational place for our children to grow. We have lasted this long because 
-                                            generations of people, businesses, government, and volunteers gave their time, money, and other resources to our clubs. With your help we can be around 
-                                            for another 75. It's because of supporters, like yourself who truly care, that we are able to provide our children with an all-day summer recreation program 
-                                            and after school program. Both programs provide children ages 5 to 18 access to a computer club house, recreational activities, homework help, and reading
-                                             instruction. In addition, in the summer months we provide breakfast, lunch, and an afternoon snack to thousands of children throughout the Santa Fe community. </p>
+	    			                    <p>Community Action Agency of Southern New Mexico reaches over 25,000 people annually with high-impact programs that build self-reliance.
+                                             For nearly five decades, we have worked to improve the lives of low-income children, youth, adults, and families in the five 
+                                            southwestern counties of the state.  </p>
+                                       
+                                        <p>These programs form the heart of our core service groups:</p>
 
+                                         <p>Family Empowerment programs include financial literacy classes, computer training, workforce readiness, individual and child savings
+                                              accounts, and free tax return preparation.</p>
+                                       
+                                         <p>Family Wellness programs provide healthy, nutritious meals for children enrolled in home daycare environments, and also train providers
+                                              on topics of nutrition, safety, child development, and more. The Healthy Eating Active Living project challenges licensed daycare 
+                                             centers to improve progress toward 5 nutrition and physical activity goals; and Healthy Homes makes sure childcare providers have 
+                                             adequate home safety equipment such as smoke detectors, fire extinguishers, and first aid kits.</p>
+                                       
+                                         <p>Bridging Resources improves family stability through short- and long-term assistance programs such as Total Benefit Services and 
+                                             Covering Kids. These screening and enrollment programs help families access needed food and utility assistance, health insurance, 
+                                             and other public and private resources.</p>
                                         
+                                         <p>Community Connections is our work to coordinate and collaborate with partners to better serve the community through programs such as
+                                              Coats for Kids, free tax preparation, literacy and school readiness initiatives, and community assessment.</p>
+
 	    					    		<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
 	    							
-	    					    		<p>In February of 2013, we merged our Santa Fe Clubs with the Boys and Girls Clubs of Del Norte. The Boys and Girls Clubs of Del Norte consist of a Boys and Girls Club 
-                                            in Abiquiu and Chimayo. By combining the two organizations into one, we were able to reduce administrative costs and are using that savings for
-                                             enhancing existing programs and implementing new ones. When you give to the Boys and Girls Clubs of Santa Fe, you are making an investment into
-                                             your community, and together we are fulfilling our mission, "To enable all young people, especially those who need us most, to reach their full
-                                             potential as productive, caring, responsible citizens."</p>
+	    					    		<p>CAASNM is working toward our vision of a community where opportunity exists for all to become self-sufficient. Funding from Washington 
+                                            Federal would support our core service groups.
+</p>
 
                                     </div>
 
@@ -509,13 +523,106 @@
 
             <div class="white-content" style="width: 700px; display: block; float: left; margin-left: 35px;">
 
-                <h3 class="vote-headline" style="padding-bottom: 5px; text-align: left;">Over $90,000 raised so far. Let's keep it going!</h3>
+                <h3 class="vote-headline" style="padding-bottom: 5px; text-align: left;">Over $96,000 raised so far. Let's keep it going!</h3>
 
                 <h6 style="text-align: left; color: #7b8974; font-size: 1.4em; font-weight: 500; margin-bottom: 10px;">Check out the power of local know how and Washington Federal.</h6>
 
 
 
                 <div class="retired">
+
+
+                   <div class="box-3">
+                   <a href="#nm-cc" class="fancybox see-more" >
+					   <img style="width: 218px; height: 146px;" src="img/cc-thx.png" alt="" />
+					   <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+	       		   </a>
+                  
+                   <div class="facebook-like-wrap">
+                        <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                        </div>
+                   </div>
+                        <span class="moneyRaised">$3,000+ raised</span>   
+
+                   <!-- Pop up content -->
+				            <div id="nm-cc" class="pop-up" style="display:none;width:681px;"> 
+
+				            	<h2>Catholic Charities of the Diocese of Las Cruces </h2>
+	       			 			
+				        		<div class="pop-up-content">
+						
+				        		   <img src="img/cc-pop.png" alt="" />		       				
+	       		        	 	
+	       		        	 	    <p> Catholic Charities of the Diocese of Las Cruces (CCDLC) is a non-profit Catholic-based ministry offering a broad range of social justice programs and 
+                                        solutions within the 10 southern counties of NM.  CCDLC is chartered by the Diocese of Las Cruces to be the principal provider of social, legal and 
+                                        economic assistance to people in need regardless of faith, belief, ethnicity or cultural background. </p>
+
+                                    <p>The Mission of CCDLC is a social outreach ministry providing the following services: low cost citizenship and immigration-related legal services; 
+                                        referrals for other legal matters and other social service needs; a store which generates revenue to support programs and which provides assistance 
+                                        to needy families with low cost clothing and household items; a voucher program for no-cost clothing to impoverished families; emergency financial
+                                         assistance of last resort with preference given to children, disabled and the elderly, especially on the threshold of homelessness; a goal of 
+                                        revitalizing the financial literacy program providing much needed financial education to children and adults.</p>
+                               
+                                    <h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	       			 					 
+	       	        		 	    <p>Catholic Charities of the Diocese of Las Cruces intends to use this community gift from Washington Federal to create a Financial Literacy
+                                         program that can be implemented in all 10 Southern NM Counties by teaching instructors for each community.  Our targeted outcome is
+                                         helping impoverished communities to develop financial habits that will empower them to achieve financial sustainability.  Education 
+                                        is the key to breaking the cycle of poverty.
+                                    </p>
+                                  
+	                     	    </div>
+	                        </div>
+	                     <!-- END Pop Up -->
+
+              </div>
+
+              <div class="box-3">
+
+                   <a href="#nm-bgc" class="fancybox see-more" >
+	    			    <img style="width: 218px; height: 146px;"src="img/bgc-thx.png" alt="" />
+	    			    <div class="hover-click">
+                            <span>See how this charity would use the grant.</span> 
+                        </div>
+	    	       </a>
+
+                   <div class="facebook-like-wrap">
+                        <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                        </div>
+                   </div>
+                        <span class="moneyRaised">$3,000+ raised</span>
+                  <!-- Pop up content -->
+	    		        		<div id="nm-bgc" class="pop-up" style="display:none;width:681px;">
+	    
+	    		        			<h2>Boys and Girls Clubs of Santa Fe</h2>
+	    					
+	    				        	<div class="pop-up-content">
+	    					
+	    					    		<img src="img/bgc-pop.png" alt="" />		       				
+	    					    		
+	    			                    <p>Since 1938, the Boys and Girls Clubs of Santa Fe have been providing a safe, educational place for our children to grow. We have lasted this long because 
+                                            generations of people, businesses, government, and volunteers gave their time, money, and other resources to our clubs. With your help we can be around 
+                                            for another 75. It's because of supporters, like yourself who truly care, that we are able to provide our children with an all-day summer recreation program 
+                                            and after school program. Both programs provide children ages 5 to 18 access to a computer club house, recreational activities, homework help, and reading
+                                             instruction. In addition, in the summer months we provide breakfast, lunch, and an afternoon snack to thousands of children throughout the Santa Fe community. </p>
+
+                                        
+	    					    		<h3 style="padding-bottom: 15px;font-size: 1.5em;">How we will use a Locals Know Best community grant from Washington Federal</h3>
+	    							
+	    					    		<p>In February of 2013, we merged our Santa Fe Clubs with the Boys and Girls Clubs of Del Norte. The Boys and Girls Clubs of Del Norte consist of a Boys and Girls Club 
+                                            in Abiquiu and Chimayo. By combining the two organizations into one, we were able to reduce administrative costs and are using that savings for
+                                             enhancing existing programs and implementing new ones. When you give to the Boys and Girls Clubs of Santa Fe, you are making an investment into
+                                             your community, and together we are fulfilling our mission, "To enable all young people, especially those who need us most, to reach their full
+                                             potential as productive, caring, responsible citizens."</p>
+	    						 
+	    			        		</div>
+	    					
+	    	                   </div>
+	    	                  <!-- END Pop Up -->	
+
+
+              </div>
+
 
                     <div class="box-3">
                         <a href="#cocoa" class="fancybox see-more">

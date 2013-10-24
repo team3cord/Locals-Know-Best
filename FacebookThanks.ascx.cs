@@ -62,8 +62,8 @@ public partial class FacebookThanks : System.Web.UI.UserControl
     {
         switch ((int)_charity)
         {
-            case (int)Charity.Charity1: return "img/cc-thx.png";
-            case (int)Charity.Charity2: return "img/bgc-thx.png";
+            case (int)Charity.Charity1: return "img/wesst-thx.png";
+            case (int)Charity.Charity2: return "img/caa-thx.png";
             case (int)Charity.Charity3: return "img/bhh-thx.png";
             case (int)Charity.Charity4: return "img/seid-thx.png";
             case (int)Charity.Charity5: return "img/jai-thx.png";

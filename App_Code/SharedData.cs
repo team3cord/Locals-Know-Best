@@ -16,8 +16,8 @@ using summit;
 
 public enum Charity
 {
-    Charity1 = 19, // catholic charities
-    Charity2 = 20,  // boys & girls club
+    Charity1 = 29, // women's economic self
+    Charity2 = 30,  // comm action agency
     Charity3 = 21, // boise habitat
     Charity4 = 22, // sei com action
     Charity5 = 23, // jr achivement

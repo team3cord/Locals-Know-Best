@@ -11,7 +11,7 @@
     <div style="margin-top: -15px;">
 
         <div style="width: 100%;" class="facebook-like-wrap">
-            <div class="fb-like" data-href="<%= GetCharityUrl() %>" data-send="false" data-width="450" data-show-faces="false"></div>
+            <div class="fb-like" data-href="<%= GetCharityUrl() %>" data-share="false" data-width="450" data-show-faces="false"></div>
         </div>
 
         <img src="<%= GetCharityImage() %>" alt="" class="thanks-img" />

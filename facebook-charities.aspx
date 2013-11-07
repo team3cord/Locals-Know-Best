@@ -46,7 +46,7 @@
                             <h2 class="dashed-heading"><span>Vote for these charities through November 30th</span></h2>
                             <p>Make sure to vote for your favorite from this month's charities and remind your friends to vote for their favorite too.</p>
 
-                            <div style="display: block; float: left; width: 331px;">
+                            <div class="charities-tout"> 
 
 
 
@@ -93,7 +93,7 @@
                             </div>
 
 
-                            <div style="display: block; float: left; width: 331px; margin-left: 38px;">
+                            <div class="charities-tout right"> 
 
 
                                 <a href="#al-right" class="fancybox see-more">
@@ -159,7 +159,7 @@
                             <h2 class="dashed-heading"><span>Vote for these charities through November 30th</span></h2>
                                   <p>Make sure to vote for your favorite from this month's charities and remind your friends to vote for their favorite too.</p>
                             
-                            <div style="display: block; float: left; width: 331px; margin-bottom: 20px;"> 
+                            <div class="charities-tout"> 
                                 <a href="#IDtop-left" class="fancybox see-more" >
                                    <img style="width: 331px;" src="img/bhh-main.png" alt="" />
                                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
@@ -198,7 +198,7 @@
 
                             </div> 
 
-                            <div style="display: block; float: left; width: 331px; margin-left: 38px; margin-bottom: 20px;">  
+                            <div class="charities-tout right"> 
                                     <a href="#IDtop-right" class="fancybox see-more" >
                                         <img style="width: 331px;" src="img/seid-main.png" alt="" />
                                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
@@ -242,7 +242,7 @@
 
                             </div>
 
-                            <div style="display: block; float: left; width: 331px;"> 
+                            <div class="charities-tout"> 
                                 <a href="#IDbtm-left" class="fancybox see-more" >
                                     <img style="width: 331px;" src="img/jai-main.png" alt="" />
                                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
@@ -283,7 +283,7 @@
                          <!-- END Pop Up -->     
                             </div> 
 
-                            <div style="display: block; float: left; width: 331px; margin-left: 38px;">  
+                            <div class="charities-tout right"> 
                             
                                     <a href="#IDbtm-right" class="fancybox see-more" >
                                         <img style="width: 331px;" src="img/pnhs-main.png" alt="" />
@@ -335,7 +335,7 @@
                             <h2 class="dashed-heading"><span>Vote for these charities through November 30th</span></h2>
                                   <p>Make sure to vote for your favorite from this month's charities and remind your friends to vote for their favorite too.</p>
                         
-                            <div style="display: block; float: left; width: 331px; margin-bottom: 20px;">
+                            <div class="charities-tout"> 
                                 <a href="#WAtop-left" class="fancybox see-more" >
                                     <img style="width: 331px;" src="img/sh-main.png" alt="" />
                                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
@@ -380,7 +380,7 @@
                          <!-- END Pop Up -->     
                             </div>  
 
-                            <div style="display: block; float: left; width: 331px; margin-left: 38px; margin-bottom: 20px;">
+                            <div class="charities-tout right"> 
                                 <a href="#WAtop-right" class="fancybox see-more" >
                                     <img style="width: 331px;" src="img/swv-main.png" alt="" />
                                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
@@ -421,7 +421,7 @@
 
                             </div>
 
-                            <div style="display: block; float: left; width: 331px;"> 
+                            <div class="charities-tout"> 
                                 <a href="#WAbtm-left" class="fancybox see-more" >
                                     <img style="width: 331px;" src="img/hhw-main.png" alt="" />
                                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
@@ -458,7 +458,7 @@
 
                             </div> 
 
-                            <div style="display: block; float: left; width: 331px; margin-left: 38px;"> 
+                            <div class="charities-tout right"> 
 
                                 <a href="#WAbtm-right" class="fancybox see-more" >
                                     <img style="width: 331px;" src="img/rb5-main.png" alt="" />
@@ -539,7 +539,7 @@
 	       		   </a>
                   
                    <div class="facebook-like-wrap">
-                        <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                        <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                         </div>
                    </div>
                         <span class="moneyRaised">$3,000+ raised</span>   
@@ -587,7 +587,7 @@
 	    	       </a>
 
                    <div class="facebook-like-wrap">
-                        <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                        <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                         </div>
                    </div>
                         <span class="moneyRaised">$3,000+ raised</span>
@@ -631,7 +631,7 @@
                         </a>
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -672,7 +672,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -710,7 +710,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -747,7 +747,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -790,7 +790,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -826,7 +826,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -873,7 +873,7 @@ and educational and resource services — since 1975.
 
 
                             <div class="facebook-like-wrap">
-                                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                                 </div>
                             </div>
                             <span class="moneyRaised">$5,000+ raised</span>
@@ -918,7 +918,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -969,7 +969,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1028,7 +1028,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1073,7 +1073,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1119,7 +1119,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1160,7 +1160,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1198,7 +1198,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1240,7 +1240,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1276,7 +1276,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1313,7 +1313,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1350,7 +1350,7 @@ and educational and resource services — since 1975.
 
 
                         <div class="facebook-like-wrap">
-                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                            <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                             </div>
                         </div>
                         <span class="moneyRaised">$5,000+ raised</span>
@@ -1392,28 +1392,45 @@ and educational and resource services — since 1975.
     </form>
 
 
-    <script>        // http://jsfiddle.net/vRqcb/11/ */
+    <script>
 
-        $(document).ready(function () {
-
+        function goatHide($el) {
+            $el.css('width', '0');
+            $el.css('height', '0');
+            $el.css('padding-top', '0px');
+        }
+        function goatShow($el) {
+            $el.css('width', 'auto');
+            $el.css('height', 'auto');
+            $el.css('padding-top', '35px');
+        }
+        function goat() {
             $('#tabs li a:not(:first)').addClass('inactive');
-            $('.mc-container').hide();
-            $('.mc-container:first').show();
+            $('.mc-container').css('overflow', 'hidden');
+            goatHide($('.mc-container'));
+            goatShow($('.mc-container:first'));
 
             $('#tabs li a').click(function () {
                 var t = $(this).attr('id');
-                if ($(this).hasClass('inactive')) { //this is the start of our condition 
+                if($(this).hasClass('inactive')) { //this is the start of our condition 
                     $('#tabs li a').addClass('inactive');
                     $(this).removeClass('inactive');
 
-                    $('.mc-container').hide();
+                    goatHide($('.mc-container'));
+                    $('#' + t + 'C').hide();
+                    goatShow($('#' + t + 'C'));
                     $('#' + t + 'C').fadeIn('slow');
+
                 }
             });
+        }
 
+        $(document).ready(function () {
+            goat();
         });
 
     </script>
+
 
 </asp:Content>
 

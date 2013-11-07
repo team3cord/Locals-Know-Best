@@ -470,8 +470,12 @@ section.charities-wrap {
 div.charities-tout {
 	display: block;
 	float: left;
-	width: 47%;
-	margin-bottom: 32px;
+	width: 330px;
+	height: 275px;
+}
+
+div.charities-tout.right {
+	margin-left: 38px;
 }
 
 div.charities-tout.no-margin-right {

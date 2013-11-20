@@ -1,7 +1,7 @@
-                       <div class="charities-wrap no-top-padding">
+                       <div class="box-3">
 
-                          <a href="#top-left" class="fancybox see-more" >
-					        <img src="img/wesst-main.png" alt="" />
+                          <a href="#ret-1" class="fancybox see-more" >
+					        <img src="img/wesst-thx.png" alt="" />
 					        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		          </a>
 
@@ -10,7 +10,7 @@
                             <span class="moneyRaised">$<em>3000</em> + raised</span>
 
                           <!-- Pop up content -->
-				            <div id="top-left" class="pop-up" style="display:none;width:681px;"> 
+				            <div id="ret-1" class="pop-up" style="display:none;width:681px;"> 
 
 				            	<h2>WESST (Women's Economic Self Sufficiency Team) </h2>
 	       			 			
@@ -41,10 +41,10 @@
 	                        </div>
 	                     <!-- END Pop Up -->	 
                        </div>
-                            <div class="charities-wrap no-top-padding">
+                            <div class="box-3">
 	    	       			 		
-	    				            <a href="#top-right" class="fancybox see-more" >
-	    			            		<img src="img/caa-main.png" alt="" />
+	    				            <a href="#ret-2" class="fancybox see-more" >
+	    			            		<img src="img/caa-thx.png" alt="" />
 	    			               		<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	       	            	</a>
 	    
@@ -54,7 +54,7 @@
 	    	       			 		
 	    
 	    			        	<!-- Pop up content -->
-	    		        		<div id="top-right" class="pop-up" style="display:none;width:681px;">
+	    		        		<div id="ret-2" class="pop-up" style="display:none;width:681px;">
 	    
 	    		        			<h2>Community Action Agency of Southern New Mexico (CAASNM)</h2>
 	    					
@@ -95,10 +95,10 @@
 	    	                  <!-- END Pop Up -->	 
 	    	             </div>
            
-                         <div class="charities-wrap no-top-padding">
+                         <div class="box-3">
                         
-                          <a href="#IDtop-left" class="fancybox see-more" >
-					        <img src="img/bhh-main.png" alt="" />
+                          <a href="#ret-3" class="fancybox see-more" >
+					        <img src="img/bhh-thx.png" alt="" />
 					        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		          </a>
                              
@@ -106,7 +106,7 @@
                             <span class="moneyRaised">$<em>3000</em> + raised</span>
 
                           <!-- Pop up content -->
-				            <div id="IDtop-left" class="pop-up" style="display:none;width:681px;"> 
+				            <div id="ret-3" class="pop-up" style="display:none;width:681px;"> 
 
 				            	<h2>Boise Valley Habitat for Humanity</h2>
 	       			 			
@@ -133,10 +133,10 @@
 	                     <!-- END Pop Up -->	 
                         </div>
 
-                            <div class="charities-wrap no-top-padding">
+                            <div class="box-3">
 	    	       			 		
-	    				            <a href="#IDtop-right" class="fancybox see-more" >
-	    			            		<img src="img/seid-main.png" alt="" />
+	    				            <a href="#ret-4" class="fancybox see-more" >
+	    			            		<img src="img/seid-thx.png" alt="" />
 	    			               		<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	       	            	</a>
 	    
@@ -146,7 +146,7 @@
 	    	       			 		
 	    
 	    			        	<!-- Pop up content -->
-	    		        		<div id="IDtop-right" class="pop-up" style="display:none;width:681px;">
+	    		        		<div id="ret-4" class="pop-up" style="display:none;width:681px;">
 	    
 	    		        			<h2>SouthEastern Idaho Community Action Agency, Inc.</h2>
 	    					
@@ -177,10 +177,10 @@
 	    	                  <!-- END Pop Up -->	 
 	    	             </div>
 
-                         <div class="charities-wrap no-top-padding">
+                         <div class="box-3">
                         
-                          <a href="#IDbtm-left" class="fancybox see-more" >
-					        <img src="img/jai-main.png" alt="" />
+                          <a href="#ret-5" class="fancybox see-more" >
+					        <img src="img/jai-thx.png" alt="" />
 					        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		          </a>
 
@@ -189,7 +189,7 @@
                             <span class="moneyRaised">$<em>3000</em> + raised</span>
 
                           <!-- Pop up content -->
-				            <div id="IDbtm-left" class="pop-up" style="display:none;width:681px;"> 
+				            <div id="ret-5" class="pop-up" style="display:none;width:681px;"> 
 
 				            	<h2>Junior Achievement of Idaho </h2>
 	       			 			
@@ -219,10 +219,10 @@
 	                     <!-- END Pop Up -->	 
                         </div>
 
-                            <div class="charities-wrap no-top-padding">
+                            <div class="box-3">
 	    	       			 		
-	    				            <a href="#IDbtm-right" class="fancybox see-more" >
-	    			            		<img src="img/pnhs-main.png" alt="" />
+	    				            <a href="#ret-6" class="fancybox see-more" >
+	    			            		<img src="img/pnhs-thx.png" alt="" />
 	    			               		<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	       	            	</a>
 	    
@@ -232,7 +232,7 @@
 	    	       			 		
 	    
 	    			        	<!-- Pop up content -->
-	    		        		<div id="IDbtm-right" class="pop-up" style="display:none;width:681px;">
+	    		        		<div id="ret-6" class="pop-up" style="display:none;width:681px;">
 	    
 	    		        			<h2>Pocatello Neighborhood Housing Services</h2>
 	    					
@@ -264,19 +264,19 @@
 	    	                  <!-- END Pop Up -->	 
 	    	             </div>
                                         
-                         <div class="charities-wrap no-top-padding">
+                         <div class="box-3">
                         
-                          <a href="#WAtop-left" class="fancybox see-more" >
-					        <img src="img/sh-main.png" alt="" />
+                          <a href="#ret-7" class="fancybox see-more" >
+					        <img src="img/sh-thx.png" alt="" />
 					        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		          </a>
 
 
-                            <a id="ctl00_ContentPlaceHolder1_VoteButton7" class="green-btn left vote-btn" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$VoteButton7','')">Vote Now</a>
+                            <div class="facebook-like-wrap"><div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count"></div></div>
                             <span class="moneyRaised">$<em>2050</em> + raised</span>
 
                           <!-- Pop up content -->
-				            <div id="WAtop-left" class="pop-up" style="display:none;width:681px;"> 
+				            <div id="ret-7" class="pop-up" style="display:none;width:681px;"> 
 
 				            	<h2>Second Harvest</h2>
 	       			 			
@@ -310,10 +310,10 @@
 	                     <!-- END Pop Up -->	 
                         </div>
 
-                            <div class="charities-wrap no-top-padding">
+                            <div class="box-3">
 	    	       			 		
-	    				            <a href="#WAtop-right" class="fancybox see-more" >
-	    			            		<img src="img/swv-main.png" alt="" />
+	    				            <a href="#ret-8" class="fancybox see-more" >
+	    			            		<img src="img/swv-thx.png" alt="" />
 	    			               		<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	       	            	</a>
 	    
@@ -323,7 +323,7 @@
 	    	       			 		
 	    
 	    			        	<!-- Pop up content -->
-	    		        		<div id="WAtop-right" class="pop-up" style="display:none;width:681px;">
+	    		        		<div id="ret-8" class="pop-up" style="display:none;width:681px;">
 	    
 	    		        			<h2>Serve Wenatchee Valley</h2>
 	    					
@@ -351,19 +351,19 @@
 	    	                  <!-- END Pop Up -->	 
 	    	             </div>
 
-                         <div class="charities-wrap no-top-padding">
+                         <div class="box-3">
                         
-                          <a href="#WAbtm-left" class="fancybox see-more" >
-					        <img src="img/hhw-main.png" alt="" />
+                          <a href="#ret-9" class="fancybox see-more" >
+					        <img src="img/hhw-thx.png" alt="" />
 					        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	       		          </a>
 
 
-                            <a id="ctl00_ContentPlaceHolder1_VoteButton9" class="green-btn left vote-btn" href="javascript:__doPostBack('ctl00$ContentPlaceHolder1$VoteButton9','')">Vote Now</a>
+                            <div class="facebook-like-wrap"><div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere" data-share="false" data-width="50" data-show-faces="false" data-layout="button_count"></div></div>
                             <span class="moneyRaised">$<em>2610</em> + raised</span>
 
                           <!-- Pop up content -->
-				            <div id="WAbtm-left" class="pop-up" style="display:none;width:681px;"> 
+				            <div id="ret-9" class="pop-up" style="display:none;width:681px;"> 
 
 				            	<h2> Habitat for Humanity of the Greater Wenatchee Area </h2>
 	       			 			
@@ -388,10 +388,10 @@
 	                     <!-- END Pop Up -->	 
                         </div>
 
-                            <div class="charities-wrap no-top-padding">
+                            <div class="box-3">
 	    	       			 		
-	    				            <a href="#WAbtm-right" class="fancybox see-more" >
-	    			            		<img src="img/rb5-main.png" alt="" />
+	    				            <a href="#ret-10" class="fancybox see-more" >
+	    			            		<img src="img/rb5-thx.png" alt="" />
 	    			               		<div class="hover-click"><span>See how this charity would use the grant.</span></div>
 	    	       	            	</a>
 	    
@@ -401,7 +401,7 @@
 	    	       			 		
 	    
 	    			        	<!-- Pop up content -->
-	    		        		<div id="WAbtm-right" class="pop-up" style="display:none;width:681px;">
+	    		        		<div id="ret-10" class="pop-up" style="display:none;width:681px;">
 	    
 	    		        			<h2>Ready by Five</h2>
 	    					

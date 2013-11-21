@@ -1194,7 +1194,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>2050</em> + raised</span>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="ret-7" class="pop-up">
@@ -1335,7 +1335,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>2610</em> + raised</span>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="ret-9" class="pop-up">

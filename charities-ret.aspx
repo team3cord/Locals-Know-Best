@@ -642,7 +642,7 @@
                                 to stretch handouts a little thin. 
                             </p>
                             <p>
-                                The Omak Food Bank is ran by all volunteers from administration to distribution
+                                The Omak Food Bank is run by all volunteers from administration to distribution
                                 workers. The Omak Food Bank has bazaars, yard sales, and other fund raisers to raise
                                 money for food. 
                             </p>

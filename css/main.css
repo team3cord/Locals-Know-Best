@@ -657,6 +657,15 @@ section.section-border {
 	padding-top: 25px;
 }
 
+section.section-border.no-bottom {
+    border-bottom: none;
+}
+
+.location-tabs
+{
+    height: 95px;
+}
+
 .ipad-mini-section {
 	position: relative;
 }
@@ -777,13 +786,56 @@ div.pop-up-content img {
 	padding-right: 20px;
 }
 
+.pop-up
+{
+    display: none;
+    width: 681px;
+}
+
+#enter-form.pop-up
+{
+    width: 700px;
+}
+
+.charitiesPage h3
+{
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.charitiesPage .white-content
+{
+    width: 681px;
+    display: block;
+    float: left;
+}
+
+h2.retiredHeading
+{
+    width: 650px;
+}
+
+h2.retiredHeading > span
+{
+    width: 23%;
+}
+
+.retiredHeader > p
+{
+    text-align: center;
+    width: 650px;
+}
+
 section.section-border.top-border {border-top: 1px dashed #afafaf;}	
 	
 
 /* ==========================================================================
    Custom Type
    ========================================================================== */
-
+.facebookOnly
+{
+    display: none !important;
+}
 
 h1.main-headline {
 	display: block;
@@ -1456,7 +1508,8 @@ a {cursor:pointer;}
 }
 
 .mc-container {
-
+    display: block;
+    float: left;
     clear:both;           
     width:100%; 
     text-align:left;
@@ -1481,6 +1534,15 @@ a {cursor:pointer;}
 
 .mc-container li { }
 
+.bulletList {
+    list-style-position: outside;
+    list-style-type: circle;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
 
 /* -------------------------------------------- RETIRED CHARITIES STYLES -----------------------------------------------------------*/
 .retired .box-3 {

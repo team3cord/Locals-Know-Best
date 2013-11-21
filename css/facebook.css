@@ -113,6 +113,9 @@ h3.vote-headline {
 	text-align: center;
 	padding-bottom:24px;
 	font-size: 2em;
+
+    text-align: left;
+    padding-bottom:5px;
 }
 
 
@@ -318,6 +321,70 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.nonFacebook
+{
+    display: none !important;
+}
+
+h6
+{
+    text-align: left;
+    color: #7b8974;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.activeCharities
+{
+    display: block;
+	float: left;
+	width: 700px;
+	min-height: 100px;
+	background-color: #fff;
+	padding:20px;
+	margin-bottom:50px;
+}
+
+.pop-up
+{
+    display: none;
+    width: 681px;
+}
+
+#enter-form.pop-up
+{
+    width: 700px;
+}
+
+.charitiesPage h3
+{
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.charitiesPage .white-content
+{
+    width: 681px;
+    display: block;
+    float: left;
+}
+
+h2.retiredHeading
+{
+    width: 650px;
+}
+
+h2.retiredHeading > span
+{
+    width: 23%;
+}
+
+.charitiesPage .white-content > p
+{
+    text-align: center;
+    width: 650px;
+}
 
 	
 div.wrap {
@@ -465,6 +532,8 @@ section.charities-wrap {
 	height: 240px;
 }
 
+
+
 /* Charities */
 
 div.charities-tout {
@@ -472,6 +541,11 @@ div.charities-tout {
 	float: left;
 	width: 330px;
 	height: 275px;
+}
+
+div.charities-tout img
+{
+    width: 331px;
 }
 
 div.charities-tout.right {
@@ -506,6 +580,12 @@ div.charities-tout h4 {
 }
 
 /* Image div hover click */
+
+.retired .see-more img
+{
+    width: 218px;
+    height: 146px;
+}
 
 a.see-more {
 	display: block;
@@ -1163,6 +1243,16 @@ a {cursor:pointer;}
 .mc-container ul {  }
 
 .mc-container li { }
+
+.bulletList {
+    list-style-position: outside;
+    list-style-type: circle;
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
 
 
 /* -------------------------------------------- RETIRED CHARITIES STYLES -----------------------------------------------------------*/

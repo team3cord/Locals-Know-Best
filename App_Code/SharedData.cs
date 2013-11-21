@@ -16,16 +16,16 @@ using summit;
 
 public enum Charity
 {
-    Charity1 = 29, // women's economic self
-    Charity2 = 30,  // comm action agency
-    Charity3 = 21, // boise habitat
-    Charity4 = 22, // sei com action
-    Charity5 = 23, // jr achivement
-    Charity6 = 24, //  pnhs
-    Charity7 = 25, // second harvest
-    Charity8 = 26, // serve wenatchee
-    Charity9 = 27, // wenatchee habitat
-    Charity10 = 28 // ready by 5
+    Charity1 = 31, // accion
+    Charity2 = 32,  // silver
+    Charity3 = 33, // arch
+    Charity4 = 34, // IRC comm action
+    Charity5 = 35, // CG
+    Charity6 = 36, // P V P
+    Charity7 = 37, // Helpline
+    Charity8 = 38, // habitat
+    Charity9 = 39, // moses lake
+    Charity10 = 40 // omak
 }
 
 /// <summary>

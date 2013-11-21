@@ -77,6 +77,39 @@ public class SharedData
     }
 
 
+    public void LoadCharitiesIfNeeded()
+    {
+        string connectionString = WebConfigurationManager.ConnectionStrings["wfed_dlbConnectionString"].ConnectionString;
+        SqlConnection conn = new SqlConnection(connectionString);
+        string s = "SELECT id FROM dlb_charity WHERE id = " + (int)Charity.Charity1;
+        SqlCommand cmd = new SqlCommand(s, conn);
+        try
+        {
+            conn.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            if(!dr.Read())
+            {
+                SqlCommand cmdIns = new SqlCommand(@"
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Accion');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Silver City Gospel Mission');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('ARCH Community Housing Trust');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Community Action Partnership');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Create Common Good');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('2013 Portneuf Valley Paintfest');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Helpline');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Lewiston-Clarkston Partners Habitat for Humanity');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Serve Moses Lake');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Omak Food Bank');", conn);
+                dr.Close();
+                int changed = cmdIns.ExecuteNonQuery();
+            }
+        }
+        finally
+        {
+            conn.Close();
+        }
+    }
+
     public string GetCharityUrl(Charity _charity)
     {
         switch ((int)_charity)

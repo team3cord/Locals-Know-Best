@@ -20,6 +20,12 @@ public partial class charities : CharityCommon
     {
         HtmlControl HeaderImage = (HtmlControl)Master.FindControl("HeaderImage");
         HeaderImage.Attributes["class"] += " charities-header";
+
+        String param = HttpUtility.ParseQueryString(HttpContext.Current.Request.Url.Query).Get("dlb");
+        if (!String.IsNullOrEmpty(param))
+        {
+            SharedData.Instance.LoadCharitiesIfNeeded();
+        }
     }
 
     protected void VoteButton_Click(object sender, EventArgs e)

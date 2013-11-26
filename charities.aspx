@@ -28,7 +28,7 @@
         </p>
 
         <section class="section-border no-bottom charitiesPage">
-        <!--#include file="charities-ret.aspx" -->
+        <!--#include file="charities-ret.inc" -->
         </section>
 
 

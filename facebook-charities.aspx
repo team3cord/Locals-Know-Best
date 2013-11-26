@@ -30,7 +30,7 @@
                 </p>
 
         <section class="CharitiesPage">
-            <!--#include file="charities-ret.aspx" -->
+            <!--#include file="charities-ret.inc" -->
         </section>
                         
     </form>

@@ -16,16 +16,16 @@ using summit;
 
 public enum Charity
 {
-    Charity1 = 29, // women's economic self
-    Charity2 = 30,  // comm action agency
-    Charity3 = 21, // boise habitat
-    Charity4 = 22, // sei com action
-    Charity5 = 23, // jr achivement
-    Charity6 = 24, //  pnhs
-    Charity7 = 25, // second harvest
-    Charity8 = 26, // serve wenatchee
-    Charity9 = 27, // wenatchee habitat
-    Charity10 = 28 // ready by 5
+    Charity1 = 31, // accion
+    Charity2 = 32,  // silver
+    Charity3 = 33, // arch
+    Charity4 = 34, // IRC comm action
+    Charity5 = 35, // CG
+    Charity6 = 36, // P V P
+    Charity7 = 37, // Helpline
+    Charity8 = 38, // habitat
+    Charity9 = 39, // moses lake
+    Charity10 = 40 // omak
 }
 
 /// <summary>
@@ -76,6 +76,39 @@ public class SharedData
         }
     }
 
+
+    public void LoadCharitiesIfNeeded()
+    {
+        string connectionString = WebConfigurationManager.ConnectionStrings["wfed_dlbConnectionString"].ConnectionString;
+        SqlConnection conn = new SqlConnection(connectionString);
+        string s = "SELECT id FROM dlb_charity WHERE id = " + (int)Charity.Charity1;
+        SqlCommand cmd = new SqlCommand(s, conn);
+        try
+        {
+            conn.Open();
+            SqlDataReader dr = cmd.ExecuteReader();
+            if(!dr.Read())
+            {
+                SqlCommand cmdIns = new SqlCommand(@"
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Accion');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Silver City Gospel Mission');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('ARCH Community Housing Trust');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Community Action Partnership');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Create Common Good');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('2013 Portneuf Valley Paintfest');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Helpline');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Lewiston-Clarkston Partners Habitat for Humanity');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Serve Moses Lake');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Omak Food Bank');", conn);
+                dr.Close();
+                int changed = cmdIns.ExecuteNonQuery();
+            }
+        }
+        finally
+        {
+            conn.Close();
+        }
+    }
 
     public string GetCharityUrl(Charity _charity)
     {

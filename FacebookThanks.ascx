@@ -20,7 +20,7 @@
 	       		
 	       				<div class="thanks-content-wrap">
 	       				
-	       				<img src="<%= GetCharityImage() %>" alt="" height="" />
+	       				<img src="<%= GetCharityImage() %>" alt="" />
 	       				
 	       				<div>
 		       				<h3>Thank you for your vote<br />

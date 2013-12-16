@@ -1395,23 +1395,38 @@ and educational and resource services — since 1975.
     <script>        // http://jsfiddle.net/vRqcb/11/ */
 
         $(document).ready(function () {
+            setTimeout(goat, 10);
+            
+        });
 
+        function goatHide($el) {
+            $el.css('width', '0');
+            $el.css('height', '0');
+        }
+        function goatShow($el) {
+            $el.css('width', 'auto');
+            $el.css('height', 'auto');
+        }
+        function goat() {
             $('#tabs li a:not(:first)').addClass('inactive');
-            $('.mc-container').hide();
-            $('.mc-container:first').show();
+            $('.mc-container').css('overflow', 'hidden');
+            goatHide($('.mc-container'));
+            goatShow($('.mc-container:first'));
 
             $('#tabs li a').click(function () {
                 var t = $(this).attr('id');
-                if ($(this).hasClass('inactive')) { //this is the start of our condition 
+                if($(this).hasClass('inactive')) { //this is the start of our condition 
                     $('#tabs li a').addClass('inactive');
                     $(this).removeClass('inactive');
 
-                    $('.mc-container').hide();
+                    goatHide($('.mc-container'));
+                    $('#' + t + 'C').hide();
+                    goatShow($('#' + t + 'C'));
                     $('#' + t + 'C').fadeIn('slow');
+
                 }
             });
-
-        });
+        }
 
     </script>
 

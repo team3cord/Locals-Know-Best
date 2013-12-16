@@ -589,8 +589,8 @@
                         </div>
 	    	       </a>
 
-                   <div class="facebook-like-wrap">
-                        <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                   <div class="facebook-like-wrap" style="display:block;float:left; background-color: #FF00FF;">
+                        <div class="fb-like" style="display:block;float:left; background-color: #FF00FF;" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"  data-send="false" data-width="50" data-show-faces="false" data-layout="button_count">
                         </div>
                    </div>
                         <span class="moneyRaised">$3,000+ raised</span>
@@ -1392,7 +1392,7 @@ and educational and resource services — since 1975.
 
         $(document).ready(function () {
             setTimeout(goat, 10);
-            
+
         });
 
         function goatHide($el) {
@@ -1411,7 +1411,7 @@ and educational and resource services — since 1975.
 
             $('#tabs li a').click(function () {
                 var t = $(this).attr('id');
-                if($(this).hasClass('inactive')) { //this is the start of our condition 
+                if ($(this).hasClass('inactive')) { //this is the start of our condition 
                     $('#tabs li a').addClass('inactive');
                     $(this).removeClass('inactive');
 

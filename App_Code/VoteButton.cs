@@ -40,7 +40,7 @@ namespace summit
                 {
                     if (val > SharedData.MaxVotesPerCharity)
                     {
-                        writer.Write("<div class=\"facebook-like-wrap\"><div class=\"fb-like\" data-href=\"" + SharedData.Instance.GetCharityUrl(_charity) + "\" data-send=\"false\" data-width=\"50\" data-show-faces=\"false\" data-layout=\"button_count\"></div></div>");
+                        writer.Write("<div class=\"facebook-like-wrap\"><div class=\"fb-like\" data-href=\"" + SharedData.Instance.GetCharityUrl(_charity) + "\" data-share=\"false\" data-width=\"50\" data-show-faces=\"false\" data-layout=\"button_count\"></div></div>");
                         return;
                     }
                 }

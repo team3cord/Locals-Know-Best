@@ -877,9 +877,13 @@ div.charities-tout {
 	float: left;
 	width: 47%;
 	min-width: 195px;
-	margin-bottom: 32px;
 	position: relative;
 	overflow: hidden;
+    height: 275px;
+}
+
+div.charities-tout.right {
+	margin-left: 38px;
 }
 
 div.charities-tout h4 {
@@ -1384,6 +1388,8 @@ em {
     }
 }
 
+
+
 /* -----------------------------------------  BOFA BRANCH LAUNCH 9.5.13 ----------------------------------------- */
 
 
@@ -1394,7 +1400,6 @@ em {
     height:30px; 
    padding-right: 2px;
    margin-top: 30px;
-   
 
 }
 a {cursor:pointer;}
@@ -1455,7 +1460,7 @@ a {cursor:pointer;}
     clear:both;           
     width:100%; 
     text-align:left;
-   padding-top: 35px;
+    padding-top: 35px;
 
 }
 

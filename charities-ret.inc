@@ -317,7 +317,7 @@
 
 
                     <!-- Pop up content -->
-                    <div id="top-right" class="pop-up">
+                    <div id="jan6" class="pop-up">
 
                         <h2>The Odessa Ministerial Association</h2>
 

@@ -21,9 +21,9 @@ public enum Charity
     Charity3 = 43, // lewiston meals on wheels
     Charity4 = 44, // neighborhood housing services
     Charity5 = 45, // cb ce elum
-    Charity6 = 46, // odessa ma
+    Charity6 = 46, // odessa am
     Charity7 = 47, // okanogan ccac
-    Charity8 = 48, // city gare spokane
+    Charity8 = 48, // city gate spokane
 }
 
 /// <summary>

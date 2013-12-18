@@ -16,16 +16,14 @@ using summit;
 
 public enum Charity
 {
-    Charity1 = 31, // accion
-    Charity2 = 32,  // silver
-    Charity3 = 33, // arch
-    Charity4 = 34, // IRC comm action
-    Charity5 = 35, // CG
-    Charity6 = 36, // P V P
-    Charity7 = 37, // Helpline
-    Charity8 = 38, // habitat
-    Charity9 = 39, // moses lake
-    Charity10 = 40 // omak
+    Charity1 = 41, // boise rescue mission
+    Charity2 = 42,  // crisis center magic valley
+    Charity3 = 43, // lewiston meals on wheels
+    Charity4 = 44, // neighborhood housing services
+    Charity5 = 45, // cb ce elum
+    Charity6 = 46, // odessa ma
+    Charity7 = 47, // okanogan ccac
+    Charity8 = 48, // city gare spokane
 }
 
 /// <summary>

@@ -361,9 +361,9 @@
                     <span class="moneyRaised">$<em><%= GetMoney(VoteButton7.Charity) %></em> + raised</span>
 
                     <!-- Pop up content -->
-                    <div id="FirstTabSecondRow-left" class="pop-up">
+                    <div id="jan7" class="pop-up">
 
-                        <h2>SOkanogan County Community Action Council</h2>
+                        <h2>Okanogan County Community Action Council</h2>
 
                         <div class="pop-up-content">
 

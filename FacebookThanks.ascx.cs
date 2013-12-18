@@ -62,16 +62,14 @@ public partial class FacebookThanks : System.Web.UI.UserControl
     {
         switch ((int)_charity)
         {
-            case (int)Charity.Charity1: return "img/accion-thx.png";
-            case (int)Charity.Charity2: return "img/SilverCityGospel-thx.png";
-            case (int)Charity.Charity3: return "img/arch-thx.png";
-            case (int)Charity.Charity4: return "img/cap-thx.png";
-            case (int)Charity.Charity5: return "img/ccg-thx.png";
-            case (int)Charity.Charity6: return "img/Paintfest-thx.png";
-            case (int)Charity.Charity7: return "img/HelplineWW-thx.png";
-            case (int)Charity.Charity8: return "img/LCPartnersHforH-thx.png";
-            case (int)Charity.Charity9: return "img/LKBServeMosesLake-thx.png";
-            case (int)Charity.Charity10: return "img/OmakFoodBank-thx.png";
+            case (int)Charity.Charity1: return "img/jan/brm-thx.png";
+            case (int)Charity.Charity2: return "img/jan/ccmv-thx.png";
+            case (int)Charity.Charity3: return "img/jan/lcvmw-thx.png";
+            case (int)Charity.Charity4: return "img/jan/nhs-thx.png";
+            case (int)Charity.Charity5: return "img/jan/cb-thx.png";
+            case (int)Charity.Charity6: return "img/jan/oam-thx.png";
+            case (int)Charity.Charity7: return "img/jan/occac-thx.png";
+            case (int)Charity.Charity8: return "img/jan/cgs-thx.png";
             default: return "img/charities/july/thx-fg.png";
         }
     }

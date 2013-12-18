@@ -15,132 +15,14 @@
 
         <div class="mc-container" id="tab1C">
 
-            <h2 class="dashed-heading"><span>Vote for these charities through December 31st</span>
+            <h2 class="dashed-heading"><span>Thank You!</span>
             </h2>
             <p>
-                Make sure to vote for your favorite from this month's charities and remind your
-                friends to vote for their favorite too.
+                We're proud of the communities we serve and are delighted to be able to help those who work so hard to make this a better place to live.
             </p>
 
-            <div class="charities-tout">
-
-                <div class="charities-wrap no-top-padding">
-
-                    <a href="#IDtop-left" class="fancybox see-more">
-                        <img src="img/accion-main.png" alt="" />
-                        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
-                    </a>
-
-                    <summit:votebutton charity="Charity1" id="VoteButton1" runat="server" cssclass="green-btn left vote-btn"
-                        onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton1.Charity) %></em> + raised</span>
-
-                    <!-- Pop up content -->
-                    <div id="IDtop-left" class="pop-up">
-
-                        <h2>Accion</h2>
-
-                        <div class="pop-up-content">
-
-                            <img src="img/accion-pop.png" alt="" />
-
-                            <p>
-                                Accion New Mexico is a local, award-winning nonprofit organization that increases
-                                access to business credit, makes loans, and provides training, which enable entrepreneurs
-                                to realize their dreams and be catalysts for positive social and economic change.
-                                Since 1994, Accion has provided over 4,956 loans totaling more than $34 million
-                                to some 3,027 small businesses in 177 communities across the state. Accionís work
-                                is creating tangible economic impact in New Mexico, with an estimated 4,950 jobs
-                                created or sustained by the organizationís client businesses to create greater economic
-                                independence for themselves, their families, and their communities. A commitment
-                                to accountability, innovation, sound management, and demonstrable results have brought
-                                Accion recognition at both the local and national levels.  
-                            </p>
-
-
-                            <h3>How we will use a Locals Know Best
-                                        community grant from Washington Federal</h3>
-
-                            <p>
-                                This $3,000 gift of support will provide some 40 New Mexico entrepreneurs with the
-                                opportunity to receive a one-on-one business and personal financial education consultation
-                                with Accion staff. An estimated 30 individuals will attend workshops that Accion
-                                will offer in the next two months. Through September, in New Mexico alone, our team
-                                has supported 167 entrepreneurs with loans totaling more than $3 million. 
-                            </p>
-
-                        </div>
-                    </div>
-                    <!-- END Pop Up -->
-                </div>
-            </div>
-
-            <div class="charities-tout right">
-                <div class="charities-wrap no-top-padding">
-
-                    <a href="#IDtop-right" class="fancybox see-more">
-                        <img src="img/SilverCityGospel-main.png" alt="" />
-                        <div class="hover-click"><span>See how this charity would use the grant.</span></div>
-                    </a>
-
-
-                    <summit:votebutton charity="Charity2" id="VoteButton2" runat="server" cssclass="green-btn left vote-btn"
-                        onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton2.Charity) %></em> + raised</span>
-
-
-                    <!-- Pop up content -->
-                    <div id="IDtop-right" class="pop-up">
-
-                        <h2>Silver City Gospel Mission</h2>
-
-                        <div class="pop-up-content">
-
-                            <img src="img/SilverCityGospel-pop.png" alt="" />
-
-                            <p>
-                                Without passing judgment, and in a spirit of love and hospitality, the Silver City
-                                Gospel Mission feeds, clothes and educates the hungry and provides an oasis of welcome,
-                                safety, and cleanliness for the homeless and for men, women and children at or below
-                                the poverty line seeking survival services in the Silver City area. 
-                            </p>
-
-                            <p>
-                                We recognize the dignity and spiritual destiny of each person, and hope by our attitude
-                                of hospitality and Holy Spiritñfilled love, to nourish not only the physical needs
-                                of those who come to the Gospel Mission, but also their spiritual need for love,
-                                acceptance, respect, and friendship. 
-                            </p>
-
-                            <p>
-                                Our primary services include a daily soup kitchen, food pantry, clothing bank, women
-                                and childrenís shelter, and an emergency menís shelter. You can read more about
-                                us at www.silvercitygospelmission.org. 
-                            </p>
-
-                            <h3>How we will use a Locals Know Best
-                                        community grant from Washington Federal</h3>
-
-                            <p>
-                                These funds will be used for the purchase of ready≠-to-≠eat protein items for our
-                                food boxes: items like peanut butter, tuna fish, Spam, Vienna sausages and beef
-                                stew.
-                                        These types of food items are rarely donated and when we do have them, we
-                                have to
-                                        purchase them out of the cash we have on hand. 
-                                        These ready≠-to-≠eat sources of protein are great for those who have neither
-                                the
-                                        time,
-                                        means nor inclination to cook the staple items, and any help you provide
-                                will be
-                                        greatly appreciated by our families.  
-                            </p>
-                        </div>
-
-                    </div>
-                    <!-- END Pop Up -->
-                </div>
-            </div>
+           
+            
         </div>
         <!-- tab1C -->
 
@@ -148,7 +30,7 @@
 
         <div class="mc-container" id="tab2C">
 
-            <h2 class="dashed-heading"><span>Vote for these charities through December 31st</span>
+            <h2 class="dashed-heading"><span>Vote for these charities through January 31st</span>
             </h2>
             <p>
                 Make sure to vote for your favorite from this month's charities and remind your
@@ -160,55 +42,36 @@
 
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#arch-left" class="fancybox see-more">
-                        <img src="img/arch-main.png" alt="" />
+                    <a href="#jan1" class="fancybox see-more">
+                        <img src="img/jan/brm-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity3" id="VoteButton3" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity1" id="VoteButton1" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton3.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton1.Charity) %></em> + raised</span>
 
                     <!-- Pop up content -->
-                    <div id="arch-left" class="pop-up">
+                    <div id="jan1" class="pop-up">
 
-                        <h2>ARCH Community Housing Trust</h2>
+                        <h2>Boise Rescue Mission</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/arch-pop.png" alt="" />
+                            <img src="img/jan/brm-pop.png" alt="" />
 
                             <p>
-                                ìBuilding Community One Home at a Timeî
+                                The mission of Boise Rescue Mission (BRM) is to teach the word of God and provide food, shelter, clothing, counseling, medical care, education and job-search assistance for men, women and children in need. BRM is committed to addressing the root causes of homelessness, such as lack of education, addiction, mental illness, etc., in order to help homeless individuals and families become self-sufficient. Boise Rescue Mission meets the basic needs of homeless people by providing food, shelter and clothing, as well as effective programs that inspire hope and equip individuals with knowledge and practical skills to help them triumph over homelessness and become self-sufficient. When individuals and families come to the Mission for a meal, caring staff members introduce these guests to other programs and services offered at BRM that can help them overcome personal obstacles to obtain a stable, healthy, productive life.
                             </p>
 
-                            <p>
-                                ARCH Community Housing Trust  works to develop safe, permanently affordable housing
-                                for low to moderate income households in Blaine County. Working in partnership with
-                                our state housing agency, our local housing authority and countless private donors,
-                                we ensure that the people who work in Blaine County are able to live in Blaine County.
-                                We are a HUD-certified Community Housing Development Organization and a member of
-                                the National Community Land Trust Network.  
-                            </p>
-
-                            <p>
-                                Originally an advocacy group working to bring awareness to the issue of affordable
-                                housing in a resort-driven economy, ARCH began to actively develop affordable housing
-                                in 2009. To date, we have developed over 30 homes in the Wood River Valley, including
-                                single family, multi-family and senior housing. We both develop new construction
-                                and rehabilitate existing homes.   This year, we also moved a donated home to land
-                                that had also been donated to ARCH. 
-                            </p>
+                            
 
                             <h3>How we will use a Locals Know Best
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                We are the grateful recipients of another donated home. Funds from this grant will
-                                be used to defray the costs of moving the home to another location where it will
-                                be updated, made more energy efficient, and will serve as affordable rental housing
-                                for a very grateful local family.
+                                If awarded a grant from Washington Federal, Boise Rescue Mission will use the funds for our newest facility, the Valley Women and Children‚Äôs Shelter in Nampa, ID.
                             </p>
 
                         </div>
@@ -220,56 +83,41 @@
             <div class="charities-tout right">
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#WAtop-right" class="fancybox see-more">
-                        <img src="img/cap-main.png" alt="" />
+                    <a href="#jan2" class="fancybox see-more">
+                        <img src="img/jan/ccmv-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity4" id="VoteButton4" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity2" id="VoteButton2" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton4.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton2.Charity) %></em> + raised</span>
 
 
                     <!-- Pop up content -->
-                    <div id="WAtop-right" class="pop-up">
+                    <div id="jan2" class="pop-up">
 
-                        <h2>Community Action Partnership</h2>
+                        <h2>Crisis Center of Magic Valley</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/cap-pop.png" alt="" />
+                            <img src="img/jan/ccmv-pop.png" alt="" />
 
                             <p>
-                                Community Action Partnershipís Aging and Disability Resource Center/ Area Agency
-                                on Aging (ADRC/AAA) has been officially designated by the Idaho Commission on Aging
-                                (ICOA) as the ADRC/AAA for Clearwater, Idaho, Latah, Lewis and Nez Perce Counties.
-                                CAPís ADRC/AAA is part of a nationwide network and one of six ADRC/AAAís in Idaho
-                                created through the Older Americans Act. 
+                                The Crisis Center of Magic Valley in Twin Falls, Idaho has been providing supportive services to victims of domestic violence and sexual assault for over 30 years in the eight counties of South Central Idaho that is called "Magic Valley." The goal of the Crisis Center of Magic Valley is to rebuild lives by providing resources and tools to establish independence and freedom from abuse.  
                             </p>
                             <p>
-                                Our directed intention is to realize Aging in its abundance by eliminating economic
-                                poverty, poverty of meaning and poverty of relationship.
-                            </p>
+                                Victims of domestic violence and sexual assault often think they have no options available, so we provide shelter and support for families who have left an abusive situation, sometimes with nothing but the clothes on their backs. They have many barriers to overcome ‚Äî unemployment, lack of childcare or transportation, and often little or no resources. Our mission is to give these courageous victims the opportunity to change their lives, start over, and become survivors.                            </p>
                             <p>
-                                By design, the ADRC/AAA is designed to streamline access to long-term care information
-                                for people of all ages, incomes and disabilities. Our goals as an ADRC/AAA are:
+                                We are a non-profit, operating solely on grant funding and the generosity of our community. We work closely with other local resources to make sure our clients receive all the support that is available to them. 
                             </p>
-                            <ul class="bulletList">
-                                <li>To create a person-centered, community-based environment that promotes independence
-                                    and dignity for all individuals.</li>
-                                <li>To provide easy access to information to assist consumers in options and planning.
-                                </li>
-                                <li>To provide resources and services that supports family caregivers in planning and
-                                    support.
-                                </li>
-                            </ul>
+                            
                             <p>
-                                Our intent is to provide leadership that encourages planning for present and future
-                                long-term care needs, in order to help ensure that older Americans and their families
-                                have the information and assistance they need to make informed decisions and choices
-                                about life. Life care choices help families care for their loved ones, help people
-                                stay in their homes, and provide care options other than nursing home facilities.
+                                Crisis Center trained staff and volunteers provide comprehensive and effective services that range from a 24-hr crisis line, shelter home, case management, individual and group counseling sessions, legal/court advocacy, food and clothing, childcare, and transportation. Community outreach and training are also an important component of the CCMV program. 
+                            </p>
+
+                            <p>
+                                All services are free of charge, and provided in both English and Spanish.
                             </p>
 
 
@@ -277,9 +125,15 @@
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                North Central Idaho ADRC/AAA programs provide information and assistance to individuals
-                                utilizing public or private resources, to professionals seeking assistance on behalf
-                                of their clients, and to individuals planning for their future long-term care needs.
+                                We would like to make more services available for the children who are caught in violent family situations. The little ones are ALWAYS affected when there is violence in their homes. The good news is that children are very resilient, and with nurturing support, healing is possible. Providing therapy/counseling for the children who pass through our shelter would be a priority.  
+                            </p>
+
+                            <p>
+                                We would also like to use a portion of the money to fund a campaign and materials to make our community more aware of the issues of domestic violence and sexual assault, and to train and educate professionals in our area (for example, the staff at nursing homes).
+                            </p>
+
+                            <p>
+                                Thank you for this opportunity ‚Äî we are so grateful.
                             </p>
 
                         </div>
@@ -294,41 +148,30 @@
 
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#WAbtm-left" class="fancybox see-more">
-                        <img src="img/ccg-main.png" alt="" />
+                    <a href="#jan3" class="fancybox see-more">
+                        <img src="img/jan/lcvmw-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity5" id="VoteButton5" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity3" id="VoteButton3" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton5.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton3.Charity) %></em> + raised</span>
 
                     <!-- Pop up content -->
-                    <div id="WAbtm-left" class="pop-up">
+                    <div id="jan3" class="pop-up">
 
-                        <h2>Create Common Good</h2>
+                        <h2>Lewiston-Clarkston Valley Meals on Wheels</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/ccg-pop.png" alt="" />
+                            <img src="img/jan/lcvmw-pop.png" alt="" />
 
                             <p>
-                                Create Common Good uses food to change lives and build healthy communities. We positively
-                                impact the community through our job training for self-sufficiency, youth leadership
-                                development and access to health programs to combat childhood obesity. We envision
-                                a community in which there is individual and community transformation; empowerment
-                                opportunities for people with barriers to employment; youth leadership development;
-                                access to quality, nutritious food; opportunity for nutrition education; quality
-                                employment for all seeking work; and wellness for all. 
+                                Valley Meals on Wheels has been delivering meals to those in need in the Lewiston-Clarkston Valley since 1975. Our mission is to provide nutritious, affordable, home-delivered meals 365 days a year to low income seniors, homebound individuals and others who cannot or should not prepare meals themselves. These meals allow our clients to stay in their own homes and out of care facilities for a longer period of time. Clients have a choice of a hot meal for $3, or a hot meal and a sack lunch for $4, delivered as many days of the week as they desire.
                             </p>
                             <p>
-                                Create Common Good provides culinary job training and placement services to people
-                                with barriers to employment. We partner with other community serving agencies to
-                                train people who are on the path to self-sufficiency and greater opportunity, placing
-                                98% of our graduates into jobs. Since CCG's launch in 2008, we have trained and
-                                placed hundreds of adult head-of-household individuals, resulting in more than $6
-                                million in earned wages reinvested back into the Idaho economy.  
+                                Our dedicated volunteer drivers, in many cases, are the only contact some clients have for days. The visits may be brief, but they provide a daily check-up on clients and have been of great assistance to people in an emergency. We currently serve 90 clients and deliver as many as 75 meals per day. 
                             </p>
 
 
@@ -336,8 +179,7 @@
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                Your investment in CCG supports these programs, impacting families throughout the
-                                Treasure Valley.  
+                                A community gift from Washington Federal will be used to help make up the difference between the meal preparation cost and the amount we charge our clients for the meals. We have kept our meal prices at an affordable level for our clients, which results in a loss on every meal delivered.
                             </p>
 
                         </div>
@@ -349,35 +191,32 @@
             <div class="charities-tout right">
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#WAbtm-right" class="fancybox see-more">
-                        <img src="img/Paintfest-main.png" alt="" />
+                    <a href="#jan4" class="fancybox see-more">
+                        <img src="img/jan/nhs-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity6" id="VoteButton6" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity4" id="VoteButton4" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton6.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton4.Charity) %></em> + raised</span>
 
 
                     <!-- Pop up content -->
-                    <div id="WAbtm-right" class="pop-up">
+                    <div id="jan4" class="pop-up">
 
-                        <h2>2013 Portneuf Valley Paintfest </h2>
+                        <h2>Neighborhood Housing Services</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/Paintfest-pop.png" alt="" />
+                            <img src="img/jan/nhs-pop.png" alt="" />
 
                             <p>
-                                Formed in 1987, Paintfest has painted close to 600 homes of qualified senior citizens
-                                and coordinated thousands of volunteer hours and sponsor dollars. Homeowner applicants
-                                must meet age and financial criteria (same as SEICAA criteria), their home must
-                                be in need of exterior paint, and be located within the Pocatello/Chubbuck city
-                                limits. The paint and labor are all provided to the homeowner at NO cost. Our mission
-                                is to give the gift of a revitalized home exterior to seniors who need, but cannot
-                                afford to have, their homes painted, and to foster volunteerism and sponsorship
-                                within individuals, businesses and organizations throughout our community.
+                                Neighborhood Housing Services, Inc. (NHS) is a local nonprofit that envisions safe, sustainable homes as the bedrock for a stronger Idaho. NHS commits to this vision with services that revitalize neighborhoods and stabilize families, including Rake Up Boise‚Ñ¢, Paint The Town‚Ñ¢, home ownership counseling and affordable housing opportunities. Founded in 1982, NHS is a chartered member of NeighborWorks¬Æ, a nationwide network of 240 trained and certified community development organizations at work in more than 4,000 communities across America.
+                            </p>
+
+                            <p>
+                                NHS believes that housing is the key to stabilizing and empowering families and communities. Until people can be safely and affordably placed in housing, other needs cannot be fully met, including employment, refugee acculturation, job training, food security, and family services. NHS provides a continuum of services focused on the needs related to housing in order to create a community where all residents have a stable place to call home, without fear of losing it.
                             </p>
 
 
@@ -385,10 +224,7 @@
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                Our board makes prudent use of each sponsor dollar. A Washington Federal Foundation
-                                Grant would allow us to positively impact the lives of our senior citizens and neighborhoods
-                                by increasing the number of senior citizensí homes to be painted in 2014. All Paintfest
-                                supplies are purchased locally, which multiplies the impact of a $3,000 grant greatly.
+                                NHS will use this grant to provide Homebuyer Education courses and one-on-one coaching to families working toward homeownership. It will also help expand our ability to offer financial literacy sessions for families and individuals working toward financial independence.
                             </p>
 
                         </div>
@@ -407,7 +243,7 @@
 
 
         <div class="mc-container" id="tab3C">
-            <h2 class="dashed-heading"><span>Vote for these charities through December 31st</span>
+            <h2 class="dashed-heading"><span>Vote for these charities through January 31st</span>
             </h2>
             <p>
                 Make sure to vote for your favorite from this month's charities and remind your
@@ -419,59 +255,46 @@
 
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#top-left" class="fancybox see-more">
-                        <img src="img/HelplineWW-main.png" alt="" />
+                    <a href="#jan5" class="fancybox see-more">
+                        <img src="img/jan/cb-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity7" id="VoteButton7" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity5" id="VoteButton5" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton7.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton5.Charity) %></em> + raised</span>
 
                     <!-- Pop up content -->
-                    <div id="top-left" class="pop-up">
+                    <div id="jan5" class="pop-up">
 
-                        <h2>Helpline</h2>
+                        <h2>Community Builders Cle Elum</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/HelplineWW-pop.png" alt="" />
+                            <img src="img/jan/cb-pop.png" alt="" />
 
                             <p>
-                                Founded in 1973, Helpline acts as the communityís ìfront door to helpî for local
-                                individuals and families in crisis, serving as the primary screening and referral
-                                agency for emergency social services in Walla Walla County. Our role is to assess
-                                their needs and connect them with appropriate local resources, including food, shelter,
-                                counseling, as well as assistance with transportation, utilities, rent, prescriptions
-                                and dental services. This centralized approach connects our most vulnerable citizens
-                                with the resources they need, maximizes the use of limited community resources,
-                                and assists in abating and preventing homelessness. 
+                                Community Builders is a nonprofit started in Cle Elum, Washington in 2002 by Rosemary and Larry Putnam, who were committed to making Upper Kittitas County a better place to live for seniors and youth. After building the Senior Center, they set their sights on providing positive activities for youth and their families. 
                             </p>
 
                             <p>
-                                In 2009 Helpline ìstepped upî to meet a critical unmet need by establishing the
-                                STEP
-                                        Womenís shelter, which provides a place for a safe, warm nightís sleep for
-                                single
-                                        homeless women in our community. In addition, it provides case management,
-                                transition
-                                        to permanent housing, referrals for chemical dependency evaluation and treatment,
-                                short-term counseling, and guidance toward education and employment. The STEP shelter
-                                builds on Helplineís long history of connecting the community to assist those most
-                                in need, and aligns with our mission to affirm the worth of every person; address
-                                the needs of individuals, families and our community; and advocate for positive
-                                life transformation.
+                                Our Community is rural and does not have many of the youth services that you would normally expect to find. Community Builders works to fill those gaps.
+                            </p>
+
+                            <p>
+                                We provide afterschool programs, CRASH AND GEAR, and tutoring for kids in the Cle Elum-Roslyn School District at the Elementary and Middle Schools. The programs include homework help, tutoring, enrichment classes in Music, Art, Science, Cooking, Geography, and a host of other areas. The programs are absolutely free to students and their families, and the transportation is provided by school bus following the program. 
+                            </p>
+
+                            <p>
+                                In addition to the afterschool programs, we provide activities that work to prevent drug and alcohol use by the youth in our communities. We provide a Celebration of Drug Free Youth retreat weekend, assemblies, the Organ Lady, etc.
                             </p>
 
                             <h3>How we will use a Locals Know Best
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                Funds raised will go toward the abatement and prevention of homelessness, a growing
-                                concern and challenge in Walla Walla County. Specifically, Helpline will dedicate
-                                the funds to support our direct service programs, including assistance with utilities,
-                                prescription medications, transportation and other related homeless prevention programs.
+                                During the summer, we provide a literacy program at the Roslyn and Cle Elum Libraries, an Arts in the Park series in both towns, and a summer field trip program in partnership with ADDS to provide no-cost field trips to youth in our community. All activities are absolutely free to youth and their families. This funding will really help us in our efforts to raise the $20,000 needed to provide the summer programs! Thank you for your vote!!!
                             </p>
                         </div>
                     </div>
@@ -482,59 +305,37 @@
             <div class="charities-tout right">
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#top-right" class="fancybox see-more">
-                        <img src="img/LCPartnersHforH-main.png" alt="" />
+                    <a href="#jan6" class="fancybox see-more">
+                        <img src="img/jan/oam-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity8" id="VoteButton8" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity6" id="VoteButton6" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton8.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton6.Charity) %></em> + raised</span>
 
 
                     <!-- Pop up content -->
                     <div id="top-right" class="pop-up">
 
-                        <h2>Lewiston-Clarkston Partners Habitat for Humanity</h2>
+                        <h2>The Odessa Ministerial Association</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/LCPartnersHforH-pop.png" alt="" />
+                            <img src="img/jan/oma-pop.png" alt="" />
 
                             <p>
-                                Habitat for Humanity is an ecumenical Christian based organization whose primary
-                                vision is a world where everyone has a decent place to live. Seeking to put Godís
-                                love into action, Habitat for Humanity brings people together to build homes, communities
-                                and hope. The Lewiston-Clarkston Partners Habitat for Humanity began in 1991 and
-                                has built 30 homes, impacting 45 adults and 81 children. We have chosen, as our
-                                means of manifesting Godís love, to create opportunities for all people to live
-                                in decent, affordable and energy-efficient shelter. We view our work as successful
-                                when it transforms lives and promotes positive and lasting social, economic, and
-                                spiritual change within our community. 
+                                The Odessa Ministerial Association is made up of the Christian churches in Odessa, Washington. Our current congregational support members are Christ Lutheran Church, Heritage Community Church, Odessa FourSquare Church, St. Joseph's Catholic Church and Zion Emmanuel Lutheran Church. This cooperative ministry provides urgent assistance for families in need in the Odessa community through a local food bank, emergency funds for utility, medical and other needful situations. Our ministerial association also organizes and hosts events for the community, such as concerts and an annual community church barbeque and softball fun day. The pastors of our member congregations serve as the board of directors of this outreach ministry. Regular reports are provided to the board by the treasurer, who also provides a yearly report for the congregations' annual meetings.
                             </p>
 
-                            <p>
-                                We support sustainable construction and energy consumption practices, and every
-                                home we build comes with an Energy StarÆ
-                                        rating. This saves the homeowner much needed
-                                        money and works for the preservation of our planet as well. We believe the
-                                miniscule
-                                        can be multiplied to accomplish the magnificent, and working respectfully
-                                together,
-                                        relationships can be nurtured and developed among all people.
-                            </p>
 
 
                             <h3>How we will use a Locals Know Best
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                We are preparing to put together a financial literacy program for our partner families.
-                                The program will cover topics such as understanding mortgage disclosure documents
-                                required by RESPA and TILA, mortgage deeds and preparing for closing, predatory
-                                lending practices, foreclosure/delinquency prevention, homeowner insurance and escrow,
-                                budgeting, and understanding and improving credit scores.
+                                All funds granted through this effort with Washington Federal Bank will be used for support of our local food bank and our emergency funds needed for utility expense assistance for those who seek our assistance during the colder winter months.
                             </p>
 
                         </div>
@@ -549,47 +350,30 @@
 
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#FirstTabSecondRow-left" class="fancybox see-more">
-                        <img src="img/LKBServeMosesLake-main.png" alt="" />
+                    <a href="#jan7" class="fancybox see-more">
+                        <img src="img/jan/occac-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity9" id="VoteButton9" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity7" id="VoteButton7" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton9.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton7.Charity) %></em> + raised</span>
 
                     <!-- Pop up content -->
                     <div id="FirstTabSecondRow-left" class="pop-up">
 
-                        <h2>Serve Moses Lake</h2>
+                        <h2>SOkanogan County Community Action Council</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/LKBServeMosesLake-pop.png" alt="" />
+                            <img src="img/jan/occac-pop.png" alt="" />
 
                             <p>
-                                Serve Moses Lake is an outreach of the local Moses Lake Ministerial Association
-                                Churches who have combined their resources (volunteers, materials, finances, etc.)
-                                to assist Moses Lake residents in need. Our goal is to make this community better
-                                by "helping people find the help they need, encouraging reconciliation, and connecting
-                                them to the local Church." We offer a full range of services to meet the spiritual,
-                                physical and emotional needs of Moses Lake residents through a coordinated intake
-                                site, the Serve Moses Lake Clearinghouse Office. During the clearinghouse intake
-                                process, we reach out to people with the love of Jesus Christ and offer them hope
-                                through personal encouragement, practical acts of kindness, prayer support, and
-                                a connection to a local church. We offer helpful services, such as advocacy, agency
-                                referrals, local bus passes, clothing, financial assistance, food baskets, furniture,
-                                haircuts, laundry vouchers, meals, and non-food pantry items. We verify the circumstances
-                                and needs of our clients, make referrals to other local agencies and resources,
-                                and then, based upon our recommendation, local churches respond to the benevolent
-                                needs of our clients. 
+                                OCCAC is a community building organization. We work with community members of all groups to raise the poor out of poverty, to feed the hungry, to provide affordable housing for all, to empower community members through education, and in the process to return prosperity and hope for the future to our county.
                             </p>
                             <p>
-                                In addition to our clearinghouse office, Serve Moses Lake also operates a free Community
-                                Meal, an annual Back-2-School clothing and supplies giveaway, and the Transformation
-                                House program (a year-long commitment to making drastic life changes in order to
-                                get on a productive path, away from any life-controlling problems). 
+                                For 48 years, Okanogan Community Action has led community members out of crisis and toward self-reliance with locally developed strategies. We provide Food, Warmth, Housing, and Education to people in crisis, while also teaching them strategies for future crisis prevention through financial training, budgeting, job training, home conservation techniques, and general life management skills they may not have had access to.  
                             </p>
 
                             <h3>How we will use a Locals Know Best
@@ -597,9 +381,11 @@
 
 
                             <p>
-                                We intend to use every donated dollar to help fund our expanding programs (especially
-                                our Community Meal and Transformation House) as we seek to help people find the
-                                help they need. 
+                                Our Food and Nutrition Department will benefit from this fundraiser by supporting our nutrition education activities. OCCAC does all of the purchasing and distribution for all of the food banks in the county, and has privately managed to glean over 80,000 pounds of fresh food for food bank recipients that would otherwise have gone to waste just in the last 6 months. We provided two healthy cooking demonstrations this year, and this funding will allow us to increase our classes to reach more people who struggle to put healthy food on the table while maintaining their budgets. 
+                            </p>
+
+                            <p>
+                                Additionally, funds will be used to buy materials in 2014 for a project that will provide small repairs to the homes of senior citizens.   
                             </p>
 
                         </div>
@@ -611,50 +397,56 @@
             <div class="charities-tout right">
                 <div class="charities-wrap no-top-padding">
 
-                    <a href="#FirstTabSecondRow2-right" class="fancybox see-more">
-                        <img src="img/OmakFoodBank-main.png" alt="" />
+                    <a href="#jan8" class="fancybox see-more">
+                        <img src="img/jan/cgs-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
 
-                    <summit:votebutton charity="Charity10" id="VoteButton10" runat="server" cssclass="green-btn left vote-btn"
+                    <summit:votebutton charity="Charity8" id="VoteButton8" runat="server" cssclass="green-btn left vote-btn"
                         onclick="VoteButton_Click">Vote Now</summit:votebutton>
-                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton10.Charity) %></em> + raised</span>
+                    <span class="moneyRaised">$<em><%= GetMoney(VoteButton8.Charity) %></em> + raised</span>
 
 
                     <!-- Pop up content -->
-                    <div id="FirstTabSecondRow2-right" class="pop-up">
+                    <div id="jan8" class="pop-up">
 
-                        <h2>Omak Food Bank</h2>
+                        <h2>The City Gate Spokane</h2>
 
                         <div class="pop-up-content">
 
-                            <img src="img/OmakFoodBank-pop.png" alt="" />
+                            <img src="img/jan/cgs-pop.png" alt="" />
 
                             <p>
-                                The Omak Food Bank was started in 1981 by a group of Christian women. Food was handed
-                                out from individual homes. Then from a small room in the back of Omak City Hall,
-                                to a small rental building, Omak Food Bank got a building of their own when we got
-                                a CBDG grant. We are in our own building now, renting out the top and running distribution
-                                out of the basement. Omak Food Bank is serving up to 350 to 400 people twice a week.
-                                With family income being cut and more families needing food, our numbers will be
-                                going up. We get Northwest Harvest T FAP and private donations. Sometimes we have
-                                to stretch handouts a little thin. 
+                                A welcoming family, clean clothes, a hot bath or shower, a warm place to come in from the cold, a hot meal. These are all things that most of us take for granted. For many folks who come through the doors at The City Gate, these are luxuries often only seen at a distance. For 26 years, The City Gate has worked to provide these basic needs for the homeless and low income of the Spokane inner city.
                             </p>
                             <p>
-                                The Omak Food Bank is run by all volunteers from administration to distribution
-                                workers. The Omak Food Bank has bazaars, yard sales, and other fund raisers to raise
-                                money for food. 
+                                The City Gate is a non-profit organization that is first and foremost a church with the purpose of RECLAIMING, REBUILDING & RESTORING Lost and Broken Lives. We begin this mission by providing a "gathering place" at our downtown location that's open to the public. From the homeless to low-income families, from youth on the streets to those who are addicts, from the mentally ill to the outcast, The City Gate provides a place of refuge from the streets in a safe and family-like atmosphere.
                             </p>
+
+                            <span>Services include:</span>
+
+                            <ul class="bulletList">
+                                <li>Breakfast &amp; lunch</li>
+                                <li>Dinner</li>
+                                <li>2nd Harvest food bank</li>
+                                <li>Clothing bank</li>
+                                <li>Social service counseling</li>
+                                <li>Shower</li>
+                                <li>Hygiene items and blankets</li>
+                                <li>Activiities and special events</li>
+                                <li>26 low-income apartments</li>
+                                <li>2 emergency shelter apartments</li>
+                                <li>Sunday church service</li>
+                            </ul>
+
 
 
                             <h3>How we will use a Locals Know Best
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                We welcome the $3000 gift from the Washington Federal giving program! This money
-                                will certainly boost our ability to purchase food and assist with the needs of our
-                                community in the months to come. Many thanks to the folks of Washington Federal.
+                                Funds received from Washington Federal Community Support Program will directly support our inner-city homeless and low-income families by assisting us in providing necessary supplies needed to feed, clothe and keep warm those who look to The City Gate for hope.
                             </p>
 
                         </div>
@@ -698,12 +490,12 @@
 
         <p>
             Over the past months, we've donated a total
-                        of $126,000 to the charities below.
+                        of $156,000 to the charities below.
         </p>
     </div>
 
     <div class="facebookOnly">
-        <h3 class="vote-headline">Over $126,000
+        <h3 class="vote-headline">Over $156,000
             raised so far. Let's keep it going!</h3>
 
         <h6>Check out the power of local know how and Washington Federal.
@@ -714,7 +506,622 @@
 
     <div class="retired">
 
+<!-- DECEMBER -->
 
+        <div class="box-3">
+
+            <a href="#dec1" class="fancybox see-more">
+                <img src="img/accion-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec1" class="pop-up">
+
+                <h2>Accion</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/accion-pop.png" alt="" />
+
+                    <p>
+                        Accion New Mexico is a local, award-winning nonprofit organization that increases
+                        access to business credit, makes loans, and provides training, which enable entrepreneurs
+                        to realize their dreams and be catalysts for positive social and economic change.
+                        Since 1994, Accion has provided over 4,956 loans totaling more than $34 million
+                        to some 3,027 small businesses in 177 communities across the state. Accion's work
+                        is creating tangible economic impact in New Mexico, with an estimated 4,950 jobs
+                        created or sustained by the organization's client businesses to create greater economic
+                        independence for themselves, their families, and their communities. A commitment
+                        to accountability, innovation, sound management, and demonstrable results have brought
+                        Accion recognition at both the local and national levels.  
+                    </p>
+
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        This $3,000 gift of support will provide some 40 New Mexico entrepreneurs with the
+                        opportunity to receive a one-on-one business and personal financial education consultation
+                        with Accion staff. An estimated 30 individuals will attend workshops that Accion
+                        will offer in the next two months. Through September, in New Mexico alone, our team
+                        has supported 167 entrepreneurs with loans totaling more than $3 million. 
+                    </p>
+
+                </div>
+            </div>
+                    <!-- END Pop Up -->
+        </div>
+
+        <div class="box-3">
+
+            <a href="#dec2" class="fancybox see-more">
+                <img src="img/SilverCityGospel-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec2" class="pop-up">
+
+                <h2>Silver City Gospel Mission</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/SilverCityGospel-pop.png" alt="" />
+
+                    <p>
+                        Without passing judgment, and in a spirit of love and hospitality, the Silver City
+                        Gospel Mission feeds, clothes and educates the hungry and provides an oasis of welcome,
+                        safety, and cleanliness for the homeless and for men, women and children at or below
+                        the poverty line seeking survival services in the Silver City area. 
+                    </p>
+
+                    <p>
+                        We recognize the dignity and spiritual destiny of each person, and hope by our attitude
+                        of hospitality and Holy SpiritÔøΩfilled love, to nourish not only the physical needs
+                        of those who come to the Gospel Mission, but also their spiritual need for love,
+                        acceptance, respect, and friendship. 
+                    </p>
+
+                    <p>
+                        Our primary services include a daily soup kitchen, food pantry, clothing bank, women
+                        and childrenÔøΩs shelter, and an emergency menÔøΩs shelter. You can read more about
+                        us at www.silvercitygospelmission.org. 
+                    </p>
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        These funds will be used for the purchase of readyÔøΩ-to-ÔøΩeat protein items for our
+                        food boxes: items like peanut butter, tuna fish, Spam, Vienna sausages and beef
+                        stew.
+                                These types of food items are rarely donated and when we do have them, we
+                        have to
+                                purchase them out of the cash we have on hand. 
+                                These readyÔøΩ-to-ÔøΩeat sources of protein are great for those who have neither
+                        the
+                                time,
+                                means nor inclination to cook the staple items, and any help you provide
+                        will be
+                                greatly appreciated by our families.  
+                    </p>
+                </div>
+
+            </div>
+                    <!-- END Pop Up -->
+
+        </div>
+                <div class="box-3">
+
+            <a href="#dec3" class="fancybox see-more">
+                <img src="img/arch-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec3" class="pop-up">
+
+                <h2>ARCH Community Housing Trust</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/arch-pop.png" alt="" />
+
+                    <p>
+                        ÔøΩBuilding Community One Home at a TimeÔøΩ
+                    </p>
+
+                    <p>
+                        ARCH Community Housing Trust  works to develop safe, permanently affordable housing
+                        for low to moderate income households in Blaine County. Working in partnership with
+                        our state housing agency, our local housing authority and countless private donors,
+                        we ensure that the people who work in Blaine County are able to live in Blaine County.
+                        We are a HUD-certified Community Housing Development Organization and a member of
+                        the National Community Land Trust Network.  
+                    </p>
+
+                    <p>
+                        Originally an advocacy group working to bring awareness to the issue of affordable
+                        housing in a resort-driven economy, ARCH began to actively develop affordable housing
+                        in 2009. To date, we have developed over 30 homes in the Wood River Valley, including
+                        single family, multi-family and senior housing. We both develop new construction
+                        and rehabilitate existing homes.   This year, we also moved a donated home to land
+                        that had also been donated to ARCH. 
+                    </p>
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        We are the grateful recipients of another donated home. Funds from this grant will
+                        be used to defray the costs of moving the home to another location where it will
+                        be updated, made more energy efficient, and will serve as affordable rental housing
+                        for a very grateful local family.
+                    </p>
+
+                </div>
+            </div>
+                    <!-- END Pop Up -->
+        </div>
+        <div class="box-3">
+
+            <a href="#dec4" class="fancybox see-more">
+                <img src="img/cap-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec4" class="pop-up">
+
+                <h2>Community Action Partnership</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/cap-pop.png" alt="" />
+
+                    <p>
+                        Community Action PartnershipÔøΩs Aging and Disability Resource Center/ Area Agency
+                        on Aging (ADRC/AAA) has been officially designated by the Idaho Commission on Aging
+                        (ICOA) as the ADRC/AAA for Clearwater, Idaho, Latah, Lewis and Nez Perce Counties.
+                        CAPÔøΩs ADRC/AAA is part of a nationwide network and one of six ADRC/AAAÔøΩs in Idaho
+                        created through the Older Americans Act. 
+                    </p>
+                    <p>
+                        Our directed intention is to realize Aging in its abundance by eliminating economic
+                        poverty, poverty of meaning and poverty of relationship.
+                    </p>
+                    <p>
+                        By design, the ADRC/AAA is designed to streamline access to long-term care information
+                        for people of all ages, incomes and disabilities. Our goals as an ADRC/AAA are:
+                    </p>
+                    <ul class="bulletList">
+                        <li>To create a person-centered, community-based environment that promotes independence
+                            and dignity for all individuals.</li>
+                        <li>To provide easy access to information to assist consumers in options and planning.
+                        </li>
+                        <li>To provide resources and services that supports family caregivers in planning and
+                            support.
+                        </li>
+                    </ul>
+                    <p>
+                        Our intent is to provide leadership that encourages planning for present and future
+                        long-term care needs, in order to help ensure that older Americans and their families
+                        have the information and assistance they need to make informed decisions and choices
+                        about life. Life care choices help families care for their loved ones, help people
+                        stay in their homes, and provide care options other than nursing home facilities.
+                    </p>
+
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        North Central Idaho ADRC/AAA programs provide information and assistance to individuals
+                        utilizing public or private resources, to professionals seeking assistance on behalf
+                        of their clients, and to individuals planning for their future long-term care needs.
+                    </p>
+
+                </div>
+
+                </div>
+                    <!-- END Pop Up -->       
+             </div>
+
+        <div class="box-3">
+
+            <a href="#dec5" class="fancybox see-more">
+                <img src="img/ccg-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec5" class="pop-up">
+
+                <h2>Create Common Good</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/ccg-pop.png" alt="" />
+
+                    <p>
+                        Create Common Good uses food to change lives and build healthy communities. We positively
+                        impact the community through our job training for self-sufficiency, youth leadership
+                        development and access to health programs to combat childhood obesity. We envision
+                        a community in which there is individual and community transformation; empowerment
+                        opportunities for people with barriers to employment; youth leadership development;
+                        access to quality, nutritious food; opportunity for nutrition education; quality
+                        employment for all seeking work; and wellness for all. 
+                    </p>
+                    <p>
+                        Create Common Good provides culinary job training and placement services to people
+                        with barriers to employment. We partner with other community serving agencies to
+                        train people who are on the path to self-sufficiency and greater opportunity, placing
+                        98% of our graduates into jobs. Since CCG's launch in 2008, we have trained and
+                        placed hundreds of adult head-of-household individuals, resulting in more than $6
+                        million in earned wages reinvested back into the Idaho economy.  
+                    </p>
+
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        Your investment in CCG supports these programs, impacting families throughout the
+                        Treasure Valley.  
+                    </p>
+
+                </div>
+            </div>
+                    <!-- END Pop Up -->
+
+        </div>
+
+        <div class="box-3">
+
+                <a href="#dec6" class="fancybox see-more">
+                    <img src="img/Paintfest-main.png" alt="" />
+                    <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+                </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec6" class="pop-up">
+
+                <h2>2013 Portneuf Valley Paintfest </h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/Paintfest-pop.png" alt="" />
+
+                    <p>
+                        Formed in 1987, Paintfest has painted close to 600 homes of qualified senior citizens
+                        and coordinated thousands of volunteer hours and sponsor dollars. Homeowner applicants
+                        must meet age and financial criteria (same as SEICAA criteria), their home must
+                        be in need of exterior paint, and be located within the Pocatello/Chubbuck city
+                        limits. The paint and labor are all provided to the homeowner at NO cost. Our mission
+                        is to give the gift of a revitalized home exterior to seniors who need, but cannot
+                        afford to have, their homes painted, and to foster volunteerism and sponsorship
+                        within individuals, businesses and organizations throughout our community.
+                    </p>
+
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        Our board makes prudent use of each sponsor dollar. A Washington Federal Foundation
+                        Grant would allow us to positively impact the lives of our senior citizens and neighborhoods
+                        by increasing the number of senior citizensÔøΩ homes to be painted in 2014. All Paintfest
+                        supplies are purchased locally, which multiplies the impact of a $3,000 grant greatly.
+                    </p>
+
+                </div>
+
+            </div>
+            <!-- END Pop Up -->
+        </div>
+        
+        <div class="box-3">
+
+            <a href="#dec7" class="fancybox see-more">
+                <img src="img/HelplineWW-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec7" class="pop-up">
+
+                <h2>Helpline</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/HelplineWW-pop.png" alt="" />
+
+                    <p>
+                        Founded in 1973, Helpline acts as the communityÔøΩs ÔøΩfront door to helpÔøΩ for local
+                        individuals and families in crisis, serving as the primary screening and referral
+                        agency for emergency social services in Walla Walla County. Our role is to assess
+                        their needs and connect them with appropriate local resources, including food, shelter,
+                        counseling, as well as assistance with transportation, utilities, rent, prescriptions
+                        and dental services. This centralized approach connects our most vulnerable citizens
+                        with the resources they need, maximizes the use of limited community resources,
+                        and assists in abating and preventing homelessness. 
+                    </p>
+
+                    <p>
+                        In 2009 Helpline ÔøΩstepped upÔøΩ to meet a critical unmet need by establishing the
+                        STEP
+                                WomenÔøΩs shelter, which provides a place for a safe, warm nightÔøΩs sleep for
+                        single
+                                homeless women in our community. In addition, it provides case management,
+                        transition
+                                to permanent housing, referrals for chemical dependency evaluation and treatment,
+                        short-term counseling, and guidance toward education and employment. The STEP shelter
+                        builds on HelplineÔøΩs long history of connecting the community to assist those most
+                        in need, and aligns with our mission to affirm the worth of every person; address
+                        the needs of individuals, families and our community; and advocate for positive
+                        life transformation.
+                    </p>
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        Funds raised will go toward the abatement and prevention of homelessness, a growing
+                        concern and challenge in Walla Walla County. Specifically, Helpline will dedicate
+                        the funds to support our direct service programs, including assistance with utilities,
+                        prescription medications, transportation and other related homeless prevention programs.
+                    </p>
+                </div>
+            </div>
+                    <!-- END Pop Up -->
+        </div>
+
+        <div class="box-3">
+
+            <a href="#dec8" class="fancybox see-more">
+                <img src="img/LCPartnersHforH-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec8" class="pop-up">
+
+                <h2>Lewiston-Clarkston Partners Habitat for Humanity</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/LCPartnersHforH-pop.png" alt="" />
+
+                    <p>
+                        Habitat for Humanity is an ecumenical Christian based organization whose primary
+                        vision is a world where everyone has a decent place to live. Seeking to put GodÔøΩs
+                        love into action, Habitat for Humanity brings people together to build homes, communities
+                        and hope. The Lewiston-Clarkston Partners Habitat for Humanity began in 1991 and
+                        has built 30 homes, impacting 45 adults and 81 children. We have chosen, as our
+                        means of manifesting GodÔøΩs love, to create opportunities for all people to live
+                        in decent, affordable and energy-efficient shelter. We view our work as successful
+                        when it transforms lives and promotes positive and lasting social, economic, and
+                        spiritual change within our community. 
+                    </p>
+
+                    <p>
+                        We support sustainable construction and energy consumption practices, and every
+                        home we build comes with an Energy StarÔøΩ
+                                rating. This saves the homeowner much needed
+                                money and works for the preservation of our planet as well. We believe the
+                        miniscule
+                                can be multiplied to accomplish the magnificent, and working respectfully
+                        together,
+                                relationships can be nurtured and developed among all people.
+                    </p>
+
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        We are preparing to put together a financial literacy program for our partner families.
+                        The program will cover topics such as understanding mortgage disclosure documents
+                        required by RESPA and TILA, mortgage deeds and preparing for closing, predatory
+                        lending practices, foreclosure/delinquency prevention, homeowner insurance and escrow,
+                        budgeting, and understanding and improving credit scores.
+                    </p>
+
+                </div>
+
+            </div>
+                    <!-- END Pop Up -->
+        </div>
+
+        <div class="box-3">
+
+            <a href="#dec9" class="fancybox see-more">
+                <img src="img/LKBServeMosesLake-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec9" class="pop-up">
+
+                <h2>Serve Moses Lake</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/LKBServeMosesLake-pop.png" alt="" />
+
+                    <p>
+                        Serve Moses Lake is an outreach of the local Moses Lake Ministerial Association
+                        Churches who have combined their resources (volunteers, materials, finances, etc.)
+                        to assist Moses Lake residents in need. Our goal is to make this community better
+                        by "helping people find the help they need, encouraging reconciliation, and connecting
+                        them to the local Church." We offer a full range of services to meet the spiritual,
+                        physical and emotional needs of Moses Lake residents through a coordinated intake
+                        site, the Serve Moses Lake Clearinghouse Office. During the clearinghouse intake
+                        process, we reach out to people with the love of Jesus Christ and offer them hope
+                        through personal encouragement, practical acts of kindness, prayer support, and
+                        a connection to a local church. We offer helpful services, such as advocacy, agency
+                        referrals, local bus passes, clothing, financial assistance, food baskets, furniture,
+                        haircuts, laundry vouchers, meals, and non-food pantry items. We verify the circumstances
+                        and needs of our clients, make referrals to other local agencies and resources,
+                        and then, based upon our recommendation, local churches respond to the benevolent
+                        needs of our clients. 
+                    </p>
+                    <p>
+                        In addition to our clearinghouse office, Serve Moses Lake also operates a free Community
+                        Meal, an annual Back-2-School clothing and supplies giveaway, and the Transformation
+                        House program (a year-long commitment to making drastic life changes in order to
+                        get on a productive path, away from any life-controlling problems). 
+                    </p>
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+
+                    <p>
+                        We intend to use every donated dollar to help fund our expanding programs (especially
+                        our Community Meal and Transformation House) as we seek to help people find the
+                        help they need. 
+                    </p>
+
+                </div>
+            </div>
+                    <!-- END Pop Up -->
+        </div>
+
+        <div class="box-3">
+
+            <a href="#dec10" class="fancybox see-more">
+                <img src="img/OmakFoodBank-main.png" alt="" />
+                <div class="hover-click"><span>See how this charity would use the grant.</span></div>
+            </a>
+
+
+            <div class="facebook-like-wrap">
+                <div class="fb-like" data-href="https://www.facebook.com/WashingtonFederal.InvestedHere"
+                    data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
+                </div>
+            </div>
+            <span class="moneyRaised">$<em>3000</em> + raised</span>
+
+            <!-- Pop up content -->
+            <div id="dec10" class="pop-up">
+
+                 <h2>Omak Food Bank</h2>
+
+                <div class="pop-up-content">
+
+                    <img src="img/OmakFoodBank-pop.png" alt="" />
+
+                    <p>
+                        The Omak Food Bank was started in 1981 by a group of Christian women. Food was handed
+                        out from individual homes. Then from a small room in the back of Omak City Hall,
+                        to a small rental building, Omak Food Bank got a building of their own when we got
+                        a CBDG grant. We are in our own building now, renting out the top and running distribution
+                        out of the basement. Omak Food Bank is serving up to 350 to 400 people twice a week.
+                        With family income being cut and more families needing food, our numbers will be
+                        going up. We get Northwest Harvest T FAP and private donations. Sometimes we have
+                        to stretch handouts a little thin. 
+                    </p>
+                    <p>
+                        The Omak Food Bank is run by all volunteers from administration to distribution
+                        workers. The Omak Food Bank has bazaars, yard sales, and other fund raisers to raise
+                        money for food. 
+                    </p>
+
+
+                    <h3>How we will use a Locals Know Best
+                                community grant from Washington Federal</h3>
+
+                    <p>
+                        We welcome the $3000 gift from the Washington Federal giving program! This money
+                        will certainly boost our ability to purchase food and assist with the needs of our
+                        community in the months to come. Many thanks to the folks of Washington Federal.
+                    </p>
+
+                </div>
+
+            </div>
+                    <!-- END Pop Up -->
+</div>
+
+
+
+<!-- DECEMBER -->
 
 
 
@@ -756,7 +1163,7 @@
 
                     <p>
                         WESST is a statewide small business development and training organization committed
-                        to growing New Mexicoís economy by cultivating 
+                        to growing New Mexico‚Äôs economy by cultivating 
                                         entrepreneurship. Founded in 1988 as a 501(c)3 nonprofit, WESST
                         has nurtured
                                     the entrepreneurial dreams of thousands of New Mexicans
@@ -779,7 +1186,7 @@
                         capital and
                                     low self-esteem. With affordable and quality training,
                                          micro-entrepreneurship can become a viable route out of poverty
-                        ó especially
+                        ‚Äî especially
                                     for women needing to overcome significant barriers to
                                          employment (e.g., lack of childcare and/or transportation), which
                         can often
@@ -794,8 +1201,8 @@
                         through existing businesses with a primary goal 
                                         of helping participants: 1) pay off debt, 2) save money, and 3)
                         become bankable.
-                                    Targeted individuals will include those who have ìnoî
-                                         credit or ìbadî credit with a view to increasing financial management
+                                    Targeted individuals will include those who have ‚Äúno‚Äù
+                                         credit or ‚Äúbad‚Äù credit with a view to increasing financial management
                         skills.
                     </p>
                 </div>
@@ -992,7 +1399,7 @@
                         SEICAA provides opportunities for low- to moderate-income households to access resources
                         they need to stabilize and begin a journey to economic independence. SEICAA
                                              administers several programs in the Asset Development Division.
-                        SEICAAís
+                        SEICAA‚Äôs
                                     GED Program helps people achieve their basic education certificate and
                         then connects
                                     them to
@@ -1008,19 +1415,19 @@
                                     a
                                              workshop on the dangers of check and loan services), credit
                         counseling,
-                                    and homeownership. SEICAAís Self-Help Housing Program provides limited-income
+                                    and homeownership. SEICAA‚Äôs Self-Help Housing Program provides limited-income
                         households
                                     with
                                              education and training to prepare them for successful homeownership;
                         including
-                                    a ìsweat equityî labor component where they learn home maintenance skills.
+                                    a ‚Äúsweat equity‚Äù labor component where they learn home maintenance skills.
                     </p>
 
                     <h3>How we will use a Locals Know Best
                                     community grant from Washington Federal</h3>
 
                     <p>
-                        The funds received through the ìLocals Know Bestî opportunity will support SEICAAís
+                        The funds received through the ‚ÄúLocals Know Best‚Äù opportunity will support SEICAA‚Äôs
                         Asset Development efforts including strong focus on financial literacy services
                         for those seeking homeownership.
                     </p>
@@ -1056,17 +1463,17 @@
                     <img src="img/jai-pop.png" alt="" />
 
                     <p>
-                        Junior Achievement of Idahoís purpose is to educate and inspire young people to
+                        Junior Achievement of Idaho‚Äôs purpose is to educate and inspire young people to
                         succeed in a global economy. Our mission is to ensure that every
                                              child in Idaho is financially responsible, has a fundamental
                         understanding
                                     of the free enterprise system, and is prepared for the workforce.
-                                              Itís a hyper-competitive, fast-paced, interconnected world
+                                              It‚Äôs a hyper-competitive, fast-paced, interconnected world
                         out there.
-                                    And the statistics show that Americaís competitive edge needs
+                                    And the statistics show that America‚Äôs competitive edge needs
                                              sharpening. At Junior Achievement, we work hard every day to
                         prepare and
-                                    inspire Idahoís youth to succeed in todayís global economy. Our
+                                    inspire Idaho‚Äôs youth to succeed in today‚Äôs global economy. Our
                                              classroom volunteers engage students in solving real-world
                         problems to
                                     better prepare them for the complexities of both work and life in the
@@ -1131,14 +1538,14 @@
                         business, and government that revitalizes targeted areas by 
                                             promoting affordable housing and community pride through the
                         establishment
-                                    of healthy neighborhoods. PNHS is a chartered member of the NeighborWorksÆ
+                                    of healthy neighborhoods. PNHS is a chartered member of the NeighborWorks¬Æ
                         network, which is a trained and certified community development network
                                     consisting of over 230 member organizations.
                     </p>
                     <p>
                         PNHS was created by the community in 1993 to revitalize the central neighborhoods
                         of Pocatello. PNHS works toward this goal in several ways. It constructs brand
-                                             new ìinfillî homes on empty vacant lots, offers home rehabilitation
+                                             new ‚Äúinfill‚Äù homes on empty vacant lots, offers home rehabilitation
                         and
                                     down payment assistance loans, rehabilitates and resells homes that
                         had fallen into
@@ -1222,18 +1629,18 @@
 
                     <p>
                         Second Harvest's food bank network spans 21 counties in Eastern Washington and five
-                        counties in North Idaho ñ just over 51,000 square miles. With
+                        counties in North Idaho ‚Äì just over 51,000 square miles. With
                                          distribution centers in Spokane and Pasco, Wash., Second Harvest
                         provides close
                                     to 2 million pounds of free food each month throughout its vast
                                          service area. Almost half of that food is nutritious fresh fruits
                         and vegetables
-                                    ñ much of which is farm-fresh produce from the agriculturally
+                                    ‚Äì much of which is farm-fresh produce from the agriculturally
                                          rich region.
                     </p>
 
                     <p>
-                        Second Harvestís food helps fill the nutritional gap for people in poverty, the
+                        Second Harvest‚Äôs food helps fill the nutritional gap for people in poverty, the
                         working poor, elderly and disabled people on very low fixed
                                          incomes, and children and families in temporary crisis.
                     </p>
@@ -1243,11 +1650,11 @@
 
                     <p>
                         A community gift from Washington Federal will be stretched a long way to get food
-                        to where itís needed most. A broad base of support from
+                        to where it‚Äôs needed most. A broad base of support from
                                              generous food and financial donors and more than 2,500 volunteers
                         a year
                                     help Second Harvest transform every donated dollar into six pounds of
-                        donated food ñ about five meals ñ for hungry people in rural and urban communities
+                        donated food ‚Äì about five meals ‚Äì for hungry people in rural and urban communities
                         in the Inland Northwest.
                     </p>
 
@@ -1289,17 +1696,17 @@
                                     ministry, pastors and churches have determined to look beyond the 
                                             things that set them apart and grab hold of the foundational
                         truth that
-                                    holds them together ó we are one Body: the Body of Christ. Our clearinghouse
-                        ministryís mission is helping churches help people help themselves. We
+                                    holds them together ‚Äî we are one Body: the Body of Christ. Our clearinghouse
+                        ministry‚Äôs mission is helping churches help people help themselves. We
                                     do this by providing a compassionate, prayerful, non-judgmental atmosphere
                         to
-                                             verify and address a clientís needs. We network with local
+                                             verify and address a client‚Äôs needs. We network with local
                         agencies to
-                                    assist with a clientís need for food, clothing, furniture, rental, and
+                                    assist with a client‚Äôs need for food, clothing, furniture, rental, and
                         utility 
                                             assistance. We offer referral services for addiction recovery,
                         financial
-                                    planning, and various counseling needs. We host many annual events ó
+                                    planning, and various counseling needs. We host many annual events ‚Äî
                         a few of
                                              which are: The Back 2 School Giveaway, Thanksgiving Baskets
                         of Blessings,
@@ -1313,7 +1720,7 @@
 
                     <p>
                         Your donation will help fund our efforts in the community. Thank you for your support
-                        as we strive to be ìthe heart and hands of Jesus Christ for our valley.î
+                        as we strive to be ‚Äúthe heart and hands of Jesus Christ for our valley.‚Äù
                     </p>
 
                 </div>
@@ -1407,26 +1814,26 @@
                         to help children get ready for kindergarten and success at school, 
                                             and to teach parents English, computer skills, civics and useful
                         school
-                                    skills to support and encourage their childrenís learning so both can
+                                    skills to support and encourage their children‚Äôs learning so both can
                         be more
                                              successful in life. Simultaneous classes serve adults and children,
                         and
-                                    workers learn in Growersí Schools ó partnerships between Ready by Five,
+                                    workers learn in Growers‚Äô Schools ‚Äî partnerships between Ready by Five,
                         Growers
                                     and local school districts. Most adult students are too old for K-12
                         public education,
                                     too unschooled and unskilled for community college or technical
                                              school. Schooling also builds skills for parents to support
-                        their childrenís
-                                    learning. The adults are Yakima Valleyís work force, vital to our economic
+                        their children‚Äôs
+                                    learning. The adults are Yakima Valley‚Äôs work force, vital to our economic
                         prosperity and stability, the parents of most of our school children and
-                                    future workforce, and our neighbors. Their children are our school districtsí
+                                    future workforce, and our neighbors. Their children are our school districts‚Äô
                         neediest students. We use GED attainment as a course completion measure
-                                    for adults and school test scores to measure childrenís gains. Interactive
+                                    for adults and school test scores to measure children‚Äôs gains. Interactive
                         Literacy Activities (ILA) between parents and children are included in
                                     our curriculum and typically include a game, a song, or a craft to demonstrate
                         a literacy skill building activity, a science concept and a math exercise.
-                                    All show parents how to ìlearningfullyî play with their children and
+                                    All show parents how to ‚Äúlearningfully‚Äù play with their children and
                         that
                                              teachable moments are present in everyday life.
                     </p>
@@ -1629,10 +2036,10 @@
 
                     <p>
                         Sometimes seniors need support to stay in their homes, independent and safe, and
-                        sometimes that support is a home delivered meal ó a meal that will allow them to
-                        stay in their home, not only because itís a nutritious meal, but because a generous
+                        sometimes that support is a home delivered meal ‚Äî a meal that will allow them to
+                        stay in their home, not only because it‚Äôs a nutritious meal, but because a generous
                         volunteer gives of their time and checks on the senior each day a meal is delivered.
-                        Sometimes, this volunteer is the only person a senior will see all day ó what a
+                        Sometimes, this volunteer is the only person a senior will see all day ‚Äî what a
                         critical impact that volunteer has on the safety and well-being of that senior.
                         The volunteer is an important link for the Central Oregon Council On Aging case
                         management team that assesses, tracks and monitors the clients. 
@@ -1645,12 +2052,12 @@
                         COCOA is a 501c3 organization dedicated to promoting dignity, well-being, safety
                         and independence for Central Oregon seniors, and serves as the designated Area Agency
                         on Aging and the Aging and Disability Resource Connection for the entire Central
-                        Region of Oregon ó from the borders of California to Washington State ó for information
+                        Region of Oregon ‚Äî from the borders of California to Washington State ‚Äî for information
                         and referral services. Along with our dedicated team of employees and volunteers,
                         COCOA serves over 75,000 meals on wheels and 65,000 congregate meals, and provides
                         assistance through 85,000 information and assistance calls, 16,000 hours of in-home
                         care,
-and educational and resource services ó since 1975.
+and educational and resource services ‚Äî since 1975.
                     </p>
                     <p>
                         COCOA is also a non-profit, and generous financial support is always welcome to
@@ -1691,14 +2098,14 @@ and educational and resource services ó since 1975.
                     <img src="img/charities/july/pop-al.png" alt="" />
 
                     <p>
-                        Assistance LeagueÆ of Klamath Basin is a 501(c)(3) nonprofit whose volunteer members
+                        Assistance League¬Æ of Klamath Basin is a 501(c)(3) nonprofit whose volunteer members
                         administer philanthropic programs that have served the local Klamath Basin community
                         for 25 years. Funds raised are returned entirely to this community. It is a chapter
-                        of National Assistance LeagueÆ, 25,000 members strong. 
+                        of National Assistance League¬Æ, 25,000 members strong. 
                     </p>
 
                     <p>
-                        Our primary philanthropic program, Operation School BellÆ provided new clothing
+                        Our primary philanthropic program, Operation School Bell¬Æ provided new clothing
                         to
                                     a record number of K-12 grade children in all the Klamath County and
                         City School
@@ -1730,7 +2137,7 @@ and educational and resource services ó since 1975.
                         organizations
                                     across the country, we are struggling with funding and a reduced budget.
                         Funding
-                                    from Washington Federal, will help Assistance LeagueÆ of Klamath Basin
+                                    from Washington Federal, will help Assistance League¬Æ of Klamath Basin
                         maintain
                                     the high level of contribution we have been making to the community
                         and its children.
@@ -1769,15 +2176,15 @@ and educational and resource services ó since 1975.
                         Consumer Credit Counseling Service of Southern Oregon helps people who are often
                         overwhelmed by their financial situation. They are looking for options that will
                         help them gain control and move forward with their lives. A client recently sent
-                        us a note that said, ìI wanted to thank you for being there when all else seemed
+                        us a note that said, ‚ÄúI wanted to thank you for being there when all else seemed
                         to not be working. I will always be appreciative of the service you offer. I hope
                         I do not need you in the future, but if things become overwhelming, I know you are
-                        there. I will suggest your services to anyone who is in need.î  (Sarah from Medford)
+                        there. I will suggest your services to anyone who is in need.‚Äù  (Sarah from Medford)
                     </p>
 
                     <p>
                         Consumer Credit Counseling Service of Southern Oregon has been helping people like
-                        Sarah in Southern Oregon and Northern California since 1971. The Agencyís certified
+                        Sarah in Southern Oregon and Northern California since 1971. The Agency‚Äôs certified
                         counselors provide free confidential credit and housing counseling, debt repayment
                         plans, credit report review, and bankruptcy counseling and education. The Agency
                         provides over 200 community and school education programs on budgeting, money management
@@ -1792,7 +2199,7 @@ and educational and resource services ó since 1975.
                                     community grant from Washington Federal</h3>
 
                     <p>
-                        Washington Federal Bankís gift would be used to help support the Agencyís free confidential
+                        Washington Federal Bank‚Äôs gift would be used to help support the Agency‚Äôs free confidential
                         credit counseling program. During the appointment a budget is developed, concerns
                         are addressed, options are discussed and ongoing support is provided. Over 2000
                         individuals like Sarah receive help every year.
@@ -1832,7 +2239,7 @@ and educational and resource services ó since 1975.
                         For nearly 20 years, KIDS Center has provided unique, unduplicated and comprehensive
                         medical evaluations, forensic interviews, family support and therapy services to
                         abused children ages birth to 18. Services are provided at no cost to the child
-                        and family, and are designed to support a childís healing as well as to prevent
+                        and family, and are designed to support a child‚Äôs healing as well as to prevent
                         future episodes of abuse. KIDS Center is a child-friendly environment where a child
                         tells their story of abuse one time to a trained and compassionate expert who can
                         help them get the help they need. In 2012, approximately 900 children were served
@@ -1856,7 +2263,7 @@ and educational and resource services ó since 1975.
                         2012
                                     alone, there were 11,188 confirmed victims over a 12-month period in
                         Oregon. Funds
-                                    raised through the Washington Federal ìLocals Know Bestî program will
+                                    raised through the Washington Federal ‚ÄúLocals Know Best‚Äù program will
                         help ensure
                                     that children in Central Oregon who are have been physically and/or
                         sexually abused,
@@ -1905,9 +2312,9 @@ and educational and resource services ó since 1975.
                     <p>
                         The mission of Court Appointed Special Advocates (CASA) of Lake County is to provide
                         every abused and neglected child in Lake County, Oregon with a qualified and compassionate
-                        advocate who will fight for and protect the childís fundamental rights to be safe,
+                        advocate who will fight for and protect the child‚Äôs fundamental rights to be safe,
                         to be treated with dignity, and to grow in a safe and loving family. And while doing
-                        this, to strengthen the childís sense of personal value and to support the child
+                        this, to strengthen the child‚Äôs sense of personal value and to support the child
                         through frequent one-on-one activities and interaction.
                     </p>
                     <p>
@@ -1915,7 +2322,7 @@ and educational and resource services ó since 1975.
                         provides advocacy for abused and neglected children throughout the county. Currently,
                         half the kids in foster care receive the help of a volunteer. This is due to a lack
                         of funds. The volunteers are appointed by a local judge to watch over and advocate
-                        for them and to make sure the children donít become re-victimized through the complex
+                        for them and to make sure the children don‚Äôt become re-victimized through the complex
                         legal system or languish in foster homes.
                     </p>
 
@@ -1990,7 +2397,7 @@ and educational and resource services ó since 1975.
                                     community grant from Washington Federal</h3>
 
                     <p>
-                        Funds raised through the Washington Federal ìLocals Know Bestî program will be used
+                        Funds raised through the Washington Federal ‚ÄúLocals Know Best‚Äù program will be used
                         for a portion of both the stipend and mileage reimbursement these Foster Grandparents
                         receive.  These volunteers can then continue to serve as valuable resources, mentors,
                         and non-judgmental companions to the at-risk youth of Southern Oregon.
@@ -2059,7 +2466,7 @@ and educational and resource services ó since 1975.
                         <h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 
                         <p>
-                            Funds from the ìLocals Know Bestî fundraising effort will be used to support our
+                            Funds from the ‚ÄúLocals Know Best‚Äù fundraising effort will be used to support our
                             Emergency Services programs, including the Food Bank, Family shelter and Transitional
                             housing programs.
                         </p>
@@ -2180,9 +2587,9 @@ and educational and resource services ó since 1975.
                     </p>
 
                     <p>
-                        Our mission is ìTo offer HOPE to youth, providing for their needs and mentoring
+                        Our mission is ‚ÄúTo offer HOPE to youth, providing for their needs and mentoring
                         toward
-                                    positive choices and healthy relationships.î  We believe in serving
+                                    positive choices and healthy relationships.‚Äù  We believe in serving
                         youth with compassion
                                     and encouragement.  We believe in providing opportunities, structure
                         and accountability,
@@ -2206,7 +2613,7 @@ and educational and resource services ó since 1975.
                         to education through the Homeless Education Liaison Program (HELP). Youth struggling
                         socially or academically in school find the one-on-one support they need in our
                         Accredited Alternative School.  At the IYS Youth Center kids get a healthy meal
-                        and a safe place to be after school.  IYSí Free Summer Lunch Program provides nutritious
+                        and a safe place to be after school.  IYS‚Äô Free Summer Lunch Program provides nutritious
                         lunches to hungry kids each summer.
                     </p>
 
@@ -2298,7 +2705,7 @@ and educational and resource services ó since 1975.
                         it becomes
                                     more and more evident that sound financial education and a solid understanding
                         in
-                                    fiscal responsibility are imperative for all citizens ñ especially young
+                                    fiscal responsibility are imperative for all citizens ‚Äì especially young
                         people.
                     </p>
 
@@ -2327,12 +2734,12 @@ and educational and resource services ó since 1975.
                     <h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 
                     <p>
-                        Funds raised through the Washington Federal ìLocals Know Bestî program will help
+                        Funds raised through the Washington Federal ‚ÄúLocals Know Best‚Äù program will help
                         to purchase JA program curriculum kits that are used by volunteer teachers. All
                         JA in-class programs are packaged in a kit that contains the tools and materials
                         needed by a volunteer to teach a JA class. $100 covers the cost to purchase one
                         kit. To reach the $5000 goal will equate to kits for 50 classes! You are helping
-                        students develop the competence, confidence and character needed to compete in todayís
+                        students develop the competence, confidence and character needed to compete in today‚Äôs
                         global economy.
                     </p>
 
@@ -2380,7 +2787,7 @@ and educational and resource services ó since 1975.
                         of youth in our community.  Boys and girls between the ages of 6 and 18 come to
                         the Club every day after school and in the summer, to play, see their friends and
                         participate in our important programs.   The Clubs offer a safe place, with positive
-                        role models and positive programs.  But thereís more to it than that.  The Club
+                        role models and positive programs.  But there‚Äôs more to it than that.  The Club
                         is where the kids come to connect and be who they can be. They learn what it is
                         to BE Great!
                     </p>
@@ -2447,11 +2854,11 @@ and educational and resource services ó since 1975.
 
 
                     <p>
-                        Southern Oregon Goodwill is a non-profit organization whose mission is ìHelping
+                        Southern Oregon Goodwill is a non-profit organization whose mission is ‚ÄúHelping
                         individuals
                                     and families build social and employment skills needed to achieve personal
                         and economic
-                                    independence.î The agency was founded in 1967 and provides services
+                                    independence.‚Äù The agency was founded in 1967 and provides services
                         to more than
                                     1,600 individuals annually in Douglas, Jackson, Josephine, Klamath,
                         Lake and Siskiyou
@@ -2461,7 +2868,7 @@ and educational and resource services ó since 1975.
                     <p>
                         According to the National Center for Children in Poverty, the most effective way
                         to help at-risk, low-income children and their families is to address both parental
-                        employment and parenting skills. Southern Oregon Goodwillís Steps to Success family
+                        employment and parenting skills. Southern Oregon Goodwill‚Äôs Steps to Success family
                         strengthening program was designed with those recommendations in mind and is free
                         to parents wanting to improve their home and work life.
                     </p>
@@ -2469,12 +2876,12 @@ and educational and resource services ó since 1975.
                     <p>
                         The need for Steps to Success is great for families in Douglas, Jackson, Josephine
                         and Klamath counties. In Klamath County alone, 26% of families with children aged
-                        5 to 17 live below poverty. In 2011, that countyís rate for abuse and neglect was
+                        5 to 17 live below poverty. In 2011, that county‚Äôs rate for abuse and neglect was
                         almost double that of the state for families with children.
                     </p>
 
                     <p>
-                        Goodwillís ultimate goals are to reduce the incidence of child abuse/neglect; provide
+                        Goodwill‚Äôs ultimate goals are to reduce the incidence of child abuse/neglect; provide
                         parents with job and life skills to move them toward financial stability; and decrease
                         the probability of generational poverty for children in our region. Goodwill case
                         managers work with families through home visits, classes, and coordinate family
@@ -2484,9 +2891,9 @@ and educational and resource services ó since 1975.
                     <h3>How we will use a Locals Know Best community grant from Washington Federal</h3>
 
                     <p>
-                        Washington Federal Bankís gift will fund parenting class materials, as well as support
+                        Washington Federal Bank‚Äôs gift will fund parenting class materials, as well as support
                         medical and mental health services, family counseling, emergency services, and child
-                        care while parents are participating in the programís mandatory ìthree steps.î
+                        care while parents are participating in the program‚Äôs mandatory ‚Äúthree steps.‚Äù
                     </p>
                 </div>
             </div>
@@ -2538,7 +2945,7 @@ and educational and resource services ó since 1975.
 
                     <p>
                         Boys & Girls Clubs of Central Oregon has always been a local organization, serving
-                        local kids, focusing on local issues. Three out of ten kids donít graduate on time;
+                        local kids, focusing on local issues. Three out of ten kids don‚Äôt graduate on time;
                         one out of five live in poverty; and four out of ten are overweight. Funded by local
                         dollars, a dedicated team of paid, professional staff allows Boys & Girls Clubs
                         to allocate 89% of resources directly towards programming.
@@ -2594,7 +3001,7 @@ and educational and resource services ó since 1975.
                         such
                                     as poverty, homelessness, unemployment, family violence, substance abuse,
                         mental
-                                    illness, and incarcerationóto name just a few. 
+                                    illness, and incarceration‚Äîto name just a few. 
                     </p>
 
                     <p>
@@ -2605,7 +3012,7 @@ and educational and resource services ó since 1975.
                     </p>
 
                     <p>
-                        Thatís where MountainStar comes in. Families receive crisis intervention, respite
+                        That‚Äôs where MountainStar comes in. Families receive crisis intervention, respite
                         care, home visits with parent coaching and education, on-site counseling, support
                         in accessing community resources and referrals, and access to diapers, food and
                         used baby clothing and equipment. Where the risk of abuse and neglect is highest,
@@ -2615,17 +3022,17 @@ and educational and resource services ó since 1975.
 
                     <p>
                         The tough part is, we have a waiting list of 50 children who need to get into our
-                        intensive Therapeutic Classroomsóand those are just the children we know about.
-                        We need funding to continue to expand our services. Thatís where you come in!
+                        intensive Therapeutic Classrooms‚Äîand those are just the children we know about.
+                        We need funding to continue to expand our services. That‚Äôs where you come in!
                     </p>
 
                     <h3>How we will use a Locals Know Best
                                     community grant from Washington Federal</h3>
 
                     <p>
-                        Funds raised through the Washington Federal ìLocals Know Bestî program will support
+                        Funds raised through the Washington Federal ‚ÄúLocals Know Best‚Äù program will support
                         15 babies in our intensive Therapeutic Infant Classroom.  This ensures that infants
-                        like 4-month-old ëJonathon,í who attends class with his developmentally disabled
+                        like 4-month-old ‚ÄòJonathon,‚Äô who attends class with his developmentally disabled
                         mother each week, get the support they need to thrive and survive.  Thank you for
                         joining us in keeping children safe, parents successful and families together!
                     </p>
@@ -2737,7 +3144,7 @@ and educational and resource services ó since 1975.
                         and pay the mentors, stay for the long haul. Research has proven that the single
                         most important factor that fosters resiliency in children is a caring and consistent
                         relationship with an adult. The earlier this bond is formed, the stronger it will
-                        be and the greater impact it will have on the childís future. Friends of the Children
+                        be and the greater impact it will have on the child‚Äôs future. Friends of the Children
                         selects the children when they begin school, and once selected, we commit to the
                         children through high school graduation, no matter what. With someone to look up
                         to, count on, talk to, help them with school work, comfort them, and align them
@@ -2791,7 +3198,7 @@ and educational and resource services ó since 1975.
                     <p>
                         Community Health Center was founded in 1972 as the result of a grass-roots effort,
                         and exists today as an Oregon not-for-profit corporation that enjoys tax-exempt
-                        status and ñ since December 2004 ñ recognition as a federally-qualified health center.
+                        status and ‚Äì since December 2004 ‚Äì recognition as a federally-qualified health center.
                         All Community Health Center clinic sites (Ashland, Medford, White City, and Butte
                         Falls) and School-Based Health Center sites (Butte Falls Charter School, Ashland
                         and Eagle Point High Schools) are recognized by the Oregon Health Authority as Tier
@@ -2813,7 +3220,7 @@ and educational and resource services ó since 1975.
                                     community grant from Washington Federal</h3>
 
                     <p>
-                        Funds raised through the Washington Federal ìLocals Know Bestî program will be used
+                        Funds raised through the Washington Federal ‚ÄúLocals Know Best‚Äù program will be used
                         to assure access to health services for students utilizing school-based health centers
                         (SBHC) operated by Community Health Center. SBHCs are located on school grounds,
                         an ideal location to provide primary, preventive and mental health services to students.

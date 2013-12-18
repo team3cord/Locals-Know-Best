@@ -1,9 +1,8 @@
-
 ﻿<%@ Page Title="Washington Federal Charities" Language="C#" MasterPageFile="~/MasterPage.master"
     AutoEventWireup="true" CodeFile="charities.aspx.cs" Inherits="charities" %>
-
 <%@ Register TagPrefix="summit" Namespace="summit" %>
 <%@ Register Src="~/entryform.ascx" TagPrefix="uc1" TagName="entryform" %>
+<%@ Register TagPrefix="Thanks" TagName="Thanks" Src="~/Thanks.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
     <form id="mainForm" runat="server">

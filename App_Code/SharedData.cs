@@ -16,14 +16,14 @@ using summit;
 
 public enum Charity
 {
-    Charity1 = 41, // boise rescue mission
-    Charity2 = 42,  // crisis center magic valley
-    Charity3 = 43, // lewiston meals on wheels
-    Charity4 = 44, // neighborhood housing services
-    Charity5 = 45, // cb ce elum
-    Charity6 = 46, // odessa am
-    Charity7 = 47, // okanogan ccac
-    Charity8 = 48, // city gate spokane
+    Charity1 = 62, // boise rescue mission
+    Charity2 = 63,  // crisis center magic valley
+    Charity3 = 64, // lewiston meals on wheels
+    Charity4 = 65, // neighborhood housing services
+    Charity5 = 66, // cb ce elum
+    Charity6 = 67, // odessa ma
+    Charity7 = 68, // okanogan ccac
+    Charity8 = 69, // city gate spokane
 }
 
 /// <summary>
@@ -88,16 +88,14 @@ public class SharedData
             if(!dr.Read())
             {
                 SqlCommand cmdIns = new SqlCommand(@"
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Accion');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Silver City Gospel Mission');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('ARCH Community Housing Trust');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Community Action Partnership');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Create Common Good');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('2013 Portneuf Valley Paintfest');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Helpline');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Lewiston-Clarkston Partners Habitat for Humanity');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Serve Moses Lake');
-                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Omak Food Bank');", conn);
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Boise Rescue Mission');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Crisis Center of Magic Valley');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Lewiston Clarkston Valley Meals on Wheels');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Neighborhood Housing Services');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Community Builders Ce Elum');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Odessa Ministerial Association');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('Okanogan County Community Action Council');
+                    INSERT INTO [dbo].[dlb_charity] ([name]) VALUES ('The City Gate Spokane');", conn);
                 dr.Close();
                 int changed = cmdIns.ExecuteNonQuery();
             }

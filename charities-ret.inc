@@ -13,12 +13,13 @@
 
 
 
-        <div class="mc-container" id="tab1C">
+        <div class="mc-container" id="tab1C" style="padding: 50px 0 45px 0; text-align: center;">
 
-            <h2 class="dashed-heading"><span>Thank You!</span>
+            <h2 class="dashed-heading"><span style="width: 18% !important;">Thank You!</span>
             </h2>
             <p>
-                We're proud of the communities we serve and are delighted to be able to help those who work so hard to make this a better place to live.
+                We're proud of the communities we serve and are delighted to be able</br> 
+                to help those who work so hard to make this a better place to live.
             </p>
 
            
@@ -71,7 +72,7 @@
                                         community grant from Washington Federal</h3>
 
                             <p>
-                                If awarded a grant from Washington Federal, Boise Rescue Mission will use the funds for our newest facility, the Valley Women and Children’s Shelter in Nampa, ID.
+                                If awarded a grant from Washington Federal, Boise Rescue Mission will use the funds for our newest facility, the Valley Women and Children's Shelter in Nampa, ID.
                             </p>
 
                         </div>
@@ -107,7 +108,7 @@
                                 The Crisis Center of Magic Valley in Twin Falls, Idaho has been providing supportive services to victims of domestic violence and sexual assault for over 30 years in the eight counties of South Central Idaho that is called "Magic Valley." The goal of the Crisis Center of Magic Valley is to rebuild lives by providing resources and tools to establish independence and freedom from abuse.  
                             </p>
                             <p>
-                                Victims of domestic violence and sexual assault often think they have no options available, so we provide shelter and support for families who have left an abusive situation, sometimes with nothing but the clothes on their backs. They have many barriers to overcome — unemployment, lack of childcare or transportation, and often little or no resources. Our mission is to give these courageous victims the opportunity to change their lives, start over, and become survivors.                            </p>
+                                Victims of domestic violence and sexual assault often think they have no options available, so we provide shelter and support for families who have left an abusive situation, sometimes with nothing but the clothes on their backs. They have many barriers to overcome - unemployment, lack of childcare or transportation, and often little or no resources. Our mission is to give these courageous victims the opportunity to change their lives, start over, and become survivors.                            </p>
                             <p>
                                 We are a non-profit, operating solely on grant funding and the generosity of our community. We work closely with other local resources to make sure our clients receive all the support that is available to them. 
                             </p>
@@ -212,7 +213,7 @@
                             <img src="img/jan/nhs-pop.png" alt="" />
 
                             <p>
-                                Neighborhood Housing Services, Inc. (NHS) is a local nonprofit that envisions safe, sustainable homes as the bedrock for a stronger Idaho. NHS commits to this vision with services that revitalize neighborhoods and stabilize families, including Rake Up Boise™, Paint The Town™, home ownership counseling and affordable housing opportunities. Founded in 1982, NHS is a chartered member of NeighborWorks®, a nationwide network of 240 trained and certified community development organizations at work in more than 4,000 communities across America.
+                                Neighborhood Housing Services, Inc. (NHS) is a local nonprofit that envisions safe, sustainable homes as the bedrock for a stronger Idaho. NHS commits to this vision with services that revitalize neighborhoods and stabilize families, including Rake Up Boise&trade;, Paint The Town&trade;, home ownership counseling and affordable housing opportunities. Founded in 1982, NHS is a chartered member of NeighborWorks&reg;, a nationwide network of 240 trained and certified community development organizations at work in more than 4,000 communities across America.
                             </p>
 
                             <p>
@@ -306,7 +307,7 @@
                 <div class="charities-wrap no-top-padding">
 
                     <a href="#jan6" class="fancybox see-more">
-                        <img src="img/jan/oam-main.png" alt="" />
+                        <img src="img/jan/oma-main.png" alt="" />
                         <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                     </a>
 
@@ -421,7 +422,7 @@
                                 A welcoming family, clean clothes, a hot bath or shower, a warm place to come in from the cold, a hot meal. These are all things that most of us take for granted. For many folks who come through the doors at The City Gate, these are luxuries often only seen at a distance. For 26 years, The City Gate has worked to provide these basic needs for the homeless and low income of the Spokane inner city.
                             </p>
                             <p>
-                                The City Gate is a non-profit organization that is first and foremost a church with the purpose of RECLAIMING, REBUILDING & RESTORING Lost and Broken Lives. We begin this mission by providing a "gathering place" at our downtown location that's open to the public. From the homeless to low-income families, from youth on the streets to those who are addicts, from the mentally ill to the outcast, The City Gate provides a place of refuge from the streets in a safe and family-like atmosphere.
+                                The City Gate is a non-profit organization that is first and foremost a church with the purpose of RECLAIMING, REBUILDING &amp; RESTORING Lost and Broken Lives. We begin this mission by providing a "gathering place" at our downtown location that's open to the public. From the homeless to low-income families, from youth on the streets to those who are addicts, from the mentally ill to the outcast, The City Gate provides a place of refuge from the streets in a safe and family-like atmosphere.
                             </p>
 
                             <span>Services include:</span>
@@ -434,7 +435,7 @@
                                 <li>Social service counseling</li>
                                 <li>Shower</li>
                                 <li>Hygiene items and blankets</li>
-                                <li>Activiities and special events</li>
+                                <li>Activities and special events</li>
                                 <li>26 low-income apartments</li>
                                 <li>2 emergency shelter apartments</li>
                                 <li>Sunday church service</li>
@@ -498,7 +499,7 @@
         <h3 class="vote-headline">Over $156,000
             raised so far. Let's keep it going!</h3>
 
-        <h6>Check out the power of local know how and Washington Federal.
+        <h6>Check out the power of local knowhow and Washington Federal.
         </h6>
 
 
@@ -511,7 +512,7 @@
         <div class="box-3">
 
             <a href="#dec1" class="fancybox see-more">
-                <img src="img/accion-main.png" alt="" />
+                <img src="img/accion-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -522,7 +523,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec1" class="pop-up">
@@ -566,7 +567,7 @@
         <div class="box-3">
 
             <a href="#dec2" class="fancybox see-more">
-                <img src="img/SilverCityGospel-main.png" alt="" />
+                <img src="img/SilverCityGospel-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -576,7 +577,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec2" class="pop-up">
@@ -596,14 +597,14 @@
 
                     <p>
                         We recognize the dignity and spiritual destiny of each person, and hope by our attitude
-                        of hospitality and Holy Spirit�filled love, to nourish not only the physical needs
+                        of hospitality and Holy Spirit-filled love, to nourish not only the physical needs
                         of those who come to the Gospel Mission, but also their spiritual need for love,
                         acceptance, respect, and friendship. 
                     </p>
 
                     <p>
                         Our primary services include a daily soup kitchen, food pantry, clothing bank, women
-                        and children�s shelter, and an emergency men�s shelter. You can read more about
+                        and children's shelter, and an emergency men's shelter. You can read more about
                         us at www.silvercitygospelmission.org. 
                     </p>
 
@@ -611,13 +612,13 @@
                                 community grant from Washington Federal</h3>
 
                     <p>
-                        These funds will be used for the purchase of ready�-to-�eat protein items for our
+                        These funds will be used for the purchase of ready-to-eat protein items for our
                         food boxes: items like peanut butter, tuna fish, Spam, Vienna sausages and beef
                         stew.
                                 These types of food items are rarely donated and when we do have them, we
                         have to
                                 purchase them out of the cash we have on hand. 
-                                These ready�-to-�eat sources of protein are great for those who have neither
+                                These ready-to-eat sources of protein are great for those who have neither
                         the
                                 time,
                                 means nor inclination to cook the staple items, and any help you provide
@@ -633,7 +634,7 @@
                 <div class="box-3">
 
             <a href="#dec3" class="fancybox see-more">
-                <img src="img/arch-main.png" alt="" />
+                <img src="img/arch-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -643,7 +644,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec3" class="pop-up">
@@ -655,7 +656,7 @@
                     <img src="img/arch-pop.png" alt="" />
 
                     <p>
-                        �Building Community One Home at a Time�
+                        "Building Community One Home at a Time"
                     </p>
 
                     <p>
@@ -693,7 +694,7 @@
         <div class="box-3">
 
             <a href="#dec4" class="fancybox see-more">
-                <img src="img/cap-main.png" alt="" />
+                <img src="img/cap-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -703,7 +704,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec4" class="pop-up">
@@ -715,10 +716,10 @@
                     <img src="img/cap-pop.png" alt="" />
 
                     <p>
-                        Community Action Partnership�s Aging and Disability Resource Center/ Area Agency
+                        Community Action Partnership's Aging and Disability Resource Center/ Area Agency
                         on Aging (ADRC/AAA) has been officially designated by the Idaho Commission on Aging
                         (ICOA) as the ADRC/AAA for Clearwater, Idaho, Latah, Lewis and Nez Perce Counties.
-                        CAP�s ADRC/AAA is part of a nationwide network and one of six ADRC/AAA�s in Idaho
+                        CAP's ADRC/AAA is part of a nationwide network and one of six ADRC/AAA's in Idaho
                         created through the Older Americans Act. 
                     </p>
                     <p>
@@ -765,7 +766,7 @@
         <div class="box-3">
 
             <a href="#dec5" class="fancybox see-more">
-                <img src="img/ccg-main.png" alt="" />
+                <img src="img/ccg-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -775,7 +776,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec5" class="pop-up">
@@ -822,7 +823,7 @@
         <div class="box-3">
 
                 <a href="#dec6" class="fancybox see-more">
-                    <img src="img/Paintfest-main.png" alt="" />
+                    <img src="img/Paintfest-thx.png" alt="" />
                     <div class="hover-click"><span>See how this charity would use the grant.</span></div>
                 </a>
 
@@ -832,7 +833,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec6" class="pop-up">
@@ -861,7 +862,7 @@
                     <p>
                         Our board makes prudent use of each sponsor dollar. A Washington Federal Foundation
                         Grant would allow us to positively impact the lives of our senior citizens and neighborhoods
-                        by increasing the number of senior citizens� homes to be painted in 2014. All Paintfest
+                        by increasing the number of senior citizens' homes to be painted in 2014. All Paintfest
                         supplies are purchased locally, which multiplies the impact of a $3,000 grant greatly.
                     </p>
 
@@ -874,7 +875,7 @@
         <div class="box-3">
 
             <a href="#dec7" class="fancybox see-more">
-                <img src="img/HelplineWW-main.png" alt="" />
+                <img src="img/HelplineWW-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -884,7 +885,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec7" class="pop-up">
@@ -896,7 +897,7 @@
                     <img src="img/HelplineWW-pop.png" alt="" />
 
                     <p>
-                        Founded in 1973, Helpline acts as the community�s �front door to help� for local
+                        Founded in 1973, Helpline acts as the community's "front door to help" for local
                         individuals and families in crisis, serving as the primary screening and referral
                         agency for emergency social services in Walla Walla County. Our role is to assess
                         their needs and connect them with appropriate local resources, including food, shelter,
@@ -907,15 +908,15 @@
                     </p>
 
                     <p>
-                        In 2009 Helpline �stepped up� to meet a critical unmet need by establishing the
+                        In 2009 Helpline "stepped up" to meet a critical unmet need by establishing the
                         STEP
-                                Women�s shelter, which provides a place for a safe, warm night�s sleep for
+                                Women's shelter, which provides a place for a safe, warm night's sleep for
                         single
                                 homeless women in our community. In addition, it provides case management,
                         transition
                                 to permanent housing, referrals for chemical dependency evaluation and treatment,
                         short-term counseling, and guidance toward education and employment. The STEP shelter
-                        builds on Helpline�s long history of connecting the community to assist those most
+                        builds on Helpline's long history of connecting the community to assist those most
                         in need, and aligns with our mission to affirm the worth of every person; address
                         the needs of individuals, families and our community; and advocate for positive
                         life transformation.
@@ -938,7 +939,7 @@
         <div class="box-3">
 
             <a href="#dec8" class="fancybox see-more">
-                <img src="img/LCPartnersHforH-main.png" alt="" />
+                <img src="img/LCPartnersHforH-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -948,7 +949,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec8" class="pop-up">
@@ -961,11 +962,11 @@
 
                     <p>
                         Habitat for Humanity is an ecumenical Christian based organization whose primary
-                        vision is a world where everyone has a decent place to live. Seeking to put God�s
+                        vision is a world where everyone has a decent place to live. Seeking to put God's
                         love into action, Habitat for Humanity brings people together to build homes, communities
                         and hope. The Lewiston-Clarkston Partners Habitat for Humanity began in 1991 and
                         has built 30 homes, impacting 45 adults and 81 children. We have chosen, as our
-                        means of manifesting God�s love, to create opportunities for all people to live
+                        means of manifesting God's love, to create opportunities for all people to live
                         in decent, affordable and energy-efficient shelter. We view our work as successful
                         when it transforms lives and promotes positive and lasting social, economic, and
                         spiritual change within our community. 
@@ -973,7 +974,7 @@
 
                     <p>
                         We support sustainable construction and energy consumption practices, and every
-                        home we build comes with an Energy Star�
+                        home we build comes with an Energy Star&reg;
                                 rating. This saves the homeowner much needed
                                 money and works for the preservation of our planet as well. We believe the
                         miniscule
@@ -1003,7 +1004,7 @@
         <div class="box-3">
 
             <a href="#dec9" class="fancybox see-more">
-                <img src="img/LKBServeMosesLake-main.png" alt="" />
+                <img src="img/LKBServeMosesLake-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -1013,7 +1014,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec9" class="pop-up">
@@ -1066,7 +1067,7 @@
         <div class="box-3">
 
             <a href="#dec10" class="fancybox see-more">
-                <img src="img/OmakFoodBank-main.png" alt="" />
+                <img src="img/OmakFoodBank-thx.png" alt="" />
                 <div class="hover-click"><span>See how this charity would use the grant.</span></div>
             </a>
 
@@ -1076,7 +1077,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="dec10" class="pop-up">
@@ -1108,7 +1109,7 @@
                                 community grant from Washington Federal</h3>
 
                     <p>
-                        We welcome the $3000 gift from the Washington Federal giving program! This money
+                        We welcome the $3,000 gift from the Washington Federal giving program! This money
                         will certainly boost our ability to purchase food and assist with the needs of our
                         community in the months to come. Many thanks to the folks of Washington Federal.
                     </p>
@@ -1150,7 +1151,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="ret-1" class="pop-up">
@@ -1222,7 +1223,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
 
             <!-- Pop up content -->
@@ -1309,7 +1310,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="ret-3" class="pop-up">
@@ -1367,7 +1368,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
 
             <!-- Pop up content -->
@@ -1451,7 +1452,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="ret-5" class="pop-up">
@@ -1521,7 +1522,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
 
             <!-- Pop up content -->
@@ -1601,7 +1602,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="ret-7" class="pop-up">
@@ -1676,7 +1677,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
 
             <!-- Pop up content -->
@@ -1742,7 +1743,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
             <!-- Pop up content -->
             <div id="ret-9" class="pop-up">
@@ -1797,7 +1798,7 @@
                     data-share="false" data-width="50" data-show-faces="false" data-layout="button_count">
                 </div>
             </div>
-            <span class="moneyRaised">$<em>3000</em> + raised</span>
+            <span class="moneyRaised">$<em>3,000</em> + raised</span>
 
 
             <!-- Pop up content -->
@@ -1844,7 +1845,7 @@
 
                     <p>
                         We would use our Washington Federal grant for supplies for our classes, ILA and
-                        our bilingual, cross-cultural Kaleidoscope Play & Learn program that
+                        our bilingual, cross-cultural Kaleidoscope Play &amp;Learn program that
                                            builds bridges between Hispanic and Anglo families in our community.
                     </p>
 
@@ -2098,14 +2099,14 @@ and educational and resource services — since 1975.
                     <img src="img/charities/july/pop-al.png" alt="" />
 
                     <p>
-                        Assistance League® of Klamath Basin is a 501(c)(3) nonprofit whose volunteer members
+                        Assistance League&reg; of Klamath Basin is a 501(c)(3) nonprofit whose volunteer members
                         administer philanthropic programs that have served the local Klamath Basin community
                         for 25 years. Funds raised are returned entirely to this community. It is a chapter
-                        of National Assistance League®, 25,000 members strong. 
+                        of National Assistance League&reg;, 25,000 members strong. 
                     </p>
 
                     <p>
-                        Our primary philanthropic program, Operation School Bell® provided new clothing
+                        Our primary philanthropic program, Operation School Bell&reg; provided new clothing
                         to
                                     a record number of K-12 grade children in all the Klamath County and
                         City School
@@ -2137,7 +2138,7 @@ and educational and resource services — since 1975.
                         organizations
                                     across the country, we are struggling with funding and a reduced budget.
                         Funding
-                                    from Washington Federal, will help Assistance League® of Klamath Basin
+                                    from Washington Federal, will help Assistance League&reg; of Klamath Basin
                         maintain
                                     the high level of contribution we have been making to the community
                         and its children.
@@ -2774,7 +2775,7 @@ and educational and resource services — since 1975.
 
             <!-- Pop up content -->
             <div id="bngc" class="pop-up">
-                <h2>Boys & Girls Clubs</h2>
+                <h2>Boys &amp; Girls Clubs</h2>
 
                 <div class="pop-up-content">
 
@@ -2783,7 +2784,7 @@ and educational and resource services — since 1975.
                     <img src="img/charities/medford/bngc/bngc-lrg.png" alt="" />
 
                     <p>
-                        Over the past 43 years, the Boys & Girls Clubs of the Rogue Valley have served thousands
+                        Over the past 43 years, the Boys &amp; Girls Clubs of the Rogue Valley have served thousands
                         of youth in our community.  Boys and girls between the ages of 6 and 18 come to
                         the Club every day after school and in the summer, to play, see their friends and
                         participate in our important programs.   The Clubs offer a safe place, with positive
@@ -2793,8 +2794,8 @@ and educational and resource services — since 1975.
                     </p>
 
                     <p>
-                        We offer core programming in five areas including: The Arts, Sports Fitness & Recreation,
-                        Character & Leadership, Education & Career Development and Health & Life Skills.
+                        We offer core programming in five areas including: The Arts, Sports Fitness &amp; Recreation,
+                        Character &amp; Leadership, Education &amp; Career Development and Health &amp; Life Skills.
                         We collaborate with other youth development agencies in the area, providing the
                         best resources and referrals for our at-risk kids and their families. We also work
                         with the USDA to feed our members a supper every day.  In 2012 we served over 94,000
@@ -2918,23 +2919,23 @@ and educational and resource services — since 1975.
             <!-- Pop up content -->
             <div id="june-top-left" class="pop-up">
 
-                <h2>Boys & Girls Clubs</h2>
+                <h2>Boys &amp; Girls Clubs</h2>
 
                 <div class="pop-up-content">
 
                     <img src="facebook/charities/june/bgclub.png" alt="" />
 
                     <p>
-                        For 19 years, Boys & Girls Clubs of Central Oregon has been opening doors to great
+                        For 19 years, Boys &amp; Girls Clubs of Central Oregon has been opening doors to great
                         futures for local youth. Four Clubs in the communities of Bend, Redmond and Terrebonne
                         serve over 1,500 children annually aged 5-18. Programs strategically focus on Academic
-                        Success, Healthy Lifestyles, and Character & Citizenship, and which further the
+                        Success, Healthy Lifestyles, and Character &amp; Citizenship, and which further the
                         mission of the Clubs to enable all young people, especially those who need us most,
                         to reach their full potential as productive, caring, responsible citizens.
                     </p>
 
                     <p>
-                        Boys & Girls Clubs' vision is to create great futures for children in Deschutes
+                        Boys &amp; Girls Clubs' vision is to create great futures for children in Deschutes
                         County,
                                     where success is within reach of every young person who enters our doors,
                         on track
@@ -2944,10 +2945,10 @@ and educational and resource services — since 1975.
                     </p>
 
                     <p>
-                        Boys & Girls Clubs of Central Oregon has always been a local organization, serving
+                        Boys &amp; Girls Clubs of Central Oregon has always been a local organization, serving
                         local kids, focusing on local issues. Three out of ten kids don’t graduate on time;
                         one out of five live in poverty; and four out of ten are overweight. Funded by local
-                        dollars, a dedicated team of paid, professional staff allows Boys & Girls Clubs
+                        dollars, a dedicated team of paid, professional staff allows Boys &amp; Girls Clubs
                         to allocate 89% of resources directly towards programming.
                     </p>
 
@@ -2955,7 +2956,7 @@ and educational and resource services — since 1975.
                                     community grant from Washington Federal</h3>
 
                     <p>
-                        Funding from Washington Federal will allow Boys & Girls Clubs of Central Oregon
+                        Funding from Washington Federal will allow Boys &amp; Girls Clubs of Central Oregon
                         to
                                     direct resources towards preventing summer learning loss. With the tools
                         available
@@ -3062,14 +3063,14 @@ and educational and resource services — since 1975.
             <!-- Pop up content -->
             <div id="june-middle-top" class="pop-up">
 
-                <h2>Klamath & Lake Community Action Services</h2>
+                <h2>Klamath &amp; Lake Community Action Services</h2>
 
                 <div class="pop-up-content">
 
                     <img src="facebook/charities/june/lakecounty.png" alt="" />
 
                     <p>
-                        Klamath & Lake Community Action Services (KLCAS) is a public 501(c)(3) nonprofit
+                        Klamath &amp; Lake Community Action Services (KLCAS) is a public 501(c)(3) nonprofit
                         that seeks and distributes State and Federal funding. Funding supports both KLCAS
                         programs and local social service providers throughout Klamath and Lake Counties.
                         KLCAS programs provide economic stability through home energy assistance, emergency

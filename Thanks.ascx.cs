@@ -66,7 +66,7 @@ public partial class Thanks : System.Web.UI.UserControl
             case (int)Charity.Charity3: return "img/jan/lcvmw-thx.png";
             case (int)Charity.Charity4: return "img/jan/nhs-thx.png";
             case (int)Charity.Charity5: return "img/jan/cb-thx.png";
-            case (int)Charity.Charity6: return "img/jan/oam-thx.png";
+            case (int)Charity.Charity6: return "img/jan/oma-thx.png";
             case (int)Charity.Charity7: return "img/jan/occac-thx.png";
             case (int)Charity.Charity8: return "img/jan/cgs-thx.png";
             default: return "img/charities/july/thx-fg.png";

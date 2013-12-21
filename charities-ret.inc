@@ -13,16 +13,17 @@
 
 
 
-        <div class="mc-container" id="tab1C" style="padding: 50px 0 45px 0; text-align: center;">
+        <div class="mc-container" id="tab1C" >
+            <div class="new-mexico-thx">
+              
+              <h2 class="dashed-heading"><span >Thank You!</span>
+              </h2>
+              <p>
+                  We're proud of the communities we serve and are delighted to be able</br> 
+                  to help those who work so hard to make this a better place to live.
+              </p>
 
-            <h2 class="dashed-heading"><span style="width: 18% !important;">Thank You!</span>
-            </h2>
-            <p>
-                We're proud of the communities we serve and are delighted to be able</br> 
-                to help those who work so hard to make this a better place to live.
-            </p>
-
-           
+           </div>
             
         </div>
         <!-- tab1C -->
@@ -134,7 +135,7 @@
                             </p>
 
                             <p>
-                                Thank you for this opportunity — we are so grateful.
+                                Thank you for this opportunity - we are so grateful.
                             </p>
 
                         </div>

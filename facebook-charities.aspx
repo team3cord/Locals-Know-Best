@@ -36,25 +36,41 @@
     </form>
 
 
-   <script>        // http://jsfiddle.net/vRqcb/11/ */
+   <script>
 
-        $(document).ready(function () {
-
+        function goatHide($el) {
+            $el.css('width', '0');
+            $el.css('height', '0');
+            $el.css('padding-top', '0px');
+        }
+        function goatShow($el) {
+            $el.css('width', 'auto');
+            $el.css('height', 'auto');
+            $el.css('padding-top', '35px');
+        }
+        function goat() {
             $('#tabs li a:not(:first)').addClass('inactive');
-            $('.mc-container').hide();
-            $('.mc-container:first').show();
+            $('.mc-container').css('overflow', 'hidden');
+            goatHide($('.mc-container'));
+            goatShow($('.mc-container:first'));
 
             $('#tabs li a').click(function () {
                 var t = $(this).attr('id');
-                if ($(this).hasClass('inactive')) { //this is the start of our condition 
+                if($(this).hasClass('inactive')) { //this is the start of our condition 
                     $('#tabs li a').addClass('inactive');
                     $(this).removeClass('inactive');
 
-                    $('.mc-container').hide();
+                    goatHide($('.mc-container'));
+                    $('#' + t + 'C').hide();
+                    goatShow($('#' + t + 'C'));
                     $('#' + t + 'C').fadeIn('slow');
+
                 }
             });
+        }
 
+        $(document).ready(function () {
+            goat();
         });
 
     </script>

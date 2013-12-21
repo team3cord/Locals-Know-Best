@@ -1544,6 +1544,16 @@ a {cursor:pointer;}
     line-height: 1.5em;
 }
 
+.new-mexico-thx {
+    padding: 50px 0px 45px 0px;
+    text-align: center;
+    width: 650px;
+}
+
+.new-mexico-thx span {
+    width: 18% !important;
+}
+
 /* -------------------------------------------- RETIRED CHARITIES STYLES -----------------------------------------------------------*/
 .retired .box-3 {
     display: block;
